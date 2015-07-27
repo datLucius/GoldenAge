@@ -1,16 +1,16 @@
 (function() {
   'use strict';
   angular
-    .module('hipHop', {
+    .module('hipHop', [
       'ngRoute'
-    })
+    ])
     .config(function ($routeProvider){
       $routeProvider
-      .when('/', {
+      .when('/welcome', {
         templateUrl: 'views/welcome.html',
         controller: 'MainController'
       })
-        .when('/map', {
+        .when('/', {
           templateUrl: 'views/main.html',
           controller: 'MainController'
         })

@@ -11,3 +11,17 @@ header {
   justify-content: center;
   background-color: #fefefe;
 }
+
+.sampleNode {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.colorNode {
+  background-color: red;
+}
