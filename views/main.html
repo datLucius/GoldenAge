@@ -1,2 +1,36 @@
+<!-- <div class="detailView" ng-switch on="page" ng-controller="MainController">
+  <div class="transparency hideThis" ng-click="detailViewExit()"></div>
+  <div class="detailContainer hideThis" ng-switch-when='detail'>
+    <div class="currentSong" style="background:{{songInfo.image}}">
+      <ul>
+        <li>{{songInfo.data.title}}</li>
+        <li>{{songInfo.data.artist}}</li>
+        <li>{{songInfo.data.album}}</li>
+      </ul>
+    </div>
+    <div class="sampledSong" style="background:{{sampleInfo.data.image}}">
+      <ul>
+        <li>{{sampleInfo.data.title}}</li>
+        <li>{{sampleInfo.data.artist}}</li>
+        <li>{{sampleInfo.data.album}}</li>
+      </ul>
+      <div>
+        <iframe src="https://embed.spotify.com/?uri=spotify:track:{{sampleInfo.data.id}}" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </div>
+    </div>
+  </div>
+</div> -->
+
 <!-- insert SVG code for graph --->
-<div class="sampleNode hideBasicWindow" ng-click="spotifySongId ='2wS1PObRyCywHdmog5eOWW'; spotifySampleId ='00oKe8yxmLid0nySubRUJm'; assignIdsFromClick()" ng-controller="MainController" hilight></div>
+<div class="page">
+<div class="sampleNode" ng-click="spotifySongId ='2wS1PObRyCywHdmog5eOWW'; spotifySampleId ='00oKe8yxmLid0nySubRUJm'; assignIdsFromClick(); page='detail';" ng-controller="MainController">
+  <div class="sampleWindow arrow_box">
+    <iframe src="https://embed.spotify.com/?uri=spotify:track:2wS1PObRyCywHdmog5eOWW" width="300" height="80" frameborder="0" allowtransparency="true" class="hideBasicWindow"></iframe>
+  </div>
+</div>
+
+<object type="image/svg+xml" data="infoGraphic.svg">
+  <img src="images/bizmouth.jpg" alt="…" />
+</object>
+</div>
+<!-- detail info-->

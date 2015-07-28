@@ -2,26 +2,108 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
+body {
+  background-color:#eee;
+}
 header {
   display: flex;
   width: 100%;
   height: 20px;
-  justify-content: center;
-  background-color: #fefefe;
+  justify-content: flex-start;
+}
+
+a {
+  color: black;
 }
 
 .sampleNode {
   position: absolute;
-  top: 100px;
-  right: 100px;
-  width: 30px;
-  height: 30px;
+  top: 400px;
+  right: 409px;
+  width: 10px;
+  height: 10px;
   border-radius: 100%;
-  background-color: black;
+  border: 3px solid;
+  border-color: #efefef;
+  border-radius: 100%;
+  background-color: yellow;
 }
 
+.page {
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 1400px;
+}
+.sampleNode:hover {
+  background-color: black;
+  border: 3px solid black;
+}
 .colorNode {
   background-color: red;
+}
+
+.arrow_box {
+	position: relative;
+	background:rgba(0, 0, 0, 0.5);
+}
+.arrow_box:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-top-color: rgba(0, 0, 0, 0.5);
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+.sampleWindow {
+  position: relative;
+  bottom: 105px;
+  right: 155px;
+  width: 320px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.sampleNode:hover .sampleWindow{
+  display: flex;
+}
+
+.detailView{
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+.detailContainer{
+  width: 40%;
+  height: 100%;
+  background-color: yellow;
+  z-index: 2;
+}
+
+.hideThis{
+  display:none;
+}
+
+.transparency{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }

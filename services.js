@@ -1,3 +1,5 @@
+var songInfo = [];
+var sampleInfo = [];
 (function() {
   'use strict';
   angular
@@ -12,8 +14,6 @@
           return this.baseUrl + songId;
         }
       };
-      var songInfo = [];
-      var sampleInfo = [];
       var sendSongIdtoBuilder = function (songId) {
         console.log('getSongInfo running, songId:', songId);
         var builtSongUrl = urlOpts.buildSongUrl(songId);

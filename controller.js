@@ -21,6 +21,7 @@
         $scope.sendSongIdtoAPI(songId);
         $scope.sendSampleIdToAPI(sampleId);
       },
+      
 
       $scope.sendSongIdtoAPI = function(songId) {
         console.log('get info songs running');

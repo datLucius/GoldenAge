@@ -18,10 +18,6 @@
           templateUrl: 'views/about.html',
           controller: 'MainController'
         })
-        .when('/sampleDetail/:songId',{
-          templateUrl: 'views/sampleDetail.html',
-          controller: 'MainController'
-        })
         .when('/404', {
           templateUrl: 'views/biz.html',
           controller: 'MainController'
