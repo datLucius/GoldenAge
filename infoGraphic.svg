@@ -9,6 +9,21 @@
 	.st1{fill:none;stroke:#EFEFEF;stroke-width:3;stroke-miterlimit:10;}
 	.st2{fill:#FFFFFF;}
 	.st3{fill:none;stroke:#FFFFFF;stroke-width:13;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#000;stroke-width:3;stroke-miterlimit:10;}
+	.jamesBrownRelated{fill:none;stroke:#EFEFEF;stroke-width:3;stroke-miterlimit:10;}
+	.st1:hover{stroke:#000;
+	stroke-dasharray: 50px;
+	stroke-dashoffset: 700px;
+	animation-name: draw;
+	animation-duration: 4s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;}
+	@keyframes draw {
+	  to {
+	    stroke-dashoffset: 0;
+	  }
+	}
 ]]>
 </style>
 <g id="backGround">
@@ -759,7 +774,7 @@
 	</image>
 </g>
 <g id="circleJames">
-	<circle class="st2" cx="534.7" cy="722.2" r="141.9"/>
+	<circle class="st2" cx="534.7" cy="722.2" r="141.9" id="jamesBrownCircle"/>
 </g>
 <g id="jamesB">
 

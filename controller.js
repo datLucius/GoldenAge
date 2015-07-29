@@ -4,16 +4,6 @@
     .module('hipHop')
     .controller('MainController', function ($scope, SampleService){
 
-      $scope.hilightFunction = function() {
-        // this.removeClass('hideBasicWindow');
-        $(this).addClass('colorNode');
-      },
-
-      $scope.deHilightFunction = function() {
-        this.addClass('hideBasicWindow');
-        this.removeClass('colorNode');
-      },
-
       $scope.assignIdsFromClick = function() {
         var sampleId = this.spotifySampleId;
         var songId = this.spotifySongId;
@@ -21,7 +11,7 @@
         $scope.sendSongIdtoAPI(songId);
         $scope.sendSampleIdToAPI(sampleId);
       },
-      
+
 
       $scope.sendSongIdtoAPI = function(songId) {
         console.log('get info songs running');
@@ -51,23 +41,28 @@
         };
       }
 
+    $scope.nodes = [
+    {
+      "title" : "Is It Live?",
+      "artist" : "Run-D.M.C",
+      "sampleTitle" : "Chase",
+      "sampleArtist" : "James Brown",
+      "nodeSongSpotifyId" : "40rt5qcE4k671lIT3RSH1G",
+      "nodeSampleSpotifyId" : "2epsbhjyrsxQFz4NfhTMPx",
+      "top" : ,
+      "right" : ,
+    },
+    {
+      "title" : ,
+      "artist" : ,
+      "nodeSongSpotifyId" : ,
+      "nodeSampleSpotifyId" : ,
+      "top" : ,
+      "right" : ,
+    },
+
+    ]
+
     })
-    .directive('hilight', function(){
-      return{
-        restrict: 'E',
-        scope: true,
-        controller: function($scope, $element) {
-          console.log("hilight running");
-          $scope.onMouseenter = function () {
-              // $element.removeClass(hideBasicWindow);
-              $element.addClass(colorNode);
-            }
-          $scope.onMouseleave = function () {
-              $element.removeClass(colorNode);
-              // $element.addClass(hideBasicWindow);
-            }
-          }
-        }
-      });
 
 })();
