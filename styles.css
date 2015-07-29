@@ -84,21 +84,28 @@ a {
   width: 100%;
   height: 900px;
   display: flex;
+  align-items: center;
   justify-content: center;
+  position: absolute;
 }
 
 .detailContainer{
-  width: 40%;
+  width: 700px;
   height: 100%;
+  position: fixed;
+  margin: 0 0 0 -350px;
+  left: 50%;
+  top: 0;
   background-color: yellow;
   z-index: 2;
+  overflow: scroll;
 }
 
 .hideThis{
   display:none;
 }
 
-.transparency{
+.detailOverlay{
   position: fixed;
   top:0;
   left:0;
@@ -106,4 +113,22 @@ a {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
+}
+
+.sampleBox {
+  height: 500px;
+  width: 100%;
+  background-color: cyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.songBox {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

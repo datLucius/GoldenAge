@@ -2,7 +2,7 @@
   'use strict';
   angular
     .module('hipHop', [
-      'ngRoute'
+      'ngRoute',
     ])
     .config(function ($routeProvider){
       $routeProvider

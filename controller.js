@@ -39,30 +39,26 @@
           "image" : songInfo.images[0].url,
           "spotifyId" : sampleInfo.id
         };
-      }
+      };
 
     $scope.nodes = [
-    {
-      "title" : "Is It Live?",
-      "artist" : "Run-D.M.C",
-      "sampleTitle" : "Chase",
-      "sampleArtist" : "James Brown",
-      "nodeSongSpotifyId" : "40rt5qcE4k671lIT3RSH1G",
-      "nodeSampleSpotifyId" : "2epsbhjyrsxQFz4NfhTMPx",
-      "top" : ,
-      "right" : ,
-    },
-    {
-      "title" : ,
-      "artist" : ,
-      "nodeSongSpotifyId" : ,
-      "nodeSampleSpotifyId" : ,
-      "top" : ,
-      "right" : ,
-    },
+      {
+        "title" : "Is It Live?",
+        "artist" : "Run-D.M.C",
+        "sampleTitle" : "Chase",
+        "sampleArtist" : "James Brown",
+        "nodeSongSpotifyId" : "40rt5qcE4k671lIT3RSH1G",
+        "nodeSampleSpotifyId" : "2epsbhjyrsxQFz4NfhTMPx"
+      }
+    ];
+    $scope.hideThis = function() {
+      $('.detailView').addClass('hideThis');
+    };
+    $scope.showThis = function() {
+      $('.detailView').removeClass('hideThis');
+    };
 
-    ]
 
-    })
+ })
 
 })();
