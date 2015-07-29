@@ -10,11 +10,14 @@
 	.st2{fill:#FFFFFF;}
 	.st3{fill:none;stroke:#FFFFFF;stroke-width:13;stroke-miterlimit:10;}
 	.st4{fill:none;stroke:#000;stroke-width:3;stroke-miterlimit:10;}
-	.st5{fill:none;stroke-width:3;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#EFEFEF;stroke-width:3;stroke-miterlimit:10;}
 	.st6{fill:none;stroke-width:13;stroke-miterlimit:10;}
 	.blackThis{fill:#000};
 	.jamesBrownRelated{fill:none;stroke:#EFEFEF;stroke-width:3;stroke-miterlimit:10;}
-	.st7{stroke:#000;
+	.st7{
+	fill:none;
+	stroke:#000;
+	stroke-miterlimit:10;
 	stroke-width:3;
 	stroke-dasharray: 50px;
 	stroke-dashoffset: 700px;
@@ -571,15 +574,15 @@
 	</g>
 </g>
 <g id="NWAPF_midPath">
-	<line class="st1" x1="284.5" y1="1158.1" x2="911" y2="727.1"/>
+	<line class="st5" x1="284.5" y1="1158.1" x2="911" y2="727.1" id="nWAPF"/>
 </g>
 <g id="NWAJB_btmPath">
 	<line class="st3" x1="284.5" y1="1158.1" x2="549.7" y2="722.2"/>
 </g>
 <g id="NWAJB_midPath">
-	<line class="st1" x1="284.5" y1="1158.1" x2="549.7" y2="722.2"/>
+	<line class="st5" x1="284.5" y1="1158.1" x2="549.7" y2="722.2" id="nWAJB"/>
 </g>
-<image style="overflow:visible;" width="679" height="679" id="NWA" xlink:href="images/NWA.png"  transform="matrix(0.152 0 0 0.152 231.7622 1096.4316)">
+<image style="overflow:visible;" width="679" height="679" id="NWAimage" xlink:href="images/NWA.png"  transform="matrix(0.152 0 0 0.152 231.7622 1096.4316)" onmouseenter="nWAEnter()" onmouseleave="nWAExit()">
 </image>
 <g id="PublicEnemyPF_btmPth">
 	<g>
@@ -592,7 +595,7 @@
 	</g>
 </g>
 <g id="PublicEnemyPF_midPath">
-	<line class="st1" x1="283" y1="323" x2="911" y2="696.3"/>
+	<line class="st5" x1="283" y1="323" x2="911" y2="696.3" id="pEPF"/>
 </g>
 <g id="PublicEnemyJB_btmPath">
 	<g>
@@ -605,17 +608,17 @@
 	</g>
 </g>
 <g id="PublicEnemyJB_midPath">
-	<line class="st1" x1="283" y1="323" x2="549.7" y2="722.2"/>
+	<line class="st5" x1="283" y1="323" x2="549.7" y2="722.2" id="pEJB"/>
 </g>
-<image style="overflow:visible;" width="596" height="597" id="Public_Enemy" xlink:href="images/publicEnemy.png"  transform="matrix(0.1759 0 0 0.1759 232.1152 273.9771)">
+<image style="overflow:visible;" width="596" height="597" id="Public_Enemy" xlink:href="images/publicEnemy.png"  transform="matrix(0.1759 0 0 0.1759 232.1152 273.9771)" onmouseenter="pEEnter()" onmouseleave="pEExit()">
 </image>
 <g id="bigDaddy_btmPath">
 	<line class="st3" x1="214.4" y1="1063.7" x2="549.7" y2="722.2"/>
 </g>
 <g id="bigDaddy_midPath">
-	<line class="st1" x1="214.4" y1="1063.7" x2="549.7" y2="722.2"/>
+	<line class="st1" x1="214.4" y1="1063.7" x2="549.7" y2="722.2" id="bDK"/>
 </g>
-<image style="overflow:visible;" width="995" height="995" id="BigDaddy" xlink:href="images/bigDaddyKane.png"  transform="matrix(0.1019 0 0 0.1019 163.5669 1005.9316)">
+<image style="overflow:visible;" width="995" height="995" id="BigDaddy" xlink:href="images/bigDaddyKane.png"  transform="matrix(0.1019 0 0 0.1019 163.5669 1005.9316)" onmouseenter="bDKEnter()" onmouseleave="bDKExit()">
 </image>
 <g id="EPMDJBbtmPath">
 	<g>
@@ -628,9 +631,9 @@
 	</g>
 </g>
 <g id="EPMDJBmidPath">
-	<line class="st1" x1="214.3" y1="415.7" x2="535.3" y2="722.4"/>
+	<line class="st5" x1="214.3" y1="415.7" x2="535.3" y2="722.4" id="epmd"/>
 </g>
-<image style="overflow:visible;" width="1491" height="1488" id="EPMD" xlink:href="images/EPMD.png"  transform="matrix(6.803149e-02 0 0 6.803149e-02 163.5674 365.3267)">
+<image style="overflow:visible;" width="1491" height="1488" id="EPMDimage" xlink:href="images/EPMD.png"  transform="matrix(6.803149e-02 0 0 6.803149e-02 163.5674 365.3267)" onmouseenter="epmdEnter()" onmouseleave="epmdExit()">
 </image>
 <g id="slickRickPFbtmPath">
 	<path class="st3" d="M535.3,722.4"/>
@@ -664,8 +667,8 @@
 <g id="slickRickPFmidPath">
 	<path class="st3" d="M535.3,722.4"/>
 	<path class="st3" d="M160.4,956.7"/>
-	<path class="st1" d="M163.8,974.3C185,962.9,358,851,381,849.2c30.8-2.4,58,77.2,173.5,67.3c59.8-5.1,96.7-38.5,129.5-86.5
-		c13.2-19.3,24.2-39.8,35.4-60.3c13.2-24.1,36.7-24,60.9-22"/>
+	<path class="st5" d="M163.8,974.3C185,962.9,358,851,381,849.2c30.8-2.4,58,77.2,173.5,67.3c59.8-5.1,96.7-38.5,129.5-86.5
+		c13.2-19.3,24.2-39.8,35.4-60.3c13.2-24.1,36.7-24,60.9-22" id="sRPF"/>
 </g>
 <g id="slickRickJBbtmPath">
 	<g>
@@ -678,9 +681,9 @@
 	</g>
 </g>
 <g id="slickRickJBmidPath">
-	<line class="st1" x1="160.4" y1="956.7" x2="535.3" y2="722.4"/>
+	<line class="st1" x1="160.4" y1="956.7" x2="535.3" y2="722.4" id="sRJB"/>
 </g>
-<image style="overflow:visible;" width="633" height="632" id="slickRick" xlink:href="images/hh_slickRick.png"  transform="matrix(0.163 0 0 0.163 111.1211 905.168)">
+<image style="overflow:visible;" width="633" height="632" id="slickRick" xlink:href="images/hh_slickRick.png"  transform="matrix(0.163 0 0 0.163 111.1211 905.168)" onmouseenter="sREnter()" onmouseleave="sRExit()">
 </image>
 <g id="bizJBbtmPath">
 	<g>
@@ -693,9 +696,9 @@
 	</g>
 </g>
 <g id="bizJBmidPath">
-	<line class="st1" x1="163.6" y1="513" x2="535.3" y2="722.4"/>
+	<line class="st5" x1="163.6" y1="513" x2="535.3" y2="722.4" id="biz"/>
 </g>
-<image style="overflow:visible;" width="1260" height="1263" id="biz" xlink:href="images/goinOff.png"  transform="matrix(8.050393e-02 0 0 8.050393e-02 112.8516 465.2671)">
+<image style="overflow:visible;" width="1260" height="1263" id="bizimage" xlink:href="images/goinOff.png"  transform="matrix(8.050393e-02 0 0 8.050393e-02 112.8516 465.2671)" onmouseenter="bizEnter()" onmouseleave="bizExit()">
 </image>
 <g id="ericbPFbtmPath">
 	<path class="st3" d="M345.7,809"/>
@@ -737,7 +740,7 @@
 	<path class="st1" d="M130,864.3"/>
 	<path class="st5" d="M130,864.3c59.3-13.4,117.9-36.7,177.3-49.7c23.8-5.2,48.6-10.8,71.4,0.9c18.6,9.6,32.7,25.3,48.5,38.6
 		c8.8,7.4,18.8,15.2,29.2,20.3c58,28.3,136,24.6,184.6-20.6c21.5-20,41.7-45.7,53.5-72.2c9.4-21.2,15.2-41.7,39.2-48
-		c18.8-5,38.9-2.4,58.1-3.5" id="paidIF" stroke="#EFEFEF"/>
+		c18.8-5,38.9-2.4,58.1-3.5" id="paidIFPF"/>
 </g>
 <g id="ericbJBbtmPath">
 	<g>
@@ -750,17 +753,17 @@
 	</g>
 </g>
 <g id="ericbJBmidPath">
-	<line class="st1" x1="132" y1="849.9" x2="535.3" y2="722.4"/>
+	<line class="st5" x1="132" y1="849.9" x2="535.3" y2="722.4" id="paidIFJB"/>
 </g>
-<image style="overflow:visible;" width="500" height="499" id="ericB" xlink:href="images/paidInFull.png"  transform="matrix(0.2064 0 0 0.2064 81.5732 797.6826)">
+<image style="overflow:visible;" width="500" height="499" id="ericB" xlink:href="images/paidInFull.png"  transform="matrix(0.2064 0 0 0.2064 81.5732 797.6826)" onmouseenter="paidIFEnter()" onmouseleave="paidIFExit()">
 </image>
 <g id="bdpbtmPath">
 	<line class="st3" x1="128.3" y1="624" x2="535.3" y2="722.4"/>
 </g>
 <g id="bdpmidPath">
-	<line class="st1" x1="128.3" y1="624" x2="535.3" y2="722.4"/>
+	<line class="st5" x1="128.3" y1="624" x2="535.3" y2="722.4" id="bdp"/>
 </g>
-<image style="overflow:visible;" width="497" height="497" id="BDP" xlink:href="images/BDP.png"  transform="matrix(0.2086 0 0 0.2086 80.1235 572.1128)">
+<image style="overflow:visible;" width="497" height="497" id="BDP" xlink:href="images/BDP.png"  transform="matrix(0.2086 0 0 0.2086 80.1235 572.1128)" onmouseenter="bdpEnter()" onmouseleave="bdpExit()">
 </image>
 <g id="runDmcJbBtmPath">
 	<line class="st6" x1="122" y1="737.9" x2="534.3" y2="722.4" id="runDMCLine" stroke="#FFFFFF"/>
@@ -789,17 +792,44 @@
 <script type="text/javascript"><![CDATA[
 	var jB = document.getElementById('jamesBrownCircle');
 	var pF = document.getElementById('gClintonCircle');
-	var runDMC = document.getElementById('runDMCLine');
-	var runDMCmid = document.getElementById('runDMCMid');
-	var paidIF = document.getElementById('paidIF');
+	var runDMC = document.getElementById('runDMCMid');
+	var paidIFJB = document.getElementById('paidIFJB');
+	var paidIFPF = document.getElementById('paidIFPF');
+	var bdp = document.getElementById('bdp');
+	var biz = document.getElementById('biz');
+	var epmd = document.getElementById('epmd');
+	var pEJB = document.getElementById('pEJB');
+	var pEPF = document.getElementById('pEPF');
+	var sRJB = document.getElementById('sRJB');
+	var sRPF = document.getElementById('sRPF');
+	var bDK = document.getElementById('bDK');
+	var nWAJB = document.getElementById('nWAJB');
+	var nWAPF = document.getElementById('nWAPF');
+
 
 	var jbConnectionHilight = function () {
 		jB.setAttribute("fill", "#000");
-		runDMCmid.setAttribute("class", "st7");
+		runDMC.setAttribute("class", "st7");
+		paidIFJB.setAttribute("class", "st7");
+		bdp.setAttribute("class", "st7");
+		biz.setAttribute("class", "st7");
+		epmd.setAttribute("class", "st7");
+		pEJB.setAttribute("class", "st7");
+		sRJB.setAttribute("class", "st7");
+		bDK.setAttribute("class", "st7");
+		nWAJB.setAttribute("class", "st7");
 	};
 	var jbConnectiondeHilight = function () {
 		jB.setAttribute("fill", "#fff");
-		runDMCmid.setAttribute("class", "st5");
+		runDMC.setAttribute("class", "st5");
+		paidIFJB.setAttribute("class", "st5");
+		bdp.setAttribute("class", "st5");
+		biz.setAttribute("class", "st5");
+		epmd.setAttribute("class", "st5");
+		pEJB.setAttribute("class", "st5");
+		sRJB.setAttribute("class", "st5");
+		bDK.setAttribute("class", "st5");
+		nWAJB.setAttribute("class", "st5");
 	};
 
 	var pFConnectionHilight = function () {
@@ -810,15 +840,96 @@
 	};
 
 	var runDMCJBEnter = function () {
-	jB.setAttribute("fill", "#000");
-	runDMCmid.setAttribute("class", "st7");
+		jB.setAttribute("fill", "#000");
+		runDMC.setAttribute("class", "st7");
 	};
 	var runDMCJBExit = function () {
-	jB.setAttribute("fill", "#fff");
-	runDMCmid.setAttribute("class", "st5");
+		jB.setAttribute("fill", "#fff");
+		runDMC.setAttribute("class", "st5");
 	};
 
+	var paidIFEnter = function () {
+		jB.setAttribute("fill", "#000");
+		pF.setAttribute("fill", "#000");
+		paidIFJB.setAttribute("class", "st7");
+		paidIFPF.setAttribute("class", "st7");
+	};
+	var paidIFExit = function () {
+		jB.setAttribute("fill", "#fff");
+		pF.setAttribute("fill", "#fff");
+		paidIFJB.setAttribute("class", "st5");
+		paidIFPF.setAttribute("class", "st5");
+	};
 
+	var bdpEnter = function () {
+		jB.setAttribute("fill", "#000");
+		bdp.setAttribute("class", "st7");
+	};
+	var bdpExit = function () {
+		jB.setAttribute("fill", "#fff");
+		bdp.setAttribute("class", "st5");
+	};
+
+	var bizEnter = function () {
+		jB.setAttribute("fill", "#000");
+		biz.setAttribute("class", "st7");
+	};
+	var bizExit = function () {
+		jB.setAttribute("fill", "#fff");
+		biz.setAttribute("class", "st5");
+	};
+	var epmdEnter = function () {
+		jB.setAttribute("fill", "#000");
+		epmd.setAttribute("class", "st7");
+	};
+	var epmdExit = function () {
+		jB.setAttribute("fill", "#fff");
+		epmd.setAttribute("class", "st5");
+	};
+	var pEEnter = function () {
+		jB.setAttribute("fill", "#000");
+		pF.setAttribute("fill", "#000");
+		pEJB.setAttribute("class", "st7");
+		pEPF.setAttribute("class", "st7");
+	};
+	var pEExit = function () {
+		jB.setAttribute("fill", "#fff");
+		pF.setAttribute("fill", "#fff");
+		pEJB.setAttribute("class", "st5");
+		pEPF.setAttribute("class", "st5");
+	};
+	var sREnter = function () {
+		jB.setAttribute("fill", "#000");
+		pF.setAttribute("fill", "#000");
+		sRJB.setAttribute("class", "st7");
+		sRPF.setAttribute("class", "st7");
+	};
+	var sRExit = function () {
+		jB.setAttribute("fill", "#fff");
+		pF.setAttribute("fill", "#fff");
+		sRJB.setAttribute("class", "st5");
+		sRPF.setAttribute("class", "st5");
+	};
+	var bDKEnter = function () {
+		jB.setAttribute("fill", "#000");
+		bDK.setAttribute("class", "st7");
+	};
+	var bDKExit = function () {
+		jB.setAttribute("fill", "#fff");
+		bDK.setAttribute("class", "st5");
+	};
+	var nWAEnter = function () {
+		jB.setAttribute("fill", "#000");
+		pF.setAttribute("fill", "#000");
+		nWAJB.setAttribute("class", "st7");
+		nWAPF.setAttribute("class", "st7");
+	};
+	var nWAExit = function () {
+		jB.setAttribute("fill", "#fff");
+		pF.setAttribute("fill", "#fff");
+		nWAJB.setAttribute("class", "st5");
+		nWAPF.setAttribute("class", "st5");
+	};
 	]]>
 </script>
 </svg>
