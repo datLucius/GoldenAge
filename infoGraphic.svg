@@ -454,7 +454,7 @@
 	</g>
 </g>
 <g id="BeastieJB_midPath">
-	<line class="st1" x1="466.7" y1="1280.1" x2="537.8" y2="725.4"/>
+	<line class="st1" x1="466.7" y1="1280.1" x2="537.8" y2="725.4" id="bBJB"/>
 </g>
 <g id="BeastiePF_btmPath">
 	<g>
@@ -467,9 +467,9 @@
 	</g>
 </g>
 <g id="BeastiePF_midPath">
-	<line class="st1" x1="466.7" y1="1280.1" x2="883.8" y2="758.7"/>
+	<line class="st1" x1="466.7" y1="1280.1" x2="883.8" y2="758.7" id="bBPF"/>
 </g>
-<image style="overflow:visible;" width="597" height="597" id="Beastie" xlink:href="images/pBoutique.png"  transform="matrix(0.1744 0 0 0.1744 414.6328 1227.1973)">
+<image style="overflow:visible;" width="597" height="597" id="Beastie" xlink:href="images/pBoutique.png"  transform="matrix(0.1744 0 0 0.1744 414.6328 1227.1973)" onmouseenter="bBEnter()" onmouseleave="bBExit()">
 </image>
 <g id="doneByPF_btmPath">
 	<g>
@@ -482,7 +482,7 @@
 	</g>
 </g>
 <g id="doneByPF_midPath">
-	<line class="st1" x1="580.6" y1="163.6" x2="911" y2="696.3"/>
+	<line class="st5" x1="580.6" y1="163.6" x2="911" y2="696.3" id="jbFNPF"/>
 </g>
 <g id="doneByJB_btmPath">
 	<g>
@@ -495,9 +495,9 @@
 	</g>
 </g>
 <g id="doneByJB_midPath">
-	<line class="st1" x1="580.6" y1="163.6" x2="544.3" y2="725.8"/>
+	<line class="st5" x1="580.6" y1="163.6" x2="544.3" y2="725.8" id="jbFNJB"/>
 </g>
-<image style="overflow:visible;" width="696" height="696" id="doneBy" xlink:href="images/doneByForcesofNature.png"  transform="matrix(0.146 0 0 0.146 529.8086 106.2012)">
+<image style="overflow:visible;" width="696" height="696" id="doneBy" xlink:href="images/doneByForcesofNature.png"  transform="matrix(0.146 0 0 0.146 529.8086 106.2012)" onmouseenter="jbFNEnter()" onmouseleave="jbFNExit()">
 </image>
 <g id="deLaJB_btmPath">
 	<g>
@@ -510,7 +510,7 @@
 	</g>
 </g>
 <g id="deLaJB_midPath">
-	<line class="st1" x1="470.8" y1="186.1" x2="544.3" y2="725.8"/>
+	<line class="st5" x1="470.8" y1="186.1" x2="544.3" y2="725.8" id="deLaJB"/>
 </g>
 <g id="deLaPF_btmPath">
 	<g>
@@ -523,9 +523,9 @@
 	</g>
 </g>
 <g id="deLaPF_midPath">
-	<line class="st1" x1="470.8" y1="186.1" x2="919.6" y2="716.2"/>
+	<line class="st1" x1="470.8" y1="186.1" x2="919.6" y2="716.2" id="deLaPF"/>
 </g>
-<image style="overflow:visible;" width="499" height="499" id="deLa" xlink:href="images/threeFeetHigh.png"  transform="matrix(0.2033 0 0 0.2033 421.3809 143.3164)">
+<image style="overflow:visible;" width="499" height="499" id="deLa" xlink:href="images/threeFeetHigh.png"  transform="matrix(0.2033 0 0 0.2033 421.3809 143.3164)" onmouseenter="deLaEnter()" onmouseleave="deLaExit()">
 </image>
 <g id="jungleSt_btmPath">
 	<g>
@@ -538,15 +538,15 @@
 	</g>
 </g>
 <g id="jungleSt_midPath">
-	<line class="st1" x1="374.8" y1="1227.2" x2="919.6" y2="716.2"/>
+	<line class="st1" x1="374.8" y1="1227.2" x2="919.6" y2="716.2" id="sOJ"/>
 </g>
-<image style="overflow:visible;" width="872" height="871" id="jungleStraight" xlink:href="images/straightOuttheJungle.png"  transform="matrix(0.1167 0 0 0.1167 318.1572 1170.5479)">
+<image style="overflow:visible;" width="872" height="871" id="jungleStraight" xlink:href="images/straightOuttheJungle.png"  transform="matrix(0.1167 0 0 0.1167 318.1572 1170.5479)" onmouseenter="sOJEnter()" onmouseleave="sOJExit()">
 </image>
-<g id="ultraMagJB_midPath_copy">
+<g id="ultraMagJBbtmPath">
 	<line class="st3" x1="369.1" y1="248.6" x2="546.1" y2="716.9"/>
 </g>
 <g id="ultraMagJB_midPath">
-	<line class="st1" x1="369.1" y1="248.6" x2="546.1" y2="716.9"/>
+	<line class="st1" x1="369.1" y1="248.6" x2="546.1" y2="716.9" id="uMJB"/>
 </g>
 <g id="ultraMagPF_btmPath">
 	<g>
@@ -559,9 +559,9 @@
 	</g>
 </g>
 <g id="ultraMagPF_midPath">
-	<line class="st1" x1="369.1" y1="248.6" x2="919.6" y2="716.2"/>
+	<line class="st5" x1="369.1" y1="248.6" x2="919.6" y2="716.2" id="uMPF"/>
 </g>
-<image style="overflow:visible;" width="483" height="485" id="ultraMag" xlink:href="images/ultraMag.png"  transform="matrix(0.2144 0 0 0.2144 314.0029 187.6099)">
+<image style="overflow:visible;" width="483" height="485" id="ultraMag" xlink:href="images/ultraMag.png"  transform="matrix(0.2144 0 0 0.2144 314.0029 187.6099)" onmouseenter="uMEnter()" onmouseleave="uMExit()">
 </image>
 <g id="NWAPF_btmPath">
 	<g>
@@ -793,6 +793,7 @@
 	var jB = document.getElementById('jamesBrownCircle');
 	var pF = document.getElementById('gClintonCircle');
 	var runDMC = document.getElementById('runDMCMid');
+	var runDMCimage = document.getElementById('runDMC');
 	var paidIFJB = document.getElementById('paidIFJB');
 	var paidIFPF = document.getElementById('paidIFPF');
 	var bdp = document.getElementById('bdp');
@@ -805,7 +806,15 @@
 	var bDK = document.getElementById('bDK');
 	var nWAJB = document.getElementById('nWAJB');
 	var nWAPF = document.getElementById('nWAPF');
-
+	var uMJB = document.getElementById('uMJB');
+	var uMPF = document.getElementById('uMPF');
+	var sOJ = document.getElementById('sOJ');
+	var deLaJB = document.getElementById('deLaJB');
+	var deLaPF = document.getElementById('deLaPF');
+	var bBJB = document.getElementById('bBJB');
+	var bBPF = document.getElementById('bBPF');
+	var jbFNJB = document.getElementById('jbFNJB');
+	var jbFNPF = document.getElementById('jbFNPF');
 
 	var jbConnectionHilight = function () {
 		jB.setAttribute("fill", "#000");
@@ -818,6 +827,10 @@
 		sRJB.setAttribute("class", "st7");
 		bDK.setAttribute("class", "st7");
 		nWAJB.setAttribute("class", "st7");
+		uMJB.setAttribute("class", "st7");
+		deLaJB.setAttribute("class", "st7");
+		bBJB.setAttribute("class", "st7");
+		jbFNJB.setAttribute("class", "st7");
 	};
 	var jbConnectiondeHilight = function () {
 		jB.setAttribute("fill", "#fff");
@@ -830,13 +843,30 @@
 		sRJB.setAttribute("class", "st5");
 		bDK.setAttribute("class", "st5");
 		nWAJB.setAttribute("class", "st5");
+		uMJB.setAttribute("class", "st5");
+		deLaJB.setAttribute("class", "st5");
+		bBJB.setAttribute("class", "st5");
+		jbFNJB.setAttribute("class", "st5");
 	};
-
+	var jBpFoN = function () {
+		jB.setAttribute("fill", "#000");
+		pF.setAttribute("fill", "#000");
+	};
+	var jBpFoFF = function () {
+		jB.setAttribute("fill", "#fff");
+		pF.setAttribute("fill", "#fff");
+	};
 	var pFConnectionHilight = function () {
 		pF.setAttribute("fill", "#000");
+		sOJ.setAttribute("class", "st7");
+		bBPF.setAttribute("class", "st7");
+		jbFNPF.setAttribute("class", "st7");
 	};
 	var pFConnectiondeHilight = function () {
 		pF.setAttribute("fill", "#fff");
+		sOJ.setAttribute("class", "st5");
+		bBPF.setAttribute("class", "st5");
+		jbFNPF.setAttribute("class", "st5");
 	};
 
 	var runDMCJBEnter = function () {
@@ -849,14 +879,12 @@
 	};
 
 	var paidIFEnter = function () {
-		jB.setAttribute("fill", "#000");
-		pF.setAttribute("fill", "#000");
+		jBpFoN();
 		paidIFJB.setAttribute("class", "st7");
 		paidIFPF.setAttribute("class", "st7");
 	};
 	var paidIFExit = function () {
-		jB.setAttribute("fill", "#fff");
-		pF.setAttribute("fill", "#fff");
+		jBpFoFF();
 		paidIFJB.setAttribute("class", "st5");
 		paidIFPF.setAttribute("class", "st5");
 	};
@@ -887,26 +915,22 @@
 		epmd.setAttribute("class", "st5");
 	};
 	var pEEnter = function () {
-		jB.setAttribute("fill", "#000");
-		pF.setAttribute("fill", "#000");
+		jBpFoN();
 		pEJB.setAttribute("class", "st7");
 		pEPF.setAttribute("class", "st7");
 	};
 	var pEExit = function () {
-		jB.setAttribute("fill", "#fff");
-		pF.setAttribute("fill", "#fff");
+		jBpFoFF();
 		pEJB.setAttribute("class", "st5");
 		pEPF.setAttribute("class", "st5");
 	};
 	var sREnter = function () {
-		jB.setAttribute("fill", "#000");
-		pF.setAttribute("fill", "#000");
+		jBpFoN();
 		sRJB.setAttribute("class", "st7");
 		sRPF.setAttribute("class", "st7");
 	};
 	var sRExit = function () {
-		jB.setAttribute("fill", "#fff");
-		pF.setAttribute("fill", "#fff");
+		jBpFoFF();
 		sRJB.setAttribute("class", "st5");
 		sRPF.setAttribute("class", "st5");
 	};
@@ -919,16 +943,62 @@
 		bDK.setAttribute("class", "st5");
 	};
 	var nWAEnter = function () {
-		jB.setAttribute("fill", "#000");
-		pF.setAttribute("fill", "#000");
+		jBpFoN();
 		nWAJB.setAttribute("class", "st7");
 		nWAPF.setAttribute("class", "st7");
 	};
 	var nWAExit = function () {
-		jB.setAttribute("fill", "#fff");
-		pF.setAttribute("fill", "#fff");
+		jBpFoFF();
 		nWAJB.setAttribute("class", "st5");
 		nWAPF.setAttribute("class", "st5");
+	};
+	var uMEnter = function () {
+		jBpFoN();
+		uMJB.setAttribute("class", "st7");
+		uMPF.setAttribute("class", "st7");
+	};
+	var uMExit = function () {
+		jBpFoFF();
+		uMJB.setAttribute("class", "st5");
+		uMPF.setAttribute("class", "st5");
+	};
+	var sOJEnter = function () {
+		pF.setAttribute("fill", "#000");
+		sOJ.setAttribute("class", "st7");
+	};
+	var sOJExit = function () {
+		pF.setAttribute("fill", "#fff");
+		sOJ.setAttribute("class", "st5");
+	};
+	var deLaExit = function () {
+		jBpFoFF();
+		deLaJB.setAttribute("class", "st5");
+		deLaPF.setAttribute("class", "st5");
+	};
+	var deLaEnter = function () {
+		jBpFoN();
+		deLaJB.setAttribute("class", "st7");
+		deLaPF.setAttribute("class", "st7");
+	};
+	var bBExit = function () {
+		jBpFoFF();
+		bBJB.setAttribute("class", "st5");
+		bBPF.setAttribute("class", "st5");
+	};
+	var bBEnter = function () {
+		jBpFoN();
+		bBJB.setAttribute("class", "st7");
+		bBPF.setAttribute("class", "st7");
+	};
+	var jbFNExit = function () {
+		jBpFoFF();
+		jbFNJB.setAttribute("class", "st5");
+		jbFNPF.setAttribute("class", "st5");
+	};
+	var jbFNEnter = function () {
+		jBpFoN();
+		jbFNJB.setAttribute("class", "st7");
+		jbFNPF.setAttribute("class", "st7");
 	};
 	]]>
 </script>
