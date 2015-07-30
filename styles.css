@@ -19,10 +19,17 @@ a {
   color: black;
 }
 
+.graphContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
 .sampleNode {
   position: absolute;
-  top: 400px;
-  right: 409px;
+  top:500px;
+  right: 400px;
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -33,10 +40,11 @@ a {
 }
 
 .page {
-  position: absolute;
-  top:0px;
-  left:0px;
-  width: 1400px;
+  width: 100%;
+}
+
+#graphic {
+  width: 100%;
 }
 .sampleNode:hover {
   background-color: black;

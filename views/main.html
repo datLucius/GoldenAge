@@ -13,14 +13,15 @@
 
 <!-- insert SVG code for graph --->
 <div class="page">
+<div class="graphContainer">
 <div class="sampleNode" ng-click="spotifySongId ='2wS1PObRyCywHdmog5eOWW'; spotifySampleId ='00oKe8yxmLid0nySubRUJm'; assignIdsFromClick(); showThis();" ng-controller="MainController">
   <div class="sampleWindow arrow_box">
     <iframe src="https://embed.spotify.com/?uri=spotify:track:2wS1PObRyCywHdmog5eOWW" width="300" height="80" frameborder="0" allowtransparency="true" class="hideBasicWindow"></iframe>
   </div>
 </div>
-
-<object type="image/svg+xml" data="infoGraphic.svg">
-  <img src="images/bizmouth.jpg" alt="…" />
-</object>
+  <object type="image/svg+xml" data="infoGraphic.svg" id=graphic>
+    <img src="images/bizmouth.jpg" alt="…" />
+  </object>
+</div>
 </div>
 <!-- detail info-->

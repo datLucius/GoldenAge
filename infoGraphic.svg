@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1440px" height="1440px" viewBox="0 0 1440 1440" style="enable-background:new 0 0 1440 1440;" xml:space="preserve">
+	 width="1440px" height="840px" viewBox="0 0 1440 1440" style="enable-background:new 0 0 1440 1440;" xml:space="preserve">
 <style type="text/css">
 <![CDATA[
 	.st0{fill:#EFEFEF;}
@@ -353,7 +353,7 @@
 	</g>
 </g>
 <g id="mainSourceJB_midPath">
-	<line class="st1" x1="538.5" y1="716.8" x2="924.2" y2="177.2"/>
+	<line class="st1" x1="538.5" y1="716.8" x2="924.2" y2="177.2" id="mainSJB"/>
 </g>
 <g id="mainSourcePF_btmPath">
 	<g>
@@ -366,9 +366,9 @@
 	</g>
 </g>
 <g id="mainSourcePF_midPath">
-	<line class="st1" x1="915.1" y1="711.5" x2="924.2" y2="177.2"/>
+	<line class="st1" x1="915.1" y1="711.5" x2="924.2" y2="177.2" id="mainSPF"/>
 </g>
-<image style="overflow:visible;" width="582" height="582" id="mainSource" xlink:href="images/breakingAtoms.png"  transform="matrix(0.1677 0 0 0.1677 881.2041 130.5288)">
+<image style="overflow:visible;" width="582" height="582" id="mainSource" xlink:href="images/breakingAtoms.png"  transform="matrix(0.1677 0 0 0.1677 881.2041 130.5288)" onmouseenter="mainSEnter()" onmouseleave="mainSExit()">
 </image>
 <g id="eazyPF_btmPath">
 	<g>
@@ -381,9 +381,9 @@
 	</g>
 </g>
 <g id="eazyPF_midPath">
-	<line class="st1" x1="915.1" y1="711.5" x2="674.8" y2="1345.7"/>
+	<line class="st5" x1="674.8" y1="1345.7" x2="915.1" y2="711.5" id="eazyE"/>
 </g>
-<image style="overflow:visible;" width="598" height="598" id="eazy" xlink:href="images/eazy.png"  transform="matrix(0.1754 0 0 0.1754 630.5615 1282.9531)">
+<image style="overflow:visible;" width="598" height="598" id="eazy" xlink:href="images/eazy.png"  transform="matrix(0.1754 0 0 0.1754 630.5615 1282.9531)" onmouseenter="eazyEEnter()" onmouseleave="eazyEExit()">
 </image>
 <g id="brandNJB_midPath_copy">
 	<g>
@@ -396,9 +396,9 @@
 	</g>
 </g>
 <g id="brandNJB_midPath">
-	<line class="st1" x1="820.6" y1="140.4" x2="539.8" y2="717.7"/>
+	<line class="st1" x1="820.6" y1="140.4" x2="539.8" y2="717.7" id="brandN"/>
 </g>
-<image style="overflow:visible;" width="493" height="493" id="brandN" xlink:href="images/oneForAll.png"  transform="matrix(0.2106 0 0 0.2106 767.9375 95.9722)">
+<image style="overflow:visible;" width="493" height="493" id="brandNimage" xlink:href="images/oneForAll.png"  transform="matrix(0.2106 0 0 0.2106 767.9375 95.9722)" onmouseenter="brandNEnter()" onmouseleave="brandNExit()">
 </image>
 <g id="peoplesPF_btmPath">
 	<g>
@@ -411,9 +411,9 @@
 	</g>
 </g>
 <g id="peoplesPF_midPath">
-	<line class="st1" x1="575.1" y1="1315.6" x2="915.1" y2="711.5"/>
+	<line class="st5" x1="575.1" y1="1315.6" x2="915.1" y2="711.5" id="peoples"/>
 </g>
-<image style="overflow:visible;" width="964" height="964" id="peoples" xlink:href="images/peoplesInst.png"  transform="matrix(0.1055 0 0 0.1055 522.1128 1266.3584)">
+<image style="overflow:visible;" width="964" height="964" id="peoplesIMG" xlink:href="images/peoplesInst.png"  transform="matrix(0.1055 0 0 0.1055 522.1128 1266.3584)" onmouseenter="peoplesEnter()" onmouseleave="peoplesExit()">
 </image>
 <g id="iceCubePF_btmPath">
 	<g>
@@ -426,7 +426,7 @@
 	</g>
 </g>
 <g id="iceCubePF_midPath">
-	<line class="st1" x1="698.6" y1="140.4" x2="915.1" y2="711.5"/>
+	<line class="st5" x1="698.6" y1="140.4" x2="915.1" y2="711.5" id="icePF"/>
 </g>
 <g id="iceCubJB_btmPath">
 	<g>
@@ -439,9 +439,9 @@
 	</g>
 </g>
 <g id="iceCubeJB_midPath">
-	<line class="st1" x1="698.6" y1="140.4" x2="537.8" y2="725.4"/>
+	<line class="st1" x1="698.6" y1="140.4" x2="537.8" y2="725.4" id="iceJB"/>
 </g>
-<image style="overflow:visible;" width="621" height="621" id="iceCube" xlink:href="images/iceCube.png"  transform="matrix(0.1691 0 0 0.1691 646.0771 87.9258)">
+<image style="overflow:visible;" width="621" height="621" id="iceCube" xlink:href="images/iceCube.png"  transform="matrix(0.1691 0 0 0.1691 646.0771 87.9258)" onmouseenter="iceEnter()" onmouseleave="iceExit()">
 </image>
 <g id="BeastieJB_btmPath">
 	<g>
@@ -815,6 +815,13 @@
 	var bBPF = document.getElementById('bBPF');
 	var jbFNJB = document.getElementById('jbFNJB');
 	var jbFNPF = document.getElementById('jbFNPF');
+	var iceJB = document.getElementById('iceJB');
+	var icePF = document.getElementById('icePF');
+	var peoples = document.getElementById('peoples');
+	var eazyE = document.getElementById('eazyE');
+	var brandN = document.getElementById('brandN');
+	var mainSJB = document.getElementById('mainSJB');
+	var mainSPF = document.getElementById('mainSPF');
 
 	var jbConnectionHilight = function () {
 		jB.setAttribute("fill", "#000");
@@ -831,6 +838,9 @@
 		deLaJB.setAttribute("class", "st7");
 		bBJB.setAttribute("class", "st7");
 		jbFNJB.setAttribute("class", "st7");
+		iceJB.setAttribute("class", "st7");
+		brandN.setAttribute("class", "st7");
+		mainSJB.setAttribute("class", "st7");
 	};
 	var jbConnectiondeHilight = function () {
 		jB.setAttribute("fill", "#fff");
@@ -847,6 +857,9 @@
 		deLaJB.setAttribute("class", "st5");
 		bBJB.setAttribute("class", "st5");
 		jbFNJB.setAttribute("class", "st5");
+		iceJB.setAttribute("class", "st5");
+		brandN.setAttribute("class", "st5");
+		mainSJB.setAttribute("class", "st5");
 	};
 	var jBpFoN = function () {
 		jB.setAttribute("fill", "#000");
@@ -859,14 +872,34 @@
 	var pFConnectionHilight = function () {
 		pF.setAttribute("fill", "#000");
 		sOJ.setAttribute("class", "st7");
+		deLaPF.setAttribute("class", "st7");
+		nWAPF.setAttribute("class", "st7");
+		pEPF.setAttribute("class", "st7");
+		paidIFPF.setAttribute("class", "st7");
+		sRPF.setAttribute("class", "st7");
+		uMPF.setAttribute("class", "st7");
 		bBPF.setAttribute("class", "st7");
 		jbFNPF.setAttribute("class", "st7");
+		icePF.setAttribute("class", "st7");
+		peoples.setAttribute("class", "st7");
+		eazyE.setAttribute("class", "st7");
+		mainSPF.setAttribute("class", "st7");
 	};
 	var pFConnectiondeHilight = function () {
 		pF.setAttribute("fill", "#fff");
 		sOJ.setAttribute("class", "st5");
+		paidIFPF.setAttribute("class", "st5");
+		deLaPF.setAttribute("class", "st5");
+		pEPF.setAttribute("class", "st5");
+		sRPF.setAttribute("class", "st5");
+		nWAPF.setAttribute("class", "st5");
+		uMPF.setAttribute("class", "st5");
 		bBPF.setAttribute("class", "st5");
 		jbFNPF.setAttribute("class", "st5");
+		icePF.setAttribute("class", "st5");
+		peoples.setAttribute("class", "st5");
+		eazyE.setAttribute("class", "st5");
+		mainSPF.setAttribute("class", "st5");
 	};
 
 	var runDMCJBEnter = function () {
@@ -999,6 +1032,50 @@
 		jBpFoN();
 		jbFNJB.setAttribute("class", "st7");
 		jbFNPF.setAttribute("class", "st7");
+	};
+	var iceEnter = function () {
+		jBpFoN();
+		iceJB.setAttribute("class", "st7");
+		icePF.setAttribute("class", "st7");
+	};
+	var iceExit = function () {
+		jBpFoFF();
+		iceJB.setAttribute("class", "st5");
+		icePF.setAttribute("class", "st5");
+	};
+	var peoplesEnter = function () {
+		jB.setAttribute("fill", "#000");
+		peoples.setAttribute("class", "st7");
+	};
+	var peoplesExit = function () {
+		jB.setAttribute("fill", "#fff");
+		peoples.setAttribute("class", "st5");
+	};
+	var eazyEEnter = function () {
+		pF.setAttribute("fill", "#000");
+		eazyE.setAttribute("class", "st7");
+	};
+	var eazyEExit = function () {
+		pF.setAttribute("fill", "#fff");
+		eazyE.setAttribute("class", "st5");
+	};
+	var brandNEnter = function () {
+		jB.setAttribute("fill", "#000");
+		brandN.setAttribute("class", "st7");
+	};
+	var brandNExit = function () {
+		jB.setAttribute("fill", "#fff");
+		brandN.setAttribute("class", "st5");
+	};
+	var mainSEnter = function () {
+		jBpFoN();
+		mainSJB.setAttribute("class", "st7");
+		mainSPF.setAttribute("class", "st7");
+	};
+	var mainSExit = function () {
+		jBpFoFF();
+		mainSJB.setAttribute("class", "st5");
+		mainSPF.setAttribute("class", "st5");
 	};
 	]]>
 </script>
