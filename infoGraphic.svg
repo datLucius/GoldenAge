@@ -115,7 +115,7 @@
 	</g>
 </g>
 <g id="wuPF_midPath">
-	<line class="st1" x1="612.1" y1="772.9" x2="1180.7" y2="1125.1"/>
+	<line class="st5" x1="612.1" y1="772.9" x2="1180.7" y2="1125.1" id="wuJB"/>
 </g>
 <g id="wuJB_btmPath">
 	<g>
@@ -128,9 +128,9 @@
 	</g>
 </g>
 <g id="wuJB_midPath">
-	<line class="st1" x1="901.1" y1="703.6" x2="1180.7" y2="1125.1"/>
+	<line class="st1" x1="901.1" y1="703.6" x2="1180.7" y2="1125.1" id="wuPF"/>
 </g>
-<image style="overflow:visible;" width="489" height="489" id="wu" xlink:href="images/36Chambers.png"  transform="matrix(0.2111 0 0 0.2111 1129.0449 1065.9502)">
+<image style="overflow:visible;" width="489" height="489" id="wu" xlink:href="images/36Chambers.png"  transform="matrix(0.2111 0 0 0.2111 1129.0449 1065.9502)" onmouseenter="wuEnter()" onmouseleave="wuExit()">
 </image>
 <g id="digPF_btmPath">
 	<g>
@@ -190,11 +190,11 @@
 	</g>
 </g>
 <g id="pharB_midPath">
-	<line class="st1" x1="538.7" y1="728" x2="1101.4" y2="1199.6"/>
+	<line class="st1" x1="538.7" y1="728" x2="1101.4" y2="1199.6" id="phar"/>
 </g>
-<image style="overflow:visible;" width="606" height="606" id="phar" xlink:href="images/Pharcyde.png"  transform="matrix(0.1732 0 0 0.1732 1048.8994 1144.9248)">
+<image style="overflow:visible;" width="606" height="606" id="phar" xlink:href="images/Pharcyde.png"  transform="matrix(0.1732 0 0 0.1732 1048.8994 1144.9248)" onmouseenter="pharEnter()" onmouseleave="pharExit()">
 </image>
-<g id="chronicPF_midPath_copy">
+<g id="chronicPF_btmPath">
 	<g>
 		<g>
 
@@ -205,15 +205,15 @@
 	</g>
 </g>
 <g id="chronicPF_midPath">
-	<line class="st1" x1="919" y1="703.6" x2="1192.4" y2="387.4"/>
+	<line class="st1" x1="919" y1="703.6" x2="1192.4" y2="387.4" id="chronicPF"/>
 </g>
 <g id="chronicJB_btmPath">
 	<path class="st3" d="M1202.9,383.1c0,0-312.6,94.2-590.8,324"/>
 </g>
 <g id="chronicJB_midPath_1_">
-	<path class="st1" d="M1202.9,383.1c0,0-312.6,94.2-590.8,324"/>
+	<path class="st1" d="M1202.9,383.1c0,0-312.6,94.2-590.8,324" id="chronicJB"/>
 </g>
-<image style="overflow:visible;" width="768" height="768" id="chronic" xlink:href="images/drDre.png"  transform="matrix(0.1322 0 0 0.1322 1152.1504 336.6157)">
+<image style="overflow:visible;" width="768" height="768" id="chronic" xlink:href="images/drDre.png"  transform="matrix(0.1322 0 0 0.1322 1152.1504 336.6157)" onmouseenter="chronicEnter()" onmouseleave="chronicExit()">
 </image>
 <g id="wutJB_btmPath">
 	<g>
@@ -226,7 +226,7 @@
 	</g>
 </g>
 <g id="wutJB_midPath">
-	<line class="st1" x1="558" y1="746.8" x2="1009.5" y2="1266.4"/>
+	<line class="st1" x1="558" y1="746.8" x2="1009.5" y2="1266.4" id="wutJB"/>
 </g>
 <g id="wutPF_btmPath">
 	<g>
@@ -239,9 +239,9 @@
 	</g>
 </g>
 <g id="wutPF_midPath">
-	<line class="st1" x1="912.6" y1="704.7" x2="1009.5" y2="1266.4"/>
+	<line class="st1" x1="912.6" y1="704.7" x2="1009.5" y2="1266.4" id="wutPF"/>
 </g>
-<image style="overflow:visible;" width="496" height="497" id="wut" xlink:href="images/whut.png"  transform="matrix(0.2045 0 0 0.2045 958.7451 1208.6221)">
+<image style="overflow:visible;" width="496" height="497" id="wut" xlink:href="images/whut.png"  transform="matrix(0.2045 0 0 0.2045 958.7451 1208.6221)" onmouseenter="wutEnter()" onmouseleave="wutExit()">
 </image>
 <g id="peteRockPF_btmPath">
 	<g>
@@ -254,7 +254,7 @@
 	</g>
 </g>
 <g id="peteRockPF_midPath">
-	<line class="st1" x1="929.5" y1="701.9" x2="1122.1" y2="303.1"/>
+	<line class="st1" x1="929.5" y1="701.9" x2="1122.1" y2="303.1" id="petePF"/>
 </g>
 <g id="peteRockJB_btmPath">
 	<g>
@@ -267,9 +267,9 @@
 	</g>
 </g>
 <g id="peteRockJB_midPath">
-	<line class="st1" x1="537.8" y1="725.4" x2="1122.1" y2="303.1"/>
+	<line class="st1" x1="537.8" y1="725.4" x2="1122.1" y2="303.1" id="peteJB"/>
 </g>
-<image style="overflow:visible;" width="599" height="599" id="peteRock" xlink:href="images/peteRock.png"  transform="matrix(0.1723 0 0 0.1723 1074.1348 248.5527)">
+<image style="overflow:visible;" width="599" height="599" id="peteRock" xlink:href="images/peteRock.png"  transform="matrix(0.1723 0 0 0.1723 1074.1348 248.5527)" onmouseenter="peteEnter()" onmouseleave="peteExit()">
 </image>
 <g id="cypressJB_btmPath">
 	<g>
@@ -282,7 +282,7 @@
 	</g>
 </g>
 <g id="cypressJB_midPath">
-	<line class="st1" x1="537.8" y1="725.4" x2="903.8" y2="1310.3"/>
+	<line class="st1" x1="537.8" y1="725.4" x2="903.8" y2="1310.3" id="cypressJB"/>
 </g>
 <g id="cypressPF_btmPath">
 	<g>
@@ -295,9 +295,9 @@
 	</g>
 </g>
 <g id="cypressPF_midPath">
-	<line class="st1" x1="905.5" y1="699.8" x2="903.8" y2="1310.3"/>
+	<line class="st1" x1="905.5" y1="699.8" x2="903.8" y2="1310.3" id="cypressPF"/>
 </g>
-<image style="overflow:visible;" width="499" height="499" id="cypressHill" xlink:href="images/cypresshill.png"  transform="matrix(0.2068 0 0 0.2068 851.7158 1254.9541)">
+<image style="overflow:visible;" width="499" height="499" id="cypressHill" xlink:href="images/cypresshill.png"  transform="matrix(0.2068 0 0 0.2068 851.7158 1254.9541)" onmouseenter="cypressEnter()" onmouseleave="cypressExit()">
 </image>
 <g id="lowEndPF_btmPath">
 	<g>
@@ -310,7 +310,7 @@
 	</g>
 </g>
 <g id="lowEndPF_midPath">
-	<line class="st1" x1="905.5" y1="699.8" x2="1030.9" y2="223.6" fill="none" id="lowEndLine"/>
+	<line class="st5" x1="905.5" y1="699.8" x2="1030.9" y2="223.6" fill="none" id="lEpF"/>
 </g>
 <g id="lowEndJB_btmPath">
 	<g>
@@ -323,9 +323,9 @@
 	</g>
 </g>
 <g id="lowEndJB_midPath">
-	<line class="st1" x1="538.5" y1="716.8" x2="1030.9" y2="223.6"/>
+	<line class="st5" x1="538.5" y1="716.8" x2="1030.9" y2="223.6" id="lEjB"/>
 </g>
-<image style="overflow:visible;enable-background:new    ;" width="1491" height="1491" id="lowEnd" xlink:href="images/lowEndTheory.png"  transform="matrix(6.831346e-02 0 0 6.831346e-02 982.1328 177.1694)">
+<image style="overflow:visible;enable-background:new    ;" width="1491" height="1491" id="lowEnd" xlink:href="images/lowEndTheory.png"  transform="matrix(6.831346e-02 0 0 6.831346e-02 982.1328 177.1694)" onmouseenter="lEEnter()" onmouseleave="lEExit()">
 </image>
 <g id="gangStarrJB_btmPath">
 	<g>
@@ -338,9 +338,9 @@
 	</g>
 </g>
 <g id="gangStarrJB_midPath">
-	<line class="st1" x1="538.5" y1="716.8" x2="795" y2="1335.1"/>
+	<line class="st5" x1="538.5" y1="716.8" x2="795" y2="1335.1" id="gS"/>
 </g>
-<image style="overflow:visible;" width="500" height="500" id="gangStarr" xlink:href="images/gangStarr.png"  transform="matrix(0.2046 0 0 0.2046 743.1904 1280.1377)">
+<image style="overflow:visible;" width="500" height="500" id="gangStarr" xlink:href="images/gangStarr.png"  transform="matrix(0.2046 0 0 0.2046 743.1904 1280.1377)" onmouseenter="gSEnter()" onmouseleave="gSExit()">
 </image>
 <g id="mainSourceJB_btmPath">
 	<g>
@@ -822,6 +822,22 @@
 	var brandN = document.getElementById('brandN');
 	var mainSJB = document.getElementById('mainSJB');
 	var mainSPF = document.getElementById('mainSPF');
+	var gS = document.getElementById('gS');
+	var lEjB = document.getElementById('lEjB');
+	var lEpF = document.getElementById('lEpF');
+	var cypressJB = document.getElementById('cypressJB');
+	var cypressPF = document.getElementById('cypressPF');
+	var peteJB = document.getElementById('peteJB');
+	var petePF = document.getElementById('petePF');
+	var wutJB = document.getElementById('wutJB');
+	var wutPF = document.getElementById('wutPF');
+	var chronicJB = document.getElementById('chronicJB');
+	var chronicPF = document.getElementById('chronicPF');
+	var phar = document.getElementById('phar');
+	var peoplesIMG = document.getElementById('peoplesIMG');
+  var eazyIMG = document.getElementById('eazy');
+	var wuJB = document.getElementById('wuJB');
+	var wuPF = document.getElementById('wuPF');
 
 	var jbConnectionHilight = function () {
 		jB.setAttribute("fill", "#000");
@@ -841,6 +857,16 @@
 		iceJB.setAttribute("class", "st7");
 		brandN.setAttribute("class", "st7");
 		mainSJB.setAttribute("class", "st7");
+		gS.setAttribute("class", "st7");
+		lEjB.setAttribute("class", "st7");
+	  cypressJB.setAttribute("class", "st7");
+	  peteJB.setAttribute("class", "st7");
+	  wutJB.setAttribute("class", "st7");
+	  chronicJB.setAttribute("class", "st7");
+	  phar.setAttribute("class", "st7");
+	  wuJB.setAttribute("class", "st7");
+		peoplesIMG.setAttribute("opacity", "0.3");
+		eazyIMG.setAttribute("opacity", "0.3");
 	};
 	var jbConnectiondeHilight = function () {
 		jB.setAttribute("fill", "#fff");
@@ -860,6 +886,16 @@
 		iceJB.setAttribute("class", "st5");
 		brandN.setAttribute("class", "st5");
 		mainSJB.setAttribute("class", "st5");
+		gS.setAttribute("class", "st5");
+		lEjB.setAttribute("class", "st5");
+		cypressJB.setAttribute("class", "st5");
+		peteJB.setAttribute("class", "st5");
+		wutJB.setAttribute("class", "st5");
+		chronicJB.setAttribute("class", "st5");
+		phar.setAttribute("class", "st5");
+		wuJB.setAttribute("class", "st5");
+		peoplesIMG.setAttribute("opacity", "1");
+		eazyIMG.setAttribute("opacity", "1");
 	};
 	var jBpFoN = function () {
 		jB.setAttribute("fill", "#000");
@@ -884,6 +920,12 @@
 		peoples.setAttribute("class", "st7");
 		eazyE.setAttribute("class", "st7");
 		mainSPF.setAttribute("class", "st7");
+		lEpF.setAttribute("class", "st7");
+		cypressPF.setAttribute("class", "st7");
+		petePF.setAttribute("class", "st7");
+		wutPF.setAttribute("class", "st7");
+		chronicPF.setAttribute("class", "st7");
+		wuPF.setAttribute("class", "st7");
 	};
 	var pFConnectiondeHilight = function () {
 		pF.setAttribute("fill", "#fff");
@@ -900,6 +942,12 @@
 		peoples.setAttribute("class", "st5");
 		eazyE.setAttribute("class", "st5");
 		mainSPF.setAttribute("class", "st5");
+		lEpF.setAttribute("class", "st5");
+		cypressPF.setAttribute("class", "st5");
+		petePF.setAttribute("class", "st5");
+		wutPF.setAttribute("class", "st5");
+		chronicPF.setAttribute("class", "st5");
+		wuPF.setAttribute("class", "st5");
 	};
 
 	var runDMCJBEnter = function () {
@@ -1076,6 +1124,82 @@
 		jBpFoFF();
 		mainSJB.setAttribute("class", "st5");
 		mainSPF.setAttribute("class", "st5");
+	};
+	var gSEnter = function () {
+		jB.setAttribute("fill", "#000");
+		gS.setAttribute("class", "st7");
+	};
+	var gSExit = function () {
+		jB.setAttribute("fill", "#fff");
+		gS.setAttribute("class", "st5");
+	};
+	var lEEnter = function () {
+		jBpFoN();
+		lEjB.setAttribute("class", "st7");
+		lEpF.setAttribute("class", "st7");
+	};
+	var lEExit = function () {
+		jBpFoFF();
+		lEjB.setAttribute("class", "st5");
+		lEpF.setAttribute("class", "st5");
+	};
+	var cypressEnter = function () {
+		jBpFoN();
+		cypressJB.setAttribute("class", "st7");
+		cypressPF.setAttribute("class", "st7");
+	};
+	var cypressExit = function () {
+		jBpFoFF();
+		cypressJB.setAttribute("class", "st5");
+		cypressPF.setAttribute("class", "st5");
+	};
+	var peteEnter = function () {
+		jBpFoN();
+		peteJB.setAttribute("class", "st7");
+		petePF.setAttribute("class", "st7");
+	};
+	var peteExit = function () {
+		jBpFoFF();
+		peteJB.setAttribute("class", "st5");
+		petePF.setAttribute("class", "st5");
+	};
+	var wutEnter = function () {
+		jBpFoN();
+		wutJB.setAttribute("class", "st7");
+		wutPF.setAttribute("class", "st7");
+	};
+	var wutExit = function () {
+		jBpFoFF();
+		wutJB.setAttribute("class", "st5");
+		wutPF.setAttribute("class", "st5");
+	};
+	var chronicEnter = function () {
+		jBpFoN();
+		chronicJB.setAttribute("class", "st7");
+		chronicPF.setAttribute("class", "st7");
+	};
+	var chronicExit = function () {
+		jBpFoFF();
+		chronicJB.setAttribute("class", "st5");
+		chronicPF.setAttribute("class", "st5");
+	};
+	var pharEnter = function () {
+		jB.setAttribute("fill", "#000");
+		phar.setAttribute("class", "st7");
+	};
+	var pharExit = function () {
+		jB.setAttribute("fill", "#fff");
+		phar.setAttribute("class", "st5");
+	};
+	var wuEnter = function () {
+		jBpFoN();
+		wuJB.setAttribute("class", "st7");
+		wuPF.setAttribute("class", "st7");
+	};
+	var wuExit = function () {
+		jBpFoFF();
+		wuJB.setAttribute("class", "st5");
+		wuPF.setAttribute("class", "st5");
 	};
 	]]>
 </script>
