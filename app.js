@@ -24,6 +24,6 @@
         })
         .otherwise({
           redirectTp: '/404'
-        });
+        })
     });
 }());

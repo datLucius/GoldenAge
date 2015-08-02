@@ -7,6 +7,11 @@
       $scope.assignIdsFromClick = function() {
         var sampleId = this.spotifySampleId;
         var songId = this.spotifySongId;
+        var songUri;
+        var sampleUri;
+        var id1 = this.id1;
+        var id2 = this.id2;
+
         console.log('assign ids from click running sampledId:', sampleId);
         $scope.sendSongIdtoAPI(songId);
         $scope.sendSampleIdToAPI(sampleId);
@@ -41,6 +46,14 @@
         };
       };
 
+      $scope.assignUris = function() {
+        songUri = songData.spotifyId;
+        sampleUri = sampleData.spotifyId;
+      }
+      $scope.newDetail = function() {
+        assignIdsFromClick.then(assignInfoForDetail).then(assignUris).then(showThis);
+      },
+
     $scope.nodes = [
       {
         "title" : "Is It Live?",
@@ -55,7 +68,7 @@
       $('.detailView').addClass('hideThis');
     };
     $scope.showThis = function() {
-      $('.detailView').removeClass('hideThis');
+        $('.detailView').removeClass('hideThis');
     };
 
 
