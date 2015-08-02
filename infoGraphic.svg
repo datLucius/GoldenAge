@@ -58,39 +58,39 @@
 	<line class="st3" x1="1311.2" y1="818.5" x2="912.6" y2="704.7"/>
 </g>
 <g id="outkastPF_midPath">
-	<line class="st1" x1="1311.2" y1="818.5" x2="912.6" y2="704.7"/>
+	<line class="st5" x1="1311.2" y1="818.5" x2="912.6" y2="704.7" id="outKast"/>
 </g>
-<image style="overflow:visible;" width="492" height="492" id="outKast" xlink:href="images/outKast.png"  transform="matrix(0.2098 0 0 0.2098 1259.6348 766.9121)">
+<image style="overflow:visible;" width="492" height="492" id="outKastImage" xlink:href="images/outKast.png"  transform="matrix(0.2098 0 0 0.2098 1259.6348 766.9121)" onmouseenter="outKastEnter()" onmouseleave="outKastExit()">
 </image>
 <g id="commonPF_btmPath">
 	<line class="st3" x1="1312.5" y1="703.6" x2="912.6" y2="704.7"/>
 </g>
 <g id="commonPF_midPath">
-	<line class="st1" x1="1312.5" y1="703.6" x2="912.6" y2="704.7"/>
+	<line class="st1" x1="1312.5" y1="703.6" x2="912.6" y2="704.7" id="common"/>
 </g>
-<image style="overflow:visible;" width="615" height="615" id="common" xlink:href="images/common.png"  transform="matrix(0.1678 0 0 0.1678 1264.2461 655.5122)">
+<image style="overflow:visible;" width="615" height="615" id="commonImage" xlink:href="images/common.png"  transform="matrix(0.1678 0 0 0.1678 1264.2461 655.5122)" onmouseenter="commonEnter()" onmouseleave="commonExit()">
 </image>
 <g id="nasPF_btmPath">
 	<line class="st3" x1="1286.6" y1="940.2" x2="912.6" y2="704.7"/>
 </g>
 <g id="nasPF_midPath">
-	<line class="st1" x1="1286.6" y1="940.2" x2="912.6" y2="704.7"/>
+	<line class="st1" x1="1286.6" y1="940.2" x2="912.6" y2="704.7" id="nas"/>
 </g>
-<image style="overflow:visible;" width="500" height="500" id="nas" xlink:href="images/nas.png"  transform="matrix(0.2046 0 0 0.2046 1235.4004 874.8457)">
+<image style="overflow:visible;" width="500" height="500" id="nasImage" xlink:href="images/nas.png"  transform="matrix(0.2046 0 0 0.2046 1235.4004 874.8457)" onmouseenter="nasEnter()" onmouseleave="nasExit()">
 </image>
 <g id="snoopPF_btmPath">
 	<line class="st3" x1="1232.3" y1="1006.6" x2="907.7" y2="701.9"/>
 </g>
 <g id="snoopPF_midPath">
-	<line class="st1" x1="1232.3" y1="1006.6" x2="907.7" y2="701.9"/>
+	<line class="st1" x1="1232.3" y1="1006.6" x2="907.7" y2="701.9" id="snoopPF"/>
 </g>
 <g id="snoopJB_btmPath">
 	<path class="st3" d="M1210.6,1028.6c0,0-271.8-210.1-479.3-48.6c-168,130.8-176.2-130.5-176.2-130.5"/>
 </g>
 <g id="snoopJB_midPath">
-	<path class="st1" d="M1210.6,1028.6c0,0-271.8-210.1-479.3-48.6c-168,130.8-176.2-130.5-176.2-130.5"/>
+	<path class="st1" d="M1210.6,1028.6c0,0-271.8-210.1-479.3-48.6c-168,130.8-176.2-130.5-176.2-130.5" id="snoopJB"/>
 </g>
-<image style="overflow:visible;" width="600" height="599" id="snoop" xlink:href="images/doggyStyle.png"  transform="matrix(0.1691 0 0 0.1691 1192.4082 974.9316)">
+<image style="overflow:visible;" width="600" height="599" id="snoop" xlink:href="images/doggyStyle.png"  transform="matrix(0.1691 0 0 0.1691 1192.4082 974.9316)" onmouseenter="snoopEnter()" onmouseleave="snoopExit()">
 </image>
 <g id="biggieJB_btmPath">
 	<g>
@@ -116,10 +116,10 @@
 	</g>
 </g>
 <g id="biggieJB_midPath">
-	<path class="st1" d="M1293.8,586.1c-50.8,17.3-180.5-21.8-214.8,89.5c-10.3,33.5-2.7,245.3-242.7,194.5
-		c-42.8-9.1-173.3-92.8-182.2-97.2"/>
+	<path class="st5" d="M1293.8,586.1c-50.8,17.3-180.5-21.8-214.8,89.5c-10.3,33.5-2.7,245.3-242.7,194.5
+		c-42.8-9.1-173.3-92.8-182.2-97.2" id="biggie"/>
 </g>
-<image style="overflow:visible;" width="1000" height="1000" id="biggie" xlink:href="images/readyToDie.png"  transform="matrix(0.1014 0 0 0.1014 1248.6201 542.9854)">
+<image style="overflow:visible;" width="1000" height="1000" id="biggieImage" xlink:href="images/readyToDie.png"  transform="matrix(0.1014 0 0 0.1014 1248.6201 542.9854)" onmouseenter="biggieEnter()" onmouseleave="biggieExit()">
 </image>
 <g id="wuPF_btmPath">
 	<g>
@@ -160,7 +160,7 @@
 	</g>
 </g>
 <g id="digPF_midPath">
-	<line class="st1" x1="930.7" y1="684.5" x2="1259.6" y2="487.8"/>
+	<line class="st5" x1="930.7" y1="684.5" x2="1259.6" y2="487.8" id="digPF"/>
 </g>
 <g id="digJB_btmPath">
 	<g>
@@ -190,11 +190,9 @@
 	</g>
 </g>
 <g id="digJB_midPath">
-	<path class="st1" d="M1101.4,1199.6"/>
-	<path class="st1" d="M538.7,728"/>
-	<path class="st1" d="M1259.6,470.2c0,0-98.5,55.1-199.6,105.8c-87.9,44.1-139.2-73.5-283.5,48c-47.2,39.7-86.4,67.5-147,62.3"/>
+	<path class="st5" d="M1259.6,470.2c0,0-98.5,55.1-199.6,105.8c-87.9,44.1-139.2-73.5-283.5,48c-47.2,39.7-86.4,67.5-147,62.3" id="digJB"/>
 </g>
-<image style="overflow:visible;" width="497" height="495" id="dig" xlink:href="images/reachin.png"  transform="matrix(0.2049 0 0 0.2049 1210.625 437.0752)">
+<image style="overflow:visible;" width="497" height="495" id="dig" xlink:href="images/reachin.png"  transform="matrix(0.2049 0 0 0.2049 1210.625 437.0752)" onmouseenter="digEnter()" onmouseleave="digExit()">
 </image>
 <g id="pharB_btmPath">
 	<g>
@@ -209,7 +207,7 @@
 <g id="pharB_midPath">
 	<line class="st1" x1="538.7" y1="728" x2="1101.4" y2="1199.6" id="phar"/>
 </g>
-<image style="overflow:visible;" width="606" height="606" id="phar" xlink:href="images/Pharcyde.png"  transform="matrix(0.1732 0 0 0.1732 1048.8994 1144.9248)" onmouseenter="pharEnter()" onmouseleave="pharExit()">
+<image style="overflow:visible;" width="606" height="606" id="pharImage" xlink:href="images/Pharcyde.png"  transform="matrix(0.1732 0 0 0.1732 1048.8994 1144.9248)" onmouseenter="pharEnter()" onmouseleave="pharExit()">
 </image>
 <g id="chronicPF_btmPath">
 	<g>
@@ -357,7 +355,7 @@
 <g id="gangStarrJB_midPath">
 	<line class="st5" x1="538.5" y1="716.8" x2="795" y2="1335.1" id="gS"/>
 </g>
-<image style="overflow:visible;" width="500" height="500" id="gangStarr" xlink:href="images/gangStarr.png"  transform="matrix(0.2046 0 0 0.2046 743.1904 1280.1377)" onmouseenter="gSEnter()" onmouseleave="gSExit()">
+<image style="overflow:visible;" width="500" height="500" id="gSImage" xlink:href="images/gangStarr.png"  transform="matrix(0.2046 0 0 0.2046 743.1904 1280.1377)" onmouseenter="gSEnter()" onmouseleave="gSExit()">
 </image>
 <g id="mainSourceJB_btmPath">
 	<g>
@@ -415,7 +413,7 @@
 <g id="brandNJB_midPath">
 	<line class="st1" x1="820.6" y1="140.4" x2="539.8" y2="717.7" id="brandN"/>
 </g>
-<image style="overflow:visible;" width="493" height="493" id="brandNimage" xlink:href="images/oneForAll.png"  transform="matrix(0.2106 0 0 0.2106 767.9375 95.9722)" onmouseenter="brandNEnter()" onmouseleave="brandNExit()">
+<image style="overflow:visible;" width="493" height="493" id="bNImage" xlink:href="images/oneForAll.png"  transform="matrix(0.2106 0 0 0.2106 767.9375 95.9722)" onmouseenter="brandNEnter()" onmouseleave="brandNExit()">
 </image>
 <g id="peoplesPF_btmPath">
 	<g>
@@ -557,7 +555,7 @@
 <g id="jungleSt_midPath">
 	<line class="st1" x1="374.8" y1="1227.2" x2="919.6" y2="716.2" id="sOJ"/>
 </g>
-<image style="overflow:visible;" width="872" height="871" id="jungleStraight" xlink:href="images/straightOuttheJungle.png"  transform="matrix(0.1167 0 0 0.1167 318.1572 1170.5479)" onmouseenter="sOJEnter()" onmouseleave="sOJExit()">
+<image style="overflow:visible;" width="872" height="871" id="jungleStraightImage" xlink:href="images/straightOuttheJungle.png"  transform="matrix(0.1167 0 0 0.1167 318.1572 1170.5479)" onmouseenter="sOJEnter()" onmouseleave="sOJExit()">
 </image>
 <g id="ultraMagJBbtmPath">
 	<line class="st3" x1="369.1" y1="248.6" x2="546.1" y2="716.9"/>
@@ -635,7 +633,7 @@
 <g id="bigDaddy_midPath">
 	<line class="st1" x1="214.4" y1="1063.7" x2="549.7" y2="722.2" id="bDK"/>
 </g>
-<image style="overflow:visible;" width="995" height="995" id="BigDaddy" xlink:href="images/bigDaddyKane.png"  transform="matrix(0.1019 0 0 0.1019 163.5669 1005.9316)" onmouseenter="bDKEnter()" onmouseleave="bDKExit()">
+<image style="overflow:visible;" width="995" height="995" id="kaneImage" xlink:href="images/bigDaddyKane.png"  transform="matrix(0.1019 0 0 0.1019 163.5669 1005.9316)" onmouseenter="bDKEnter()" onmouseleave="bDKExit()">
 </image>
 <g id="EPMDJBbtmPath">
 	<g>
@@ -650,7 +648,7 @@
 <g id="EPMDJBmidPath">
 	<line class="st5" x1="214.3" y1="415.7" x2="535.3" y2="722.4" id="epmd"/>
 </g>
-<image style="overflow:visible;" width="1491" height="1488" id="EPMDimage" xlink:href="images/EPMD.png"  transform="matrix(6.803149e-02 0 0 6.803149e-02 163.5674 365.3267)" onmouseenter="epmdEnter()" onmouseleave="epmdExit()">
+<image style="overflow:visible;" width="1491" height="1488" id="epmdImage" xlink:href="images/EPMD.png"  transform="matrix(6.803149e-02 0 0 6.803149e-02 163.5674 365.3267)" onmouseenter="epmdEnter()" onmouseleave="epmdExit()">
 </image>
 <g id="slickRickPFbtmPath">
 	<path class="st3" d="M535.3,722.4"/>
@@ -715,7 +713,7 @@
 <g id="bizJBmidPath">
 	<line class="st5" x1="163.6" y1="513" x2="535.3" y2="722.4" id="biz"/>
 </g>
-<image style="overflow:visible;" width="1260" height="1263" id="bizimage" xlink:href="images/goinOff.png"  transform="matrix(8.050393e-02 0 0 8.050393e-02 112.8516 465.2671)" onmouseenter="bizEnter()" onmouseleave="bizExit()">
+<image style="overflow:visible;" width="1260" height="1263" id="bizImage" xlink:href="images/goinOff.png"  transform="matrix(8.050393e-02 0 0 8.050393e-02 112.8516 465.2671)" onmouseenter="bizEnter()" onmouseleave="bizExit()">
 </image>
 <g id="ericbPFbtmPath">
 	<path class="st3" d="M345.7,809"/>
@@ -778,7 +776,7 @@
 <g id="bdpmidPath">
 	<line class="st5" x1="128.3" y1="624" x2="535.3" y2="722.4" id="bdp"/>
 </g>
-<image style="overflow:visible;" width="497" height="497" id="BDP" xlink:href="images/BDP.png"  transform="matrix(0.2086 0 0 0.2086 80.1235 572.1128)" onmouseenter="bdpEnter()" onmouseleave="bdpExit()">
+<image style="overflow:visible;" width="497" height="497" id="bdpImage" xlink:href="images/BDP.png"  transform="matrix(0.2086 0 0 0.2086 80.1235 572.1128)" onmouseenter="bdpEnter()" onmouseleave="bdpExit()">
 </image>
 <g id="runDmcJbBtmPath">
 	<line class="st6" x1="122" y1="737.9" x2="534.3" y2="722.4" id="runDMCLine" stroke="#FFFFFF"/>
@@ -786,7 +784,7 @@
 <g id="runDmcJbMidPath">
 	<line class="st5" x1="122" y1="737.9" x2="534.3" y2="722.4" stroke="#EFEFEF" id="runDMCMid"/>
 </g>
-<image style="overflow:visible;" width="945" height="945" id="runDMC" xlink:href="images/raisingHell.png"  transform="matrix(0.1076 0 0 0.1076 71.1709 687.0879)" onmouseenter="runDMCJBEnter()" onmouseleave="runDMCJBExit()">
+<image style="overflow:visible;" width="945" height="945" id="runDMCImage" xlink:href="images/raisingHell.png"  transform="matrix(0.1076 0 0 0.1076 71.1709 687.0879)" onmouseenter="runDMCJBEnter()" onmouseleave="runDMCJBExit()">
 </image>
 <g id="circleGeorge">
 	<circle cx="904.2" cy="722.2" r="141.9" id="gClintonCircle" fill="#FFFFFF"/>
@@ -853,6 +851,27 @@
   var eazyIMG = document.getElementById('eazy');
 	var wuJB = document.getElementById('wuJB');
 	var wuPF = document.getElementById('wuPF');
+	var snoopJB = document.getElementById('snoopJB');
+	var snoopPF = document.getElementById('snoopPF');
+	var digJB = document.getElementById('digJB');
+	var digPF = document.getElementById('digPF');
+	var nas = document.getElementById('nas');
+	var biggie = document.getElementById('biggie');
+	var outKast = document.getElementById('outKast');
+	var common = document.getElementById('common');
+	var bNImage = document.getElementById('bNImage');
+	var runDMCImage = document.getElementById('runDMCImage');
+  var kaneImage = document.getElementById('kaneImage');
+	var gSImage = document.getElementById('gSImage');
+	var biggieImage = document.getElementById('biggieImage');
+	var bdpImage = document.getElementById('bdpImage');
+	var epmdImage = document.getElementById('epmdImage');
+	var pharImage = document.getElementById('pharImage');
+	var bizImage = document.getElementById('bizImage');
+	var commonImage = document.getElementById('commonImage');
+	var outKastImage = document.getElementById('commonImage');
+	var nasImage = document.getElementById('nasImage');
+	var jungleStraightImage = document.getElementById('jungleStraightImage');
 
 	var jbConnectionHilight = function () {
 		jB.setAttribute("fill", "#000");
@@ -873,15 +892,22 @@
 		brandN.setAttribute("class", "st7");
 		mainSJB.setAttribute("class", "st8");
 		gS.setAttribute("class", "st8");
-		lEjB.setAttribute("class", "st7");
-	  cypressJB.setAttribute("class", "st7");
-	  peteJB.setAttribute("class", "st7");
-	  wutJB.setAttribute("class", "st7");
+		lEjB.setAttribute("class", "st8");
+	  cypressJB.setAttribute("class", "st8");
+	  peteJB.setAttribute("class", "st8");
+	  wutJB.setAttribute("class", "st8");
 	  chronicJB.setAttribute("class", "st7");
-	  phar.setAttribute("class", "st7");
-	  wuJB.setAttribute("class", "st7");
+	  phar.setAttribute("class", "st8");
+	  wuJB.setAttribute("class", "st8");
+	  snoopJB.setAttribute("class", "st7");
+	  digJB.setAttribute("class", "st7");
+	  biggie.setAttribute("class", "st7");
 		peoplesIMG.setAttribute("opacity", "0.3");
 		eazyIMG.setAttribute("opacity", "0.3");
+		nasImage.setAttribute("opacity", "0.3");
+		outKastImage.setAttribute("opacity", "0.3");
+		commonImage.setAttribute("opacity", "0.3");
+		jungleStraightImage.setAttribute("opacity", "0.3");
 	};
 	var jbConnectiondeHilight = function () {
 		jB.setAttribute("fill", "#fff");
@@ -909,8 +935,15 @@
 		chronicJB.setAttribute("class", "st5");
 		phar.setAttribute("class", "st5");
 		wuJB.setAttribute("class", "st5");
+		snoopJB.setAttribute("class", "st5");
+		digJB.setAttribute("class", "st5");
+		biggie.setAttribute("class", "st5");
 		peoplesIMG.setAttribute("opacity", "1");
 		eazyIMG.setAttribute("opacity", "1");
+		nasImage.setAttribute("opacity", "1");
+		outKastImage.setAttribute("opacity", "1");
+		commonImage.setAttribute("opacity", "1");
+		jungleStraightImage.setAttribute("opacity", "1");
 	};
 	var jBpFoN = function () {
 		jB.setAttribute("fill", "#000");
@@ -935,12 +968,26 @@
 		peoples.setAttribute("class", "st7");
 		eazyE.setAttribute("class", "st7");
 		mainSPF.setAttribute("class", "st8");
-		lEpF.setAttribute("class", "st7");
-		cypressPF.setAttribute("class", "st7");
-		petePF.setAttribute("class", "st7");
-		wutPF.setAttribute("class", "st7");
-		chronicPF.setAttribute("class", "st7");
-		wuPF.setAttribute("class", "st7");
+		lEpF.setAttribute("class", "st8");
+		cypressPF.setAttribute("class", "st8");
+		petePF.setAttribute("class", "st8");
+		wutPF.setAttribute("class", "st8");
+		chronicPF.setAttribute("class", "st8");
+		wuPF.setAttribute("class", "st8");
+		snoopPF.setAttribute("class", "st7");
+		digPF.setAttribute("class", "st8");
+		nas.setAttribute("class", "st7");
+		common.setAttribute("class", "st7");
+		outKast.setAttribute("class", "st7");
+		pharImage.setAttribute("opacity", "0.3");
+		biggieImage.setAttribute("opacity", "0.3");
+		epmdImage.setAttribute("opacity", "0.3");
+		bizImage.setAttribute("opacity", "0.3");
+		gSImage.setAttribute("opacity", "0.3");
+		bdpImage.setAttribute("opacity", "0.3");
+		runDMCImage.setAttribute("opacity", "0.3");
+		kaneImage.setAttribute("opacity", "0.3");
+		bNImage.setAttribute("opacity", "0.3");
 	};
 	var pFConnectiondeHilight = function () {
 		pF.setAttribute("fill", "#fff");
@@ -963,6 +1010,20 @@
 		wutPF.setAttribute("class", "st5");
 		chronicPF.setAttribute("class", "st5");
 		wuPF.setAttribute("class", "st5");
+		snoopPF.setAttribute("class", "st5");
+		digPF.setAttribute("class", "st5");
+		nas.setAttribute("class", "st5");
+		common.setAttribute("class", "st5");
+		outKast.setAttribute("class", "st5");
+		pharImage.setAttribute("opacity", "1");
+		biggieImage.setAttribute("opacity", "1");
+		epmdImage.setAttribute("opacity", "1");
+		bizImage.setAttribute("opacity", "1");
+		gSImage.setAttribute("opacity", "1");
+		bdpImage.setAttribute("opacity", "1");
+		runDMCImage.setAttribute("opacity", "1");
+		kaneImage.setAttribute("opacity", "1");
+		bNImage.setAttribute("opacity", "1");
 	};
 
 	var runDMCJBEnter = function () {
@@ -1150,8 +1211,8 @@
 	};
 	var lEEnter = function () {
 		jBpFoN();
-		lEjB.setAttribute("class", "st7");
-		lEpF.setAttribute("class", "st7");
+		lEjB.setAttribute("class", "st8");
+		lEpF.setAttribute("class", "st8");
 	};
 	var lEExit = function () {
 		jBpFoFF();
@@ -1160,8 +1221,8 @@
 	};
 	var cypressEnter = function () {
 		jBpFoN();
-		cypressJB.setAttribute("class", "st7");
-		cypressPF.setAttribute("class", "st7");
+		cypressJB.setAttribute("class", "st8");
+		cypressPF.setAttribute("class", "st8");
 	};
 	var cypressExit = function () {
 		jBpFoFF();
@@ -1170,8 +1231,8 @@
 	};
 	var peteEnter = function () {
 		jBpFoN();
-		peteJB.setAttribute("class", "st7");
-		petePF.setAttribute("class", "st7");
+		peteJB.setAttribute("class", "st8");
+		petePF.setAttribute("class", "st8");
 	};
 	var peteExit = function () {
 		jBpFoFF();
@@ -1180,8 +1241,8 @@
 	};
 	var wutEnter = function () {
 		jBpFoN();
-		wutJB.setAttribute("class", "st7");
-		wutPF.setAttribute("class", "st7");
+		wutJB.setAttribute("class", "st8");
+		wutPF.setAttribute("class", "st8");
 	};
 	var wutExit = function () {
 		jBpFoFF();
@@ -1191,7 +1252,7 @@
 	var chronicEnter = function () {
 		jBpFoN();
 		chronicJB.setAttribute("class", "st7");
-		chronicPF.setAttribute("class", "st7");
+		chronicPF.setAttribute("class", "st8");
 	};
 	var chronicExit = function () {
 		jBpFoFF();
@@ -1200,7 +1261,7 @@
 	};
 	var pharEnter = function () {
 		jB.setAttribute("fill", "#000");
-		phar.setAttribute("class", "st7");
+		phar.setAttribute("class", "st8");
 	};
 	var pharExit = function () {
 		jB.setAttribute("fill", "#fff");
@@ -1208,13 +1269,65 @@
 	};
 	var wuEnter = function () {
 		jBpFoN();
-		wuJB.setAttribute("class", "st7");
+		wuJB.setAttribute("class", "st8");
 		wuPF.setAttribute("class", "st7");
 	};
 	var wuExit = function () {
 		jBpFoFF();
 		wuJB.setAttribute("class", "st5");
 		wuPF.setAttribute("class", "st5");
+	};
+	var snoopEnter = function () {
+		jBpFoN();
+		snoopJB.setAttribute("class", "st7");
+		snoopPF.setAttribute("class", "st7");
+	};
+	var snoopExit = function () {
+		jBpFoFF();
+		snoopJB.setAttribute("class", "st5");
+		snoopPF.setAttribute("class", "st5");
+	};
+	var digEnter = function () {
+		jBpFoN();
+		digJB.setAttribute("class", "st7");
+		digPF.setAttribute("class", "st8");
+	};
+	var digExit = function () {
+		jBpFoFF();
+		digJB.setAttribute("class", "st5");
+		digPF.setAttribute("class", "st5");
+	};
+	var nasEnter = function () {
+		pF.setAttribute("fill", "#000");
+		nas.setAttribute("class", "st7");
+	};
+	var nasExit = function () {
+		pF.setAttribute("fill", "#fff");
+		nas.setAttribute("class", "st5");
+	};
+	var biggieEnter = function () {
+		jB.setAttribute("fill", "#000");
+		biggie.setAttribute("class", "st7");
+	};
+	var biggieExit = function () {
+		jB.setAttribute("fill", "#fff");
+		biggie.setAttribute("class", "st5");
+	};
+	var outKastEnter = function () {
+		pF.setAttribute("fill", "#000");
+		outKast.setAttribute("class", "st7");
+	};
+	var outKastExit = function () {
+		pF.setAttribute("fill", "#fff");
+		outKast.setAttribute("class", "st5");
+	};
+	var commonEnter = function () {
+		pF.setAttribute("fill", "#000");
+		common.setAttribute("class", "st7");
+	};
+	var commonExit = function () {
+		pF.setAttribute("fill", "#fff");
+		common.setAttribute("class", "st5");
 	};
 	]]>
 </script>
