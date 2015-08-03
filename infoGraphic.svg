@@ -16,7 +16,7 @@
 	.jamesBrownRelated{fill:none;stroke:#EFEFEF;stroke-width:3;stroke-miterlimit:10;}
 	.st7{
 	fill:none;
-	stroke:#000;
+	stroke:#16a085;
 	stroke-miterlimit:10;
 	stroke-width:3;
 	stroke-dasharray: 50px;
@@ -46,6 +46,17 @@
 	@keyframes draw {
 	  to {
 	    stroke-dashoffset: 0px;
+	  }
+	}
+	.smallbubble{
+	animation-name: bubbledown;
+	animation-duration: 2s;
+	width: 240;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;}
+	@keyframes drawback {
+	  to {
+	    stroke-dashoffset: 700px;
 	  }
 	}
 ]]>
@@ -873,8 +884,11 @@
 	var nasImage = document.getElementById('nasImage');
 	var jungleStraightImage = document.getElementById('jungleStraightImage');
 
+	var justJBforward = document.getElementsByClassName('justJBforward');
+
+
 	var jbConnectionHilight = function () {
-		jB.setAttribute("fill", "#000");
+		jB.setAttribute("fill", "#16a085");
 		runDMC.setAttribute("class", "st7");
 		paidIFJB.setAttribute("class", "st7");
 		bdp.setAttribute("class", "st7");
@@ -902,12 +916,11 @@
 	  snoopJB.setAttribute("class", "st7");
 	  digJB.setAttribute("class", "st7");
 	  biggie.setAttribute("class", "st7");
-		peoplesIMG.setAttribute("opacity", "0.3");
-		eazyIMG.setAttribute("opacity", "0.3");
-		nasImage.setAttribute("opacity", "0.3");
-		outKastImage.setAttribute("opacity", "0.3");
-		commonImage.setAttribute("opacity", "0.3");
-		jungleStraightImage.setAttribute("opacity", "0.3");
+		peoplesIMG.setAttribute("opacity", "0.1");
+		eazyIMG.setAttribute("opacity", "0.1");
+		nasImage.setAttribute("opacity", "0.1");
+		commonImage.setAttribute("opacity", "0.1");
+		jungleStraightImage.setAttribute("opacity", "0.1");
 	};
 	var jbConnectiondeHilight = function () {
 		jB.setAttribute("fill", "#fff");
@@ -979,15 +992,15 @@
 		nas.setAttribute("class", "st7");
 		common.setAttribute("class", "st7");
 		outKast.setAttribute("class", "st7");
-		pharImage.setAttribute("opacity", "0.3");
-		biggieImage.setAttribute("opacity", "0.3");
-		epmdImage.setAttribute("opacity", "0.3");
-		bizImage.setAttribute("opacity", "0.3");
-		gSImage.setAttribute("opacity", "0.3");
-		bdpImage.setAttribute("opacity", "0.3");
-		runDMCImage.setAttribute("opacity", "0.3");
-		kaneImage.setAttribute("opacity", "0.3");
-		bNImage.setAttribute("opacity", "0.3");
+		pharImage.setAttribute("opacity", "0.1");
+		biggieImage.setAttribute("opacity", "0.1");
+		epmdImage.setAttribute("opacity", "0.1");
+		bizImage.setAttribute("opacity", "0.1");
+		gSImage.setAttribute("opacity", "0.1");
+		bdpImage.setAttribute("opacity", "0.1");
+		runDMCImage.setAttribute("opacity", "0.1");
+		kaneImage.setAttribute("opacity", "0.1");
+		bNImage.setAttribute("opacity", "0.1");
 	};
 	var pFConnectiondeHilight = function () {
 		pF.setAttribute("fill", "#fff");

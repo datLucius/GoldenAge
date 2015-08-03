@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 body {
@@ -34,7 +35,19 @@ a {
   border: 3px solid;
   border-color: #efefef;
   border-radius: 100%;
-  background-color: #89c736;
+  background-color: #16a085;
+  transition: background-color 0.5s ease;
+  transition: border 0.5s ease;
+}
+.pFunkNode {
+  position: absolute;
+  width: 1%;
+  height: 1%;
+  border-radius: 100%;
+  border: 3px solid;
+  border-color: #efefef;
+  border-radius: 100%;
+  background-color: #16a085;
   transition: background-color 0.5s ease;
   transition: border 0.5s ease;
 }
@@ -46,23 +59,25 @@ a {
   background-color: black;
   border: 3px solid black;
 }
+.pFunkNode:hover {
+  background-color: black;
+  border: 3px solid black;
+}
 
 .colorNode {
   background-color: red;
 }
 
 .sampleWindow {
-  position: relative;
-  bottom: 100px;
-  right: 9.8em;
-  width: 320px;
-  height: 100px;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   align-items: center;
   justify-content: center;
   display: none;
   z-index: 2;
-  border-radius: 5px;
 }
 
 
@@ -80,11 +95,10 @@ a {
 }
 
 .detailContainer{
-  width: 480px;
+  width: 80%;
   height: 100%;
-  position: fixed;
-  margin: 0 0 0 -240px;
-  left: 50%;
+  position: relative;
+  left:0;
   top: 0;
   z-index: 2;
   overflow: scroll;
@@ -106,20 +120,15 @@ a {
 
 .sampleBox {
   height: 400px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  width: 600px;
+  display: inline-block;
 }
 
 
 .songBox {
-  height: 400px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 380px;
+  width: 300px;
+  display: inline-block;
 }
 
 .closeDetail {
@@ -139,4 +148,17 @@ a {
 }
 .samplePlayer {
   z-index: 3;
+}
+
+.sampleStats {
+  color: white;
+  width: 80%;
+}
+
+.songDisplay {
+  width: 100%;
+  height: 400px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space:nowrap
 }

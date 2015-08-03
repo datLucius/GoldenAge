@@ -17,8 +17,11 @@
         $scope.sendSampleIdToAPI(sampleId);
       },
 
-      $scope.album = 'TribeJB';
-
+      $scope.album =  '';
+      $scope.showAlbum = function (album) {
+        $scope.album = album;
+        console.log($scope.album);
+      }
       $scope.sendSongIdtoAPI = function(songId) {
         console.log('get info songs running');
         SampleService.sendSongIdtoBuilder(songId);
