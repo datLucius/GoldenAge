@@ -16,7 +16,7 @@
 	.jamesBrownRelated{fill:none;stroke:#EFEFEF;stroke-width:3;stroke-miterlimit:10;}
 	.st7{
 	fill:none;
-	stroke:#16a085;
+	stroke:#322616;
 	stroke-miterlimit:10;
 	stroke-width:3;
 	stroke-dasharray: 50px;
@@ -33,7 +33,41 @@
 	}
 	.st8 {
 	fill:none;
-	stroke:#000;
+	stroke:#322616;
+	stroke-miterlimit:10;
+	stroke-width:3;
+	stroke-dasharray: 50px;
+	stroke-dashoffset: 700px;
+	animation-name: draw;
+	animation-duration: 4s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;}
+	@keyframes draw {
+	  to {
+	    stroke-dashoffset: 0px;
+	  }
+	}
+	.st7PF{
+	fill:none;
+	stroke:#f06582;
+	stroke-miterlimit:10;
+	stroke-width:3;
+	stroke-dasharray: 50px;
+	stroke-dashoffset: 0px;
+	animation-name: drawback;
+	animation-duration: 4s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;}
+	@keyframes drawback {
+	  to {
+	    stroke-dashoffset: 700px;
+	  }
+	}
+	.st8PF {
+	fill:none;
+	stroke:#f06582;
 	stroke-miterlimit:10;
 	stroke-width:3;
 	stroke-dasharray: 50px;
@@ -888,7 +922,7 @@
 
 
 	var jbConnectionHilight = function () {
-		jB.setAttribute("fill", "#16a085");
+		jB.setAttribute("fill", "#322616");
 		runDMC.setAttribute("class", "st7");
 		paidIFJB.setAttribute("class", "st7");
 		bdp.setAttribute("class", "st7");
@@ -916,11 +950,11 @@
 	  snoopJB.setAttribute("class", "st7");
 	  digJB.setAttribute("class", "st7");
 	  biggie.setAttribute("class", "st7");
-		peoplesIMG.setAttribute("opacity", "0.1");
-		eazyIMG.setAttribute("opacity", "0.1");
-		nasImage.setAttribute("opacity", "0.1");
-		commonImage.setAttribute("opacity", "0.1");
-		jungleStraightImage.setAttribute("opacity", "0.1");
+		peoplesIMG.setAttribute("xlink:href", "images/pFunkCircle.png");
+		eazyIMG.setAttribute("xlink:href", "images/pFunkCircle.png");
+		nasImage.setAttribute("xlink:href", "images/pFunkCircle.png");
+		commonImage.setAttribute("xlink:href", "images/pFunkCircle.png");
+		jungleStraightImage.setAttribute("xlink:href", "images/pFunkCircle.png");
 	};
 	var jbConnectiondeHilight = function () {
 		jB.setAttribute("fill", "#fff");
@@ -951,12 +985,12 @@
 		snoopJB.setAttribute("class", "st5");
 		digJB.setAttribute("class", "st5");
 		biggie.setAttribute("class", "st5");
-		peoplesIMG.setAttribute("opacity", "1");
-		eazyIMG.setAttribute("opacity", "1");
-		nasImage.setAttribute("opacity", "1");
-		outKastImage.setAttribute("opacity", "1");
-		commonImage.setAttribute("opacity", "1");
-		jungleStraightImage.setAttribute("opacity", "1");
+		peoplesIMG.setAttribute("xlink:href", "images/peoplesInst.png");
+		eazyIMG.setAttribute("xlink:href", "images/eazy.png");
+		nasImage.setAttribute("xlink:href", "images/nas.png");
+		outKastImage.setAttribute("xlink:href", "images/outKast.png");
+		commonImage.setAttribute("xlink:href", "images/common.png");
+		jungleStraightImage.setAttribute("xlink:href", "images/straightOuttheJungle.png");
 	};
 	var jBpFoN = function () {
 		jB.setAttribute("fill", "#000");
@@ -967,40 +1001,40 @@
 		pF.setAttribute("fill", "#fff");
 	};
 	var pFConnectionHilight = function () {
-		pF.setAttribute("fill", "#000");
-		sOJ.setAttribute("class", "st7");
-		deLaPF.setAttribute("class", "st7");
-		nWAPF.setAttribute("class", "st7");
-		pEPF.setAttribute("class", "st7");
-		paidIFPF.setAttribute("class", "st7");
-		sRPF.setAttribute("class", "st7");
-		uMPF.setAttribute("class", "st7");
-		bBPF.setAttribute("class", "st7");
-		jbFNPF.setAttribute("class", "st7");
-		icePF.setAttribute("class", "st7");
-		peoples.setAttribute("class", "st7");
-		eazyE.setAttribute("class", "st7");
-		mainSPF.setAttribute("class", "st8");
-		lEpF.setAttribute("class", "st8");
-		cypressPF.setAttribute("class", "st8");
-		petePF.setAttribute("class", "st8");
-		wutPF.setAttribute("class", "st8");
-		chronicPF.setAttribute("class", "st8");
-		wuPF.setAttribute("class", "st8");
-		snoopPF.setAttribute("class", "st7");
-		digPF.setAttribute("class", "st8");
-		nas.setAttribute("class", "st7");
-		common.setAttribute("class", "st7");
-		outKast.setAttribute("class", "st7");
-		pharImage.setAttribute("opacity", "0.1");
-		biggieImage.setAttribute("opacity", "0.1");
-		epmdImage.setAttribute("opacity", "0.1");
-		bizImage.setAttribute("opacity", "0.1");
-		gSImage.setAttribute("opacity", "0.1");
-		bdpImage.setAttribute("opacity", "0.1");
-		runDMCImage.setAttribute("opacity", "0.1");
-		kaneImage.setAttribute("opacity", "0.1");
-		bNImage.setAttribute("opacity", "0.1");
+		pF.setAttribute("fill", "#f06582");
+		sOJ.setAttribute("class", "st7PF");
+		deLaPF.setAttribute("class", "st7PF");
+		nWAPF.setAttribute("class", "st7PF");
+		pEPF.setAttribute("class", "st7PF");
+		paidIFPF.setAttribute("class", "st7PF");
+		sRPF.setAttribute("class", "st7PF");
+		uMPF.setAttribute("class", "st7PF");
+		bBPF.setAttribute("class", "st7PF");
+		jbFNPF.setAttribute("class", "st7PF");
+		icePF.setAttribute("class", "st7PF");
+		peoples.setAttribute("class", "st7PF");
+		eazyE.setAttribute("class", "st7PF");
+		mainSPF.setAttribute("class", "st8PF");
+		lEpF.setAttribute("class", "st8PF");
+		cypressPF.setAttribute("class", "st8PF");
+		petePF.setAttribute("class", "st8PF");
+		wutPF.setAttribute("class", "st8PF");
+		chronicPF.setAttribute("class", "st8PF");
+		wuPF.setAttribute("class", "st8PF");
+		snoopPF.setAttribute("class", "st7PF");
+		digPF.setAttribute("class", "st8PF");
+		nas.setAttribute("class", "st7PF");
+		common.setAttribute("class", "st7PF");
+		outKast.setAttribute("class", "st7PF");
+		pharImage.setAttribute("xlink:href", "images/jBCircle.png");
+		biggieImage.setAttribute("xlink:href", "images/jBCircle.png");
+		epmdImage.setAttribute("xlink:href", "images/jBCircle.png");
+		bizImage.setAttribute("xlink:href", "images/jBCircle.png");
+		gSImage.setAttribute("xlink:href", "images/jBCircle.png");
+		bdpImage.setAttribute("xlink:href", "images/jBCircle.png");
+		runDMCImage.setAttribute("xlink:href", "images/jBCircle.png");
+		kaneImage.setAttribute("xlink:href", "images/jBCircle.png");
+		bNImage.setAttribute("xlink:href", "images/jBCircle.png");
 	};
 	var pFConnectiondeHilight = function () {
 		pF.setAttribute("fill", "#fff");
@@ -1028,15 +1062,15 @@
 		nas.setAttribute("class", "st5");
 		common.setAttribute("class", "st5");
 		outKast.setAttribute("class", "st5");
-		pharImage.setAttribute("opacity", "1");
-		biggieImage.setAttribute("opacity", "1");
-		epmdImage.setAttribute("opacity", "1");
-		bizImage.setAttribute("opacity", "1");
-		gSImage.setAttribute("opacity", "1");
-		bdpImage.setAttribute("opacity", "1");
-		runDMCImage.setAttribute("opacity", "1");
-		kaneImage.setAttribute("opacity", "1");
-		bNImage.setAttribute("opacity", "1");
+		pharImage.setAttribute("xlink:href", "images/Pharcyde.png");
+		biggieImage.setAttribute("xlink:href", "images/readyToDie.png");
+		epmdImage.setAttribute("xlink:href", "images/EPMD.png");
+		bizImage.setAttribute("xlink:href", "images/goinOff.png");
+		gSImage.setAttribute("xlink:href", "images/gangStarr.png");
+		bdpImage.setAttribute("xlink:href", "images/BDP.png");
+		runDMCImage.setAttribute("xlink:href", "images/raisingHell.png");
+		kaneImage.setAttribute("xlink:href", "images/bigDaddyKane.png");
+		bNImage.setAttribute("xlink:href", "images/oneForAll.png");
 	};
 
 	var runDMCJBEnter = function () {

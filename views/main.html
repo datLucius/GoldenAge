@@ -2,7 +2,7 @@
   <div ng-controller="MainController">
   <div class="detailView hideThis" ng-switch on="album">
     <!-- TRIBE CALLED QUEST -->
-    <div class="detailContainer" ng-switch-when="TribeJB">
+    <div class="detailContainer" ng-switch-when="lowEnd">
       <div class="sampleBox">
         <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
         <iframe src="https://embed.spotify.com/?uri=spotify:track:33d7n0d2Ou4wQ5AcLrLTav" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
@@ -369,83 +369,220 @@
                  </ul>
                 </div>
               </div>
-              <div class="sampleNode" style="right:38.8%;
-               bottom:23%;" ng-click="showAlbum('redJB'); showThis();">
+            <div class="sampleNode" style="right:38.8%;
+             bottom:23%;" ng-click="showAlbum('redJB'); showThis();">
+               <div class="sampleWindow">
+                <ul class=sampleStats>
+                  <li><h1>Whut? Thee Album</h1></li>
+                  <li><h3><em>Redman</em></h3></li>
+                  <li><h3>1992</h3></li>
+                  <li><h5>7 James Brown samples</h5></li>
+                </ul>
+               </div>
+             </div>
+           <div class="sampleNode" style="right:44.2%;
+            bottom:21%;" ng-click="showAlbum('cypressJB'); showThis();">
+              <div class="sampleWindow">
+               <ul class=sampleStats>
+                 <li><h1>Cypress Hill</h1></li>
+                 <li><h3><em>Cypress Hill</em></h3></li>
+                 <li><h3>1991</h3></li>
+                 <li><h5>5 James Brown samples</h5></li>
+               </ul>
+              </div>
+            </div>
+          <div class="sampleNode" style="right:49.38%;
+           bottom:20%;" ng-click="showAlbum('gS'); showThis();">
+             <div class="sampleWindow">
+              <ul class=sampleStats>
+                <li><h1>Step in the Arena</h1></li>
+                <li><h3><em>Gang Starr</em></h3></li>
+                <li><h3>1991</h3></li>
+                <li><h5>1 James Brown sample</h5></li>
+              </ul>
+             </div>
+           </div>
+          <div class="sampleNode" style="right:63.8%;
+           bottom:33.6%;" ng-click="showAlbum('beastieJB'); showThis();">
+             <div class="sampleWindow">
+              <ul class=sampleStats>
+                <li><h1>Paul's Boutique</h1></li>
+                <li><h3><em>Beastie Boys</em></h3></li>
+                <li><h3>1989</h3></li>
+                <li><h5>5 James Brown samples</h5></li>
+              </ul>
+             </div>
+           </div>
+         <div class="sampleNode" style="right:71.5%;
+          bottom:32%;" ng-click="showAlbum('nwaJB'); showThis();">
+            <div class="sampleWindow">
+             <ul class=sampleStats>
+               <li><h1>Straight Outta Compton</h1></li>
+               <li><h3><em>N.W.A.</em></h3></li>
+               <li><h3>1989</h3></li>
+               <li><h5>5 James Brown samples</h5></li>
+             </ul>
+            </div>
+          </div>
+        <div class="sampleNode" style="right:77.8%;
+         bottom:32%;" ng-click="showAlbum('kane'); showThis();">
+           <div class="sampleWindow">
+            <ul class=sampleStats>
+              <li><h1>Long Live the Kane</h1></li>
+              <li><h3><em>Big Daddy Kane</em></h3></li>
+              <li><h3>1988</h3></li>
+              <li><h5>4 James Brown samples</h5></li>
+            </ul>
+           </div>
+         </div>
+         <div class="sampleNode" style="right:83.5%;
+          bottom:36%;" ng-click="showAlbum('slickJB'); showThis();">
+            <div class="sampleWindow">
+             <ul class=sampleStats>
+               <li><h1>The Great Adventures of Slick Rick</h1></li>
+               <li><h3><em>Slick Rick</em></h3></li>
+               <li><h3>1988</h3></li>
+               <li><h5>1 James Brown sample</h5></li>
+             </ul>
+            </div>
+          </div>
+          <div class="pFunkNode" style="right:59.5%;
+           bottom:65%;" ng-click="showAlbum('publicEnemyPF'); showThis();">
+             <div class="sampleWindow">
+              <ul class=sampleStats>
+                <li><h1>It Takes a Nation of Millions to Hold Us Back</h1></li>
+                <li><h3><em>Public Enemy</em></h3></li>
+                <li><h3>1988</h3></li>
+                <li><h5>2 P-Funk samples</h5></li>
+              </ul>
+             </div>
+           </div>
+           <div class="pFunkNode" style="right:52.2%;
+            bottom:64%;" ng-click="showAlbum('ultraMagPF'); showThis();">
+              <div class="sampleWindow">
+               <ul class=sampleStats>
+                 <li><h1>Critical Breakdown</h1></li>
+                 <li><h3><em>Ultramagnetic MCs</em></h3></li>
+                 <li><h3>1988</h3></li>
+                 <li><h5>1 P-Funk sample</h5></li>
+               </ul>
+              </div>
+            </div>
+            <div class="pFunkNode" style="right:46.4%;
+             bottom:62.6%;" ng-click="showAlbum('deLaPF'); showThis();">
+               <div class="sampleWindow">
+                <ul class=sampleStats>
+                  <li><h1>3 Feet High and Rising</h1></li>
+                  <li><h3><em>De La Soul</em></h3></li>
+                  <li><h3>1988</h3></li>
+                  <li><h5>2 P-Funk samples</h5></li>
+                </ul>
+               </div>
+             </div>
+             <div class="pFunkNode" style="right:51%;
+              bottom:75.5%;" ng-click="showAlbum('jbDoneByPF'); showThis();">
+                <div class="sampleWindow">
+                 <ul class=sampleStats>
+                   <li><h1>Done by Forces of Nature</h1></li>
+                   <li><h3><em>Jungle Brothers</em></h3></li>
+                   <li><h3>1989</h3></li>
+                   <li><h5>3 P-Funk samples</h5></li>
+                 </ul>
+                </div>
+              </div>
+              <div class="pFunkNode" style="right:45.2%;
+               bottom:75%;" ng-click="showAlbum('iceCubePF'); showThis();">
                  <div class="sampleWindow">
                   <ul class=sampleStats>
-                    <li><h1>Whut? Thee Album</h1></li>
-                    <li><h3><em>Redman</em></h3></li>
-                    <li><h3>1992</h3></li>
-                    <li><h5>7 James Brown samples</h5></li>
+                    <li><h1>AmeriKKKa's Most Wanted</h1></li>
+                    <li><h3><em>Ice Cube</em></h3></li>
+                    <li><h3>1990</h3></li>
+                    <li><h5>6 P-Funk samples</h5></li>
                   </ul>
                  </div>
                </div>
-               <div class="sampleNode" style="right:44.2%;
-                bottom:21%;" ng-click="showAlbum('cypressJB'); showThis();">
+               <div class="pFunkNode" style="right:35.2%;
+                bottom:73%;" ng-click="showAlbum('mainSPF'); showThis();">
                   <div class="sampleWindow">
                    <ul class=sampleStats>
-                     <li><h1>Cypress Hill</h1></li>
-                     <li><h3><em>Cypress Hill</em></h3></li>
-                     <li><h3>1991</h3></li>
-                     <li><h5>5 James Brown samples</h5></li>
+                     <li><h1>Breaking Atoms</h1></li>
+                     <li><h3><em>Main Source</em></h3></li>
+                     <li><h3>1990</h3></li>
+                     <li><h5>1 P-Funk sample</h5></li>
                    </ul>
                   </div>
                 </div>
-                <div class="sampleNode" style="right:49.38%;
-                 bottom:20%;" ng-click="showAlbum('gS'); showThis();">
+                <div class="pFunkNode" style="right:29.9%;
+                 bottom:75%;" ng-click="showAlbum('lowEnd'); showThis();">
                    <div class="sampleWindow">
                     <ul class=sampleStats>
-                      <li><h1>Step in the Arena</h1></li>
-                      <li><h3><em>Gang Starr</em></h3></li>
+                      <li><h1>The Low End Theory</h1></li>
+                      <li><h3><em>A Tribe Called Quest</em></h3></li>
                       <li><h3>1991</h3></li>
-                      <li><h5>1 James Brown sample</h5></li>
+                      <li><h5>1 P-Funk sample</h5></li>
                     </ul>
                    </div>
                  </div>
-                  <div class="sampleNode" style="right:63.8%;
-                   bottom:33.6%;" ng-click="showAlbum('beastieJB'); showThis();">
+                 <div class="pFunkNode" style="right:28.2%;
+                  bottom:64%;" ng-click="showAlbum('lowEnd'); showThis();">
+                    <div class="sampleWindow">
+                     <ul class=sampleStats>
+                       <li><h1>Mecca and the Soul Brother</h1></li>
+                       <li><h3><em>Pete Rock & CL Smooth</em></h3></li>
+                       <li><h3>1993</h3></li>
+                       <li><h5>1 P-Funk sample</h5></li>
+                     </ul>
+                    </div>
+                  </div>
+                  <div class="pFunkNode" style="right:21.9%;
+                   bottom:66%;" ng-click="showAlbum('chronic'); showThis();">
                      <div class="sampleWindow">
                       <ul class=sampleStats>
-                        <li><h1>Paul's Boutique</h1></li>
-                        <li><h3><em>Beastie Boys</em></h3></li>
-                        <li><h3>1989</h3></li>
-                        <li><h5>5 James Brown samples</h5></li>
+                        <li><h1>The Chronic</h1></li>
+                        <li><h3><em>Dr. Dre</em></h3></li>
+                        <li><h3>1993</h3></li>
+                        <li><h5>11 P-Funk sample</h5></li>
                       </ul>
                      </div>
                    </div>
-                   <div class="sampleNode" style="right:71.5%;
-                    bottom:32%;" ng-click="showAlbum('nwaJB'); showThis();">
+                   <div class="pFunkNode" style="right:20%;
+                    bottom:60.5%;" ng-click="showAlbum('dig'); showThis();">
                       <div class="sampleWindow">
                        <ul class=sampleStats>
-                         <li><h1>Straight Outta Compton</h1></li>
-                         <li><h3><em>N.W.A.</em></h3></li>
-                         <li><h3>1989</h3></li>
-                         <li><h5>5 James Brown samples</h5></li>
+                         <li><h1>Reachin’ (A New Refutation of Time and Space)</h1></li>
+                         <li><h3><em>Digable Planets</em></h3></li>
+                         <li><h3>1993</h3></li>
+                         <li><h5>2 P-Funk samples</h5></li>
+                       </ul>
                        </ul>
                       </div>
                     </div>
-                    <div class="sampleNode" style="right:77.8%;
-                     bottom:32%;" ng-click="showAlbum('kane'); showThis();">
-                       <div class="sampleWindow">
-                        <ul class=sampleStats>
-                          <li><h1>Long Live the Kane</h1></li>
-                          <li><h3><em>Big Daddy Kane</em></h3></li>
-                          <li><h3>1988</h3></li>
-                          <li><h5>4 James Brown samples</h5></li>
-                        </ul>
-                       </div>
-                     </div>
-                     <div class="sampleNode" style="right:83.5%;
-                      bottom:36%;" ng-click="showAlbum('slickJB'); showThis();">
-                        <div class="sampleWindow">
-                         <ul class=sampleStats>
-                           <li><h1>The Great Adventures of Slick Rick</h1></li>
-                           <li><h3><em>Slick Rick</em></h3></li>
-                           <li><h3>1988</h3></li>
-                           <li><h5>1 James Brown sample</h5></li>
-                         </ul>
-                        </div>
-                      </div>
+                <div class="pFunkNode" style="right:20%;
+                 bottom:46%;" ng-click="showAlbum('outKast'); showThis();">
+                   <div class="sampleWindow">
+                    <ul class=sampleStats>
+                      <li><h1>southernplayalisticadillacmuzik</h1></li>
+                      <li><h3><em>Outkast</em></h3></li>
+                      <li><h3>1993</h3></li>
+                      <li><h5>1 P-Funk reference</h5></li>
+                    </ul>
+                    </ul>
+                   </div>
+                 </div>
+
+           <div class="pFunkNode" style="right:17%;
+              bottom:50.5%;" ng-click="showAlbum('common'); showThis();">
+                <div class="sampleWindow">
+                 <ul class=sampleStats>
+                   <li><h1>Resurecction</h1></li>
+                   <li><h3><em>Common</em></h3></li>
+                   <li><h3>1994</h3></li>
+                   <li><h5>1 P-Funk reference</h5></li>
+                 </ul>
+                 </ul>
+                </div>
+              </div>
+
 
         <!--SVGgraphic--->
       <object type="image/svg+xml" data="infoGraphic.svg" id=graphic>
