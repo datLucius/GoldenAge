@@ -17,6 +17,7 @@
         $scope.sendSampleIdToAPI(sampleId);
       },
 
+      $scope.album = 'TribeJB';
 
       $scope.sendSongIdtoAPI = function(songId) {
         console.log('get info songs running');
@@ -70,7 +71,9 @@
     $scope.showThis = function() {
         $('.detailView').removeClass('hideThis');
     };
-
+    $scope.openDetailView = function() {
+      $('.detailView').removeClass('hideThis');
+    };
 
  })
 

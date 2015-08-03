@@ -51,28 +51,10 @@ a {
   background-color: red;
 }
 
-.arrow_box {
-	position: relative;
-	background:rgba(0, 0, 0, 0.5);
-}
-.arrow_box:after {
-	top: 100%;
-	left: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-top-color: rgba(0, 0, 0, 0.5);
-	border-width: 10px;
-	margin-left: -10px;
-}
-
 .sampleWindow {
   position: relative;
-  bottom: 105px;
-  right: 155px;
+  bottom: 100px;
+  right: 9.8em;
   width: 320px;
   height: 100px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -80,7 +62,9 @@ a {
   justify-content: center;
   display: none;
   z-index: 2;
+  border-radius: 5px;
 }
+
 
 .sampleNode:hover .sampleWindow{
   display: flex;
