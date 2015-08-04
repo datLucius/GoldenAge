@@ -9,7 +9,7 @@
 	.st1{fill:none;stroke:#EFEFEF;stroke-width:3;stroke-miterlimit:10;}
 	.st2{fill:#FFFFFF;}
 	.st3{fill:none;stroke:#FFFFFF;stroke-width:13;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#000;stroke-width:3;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#322616;stroke-width:3;stroke-miterlimit:10;}
 	.st5{fill:none;stroke:#EFEFEF;stroke-width:3;stroke-miterlimit:10;}
 	.st6{fill:none;stroke-width:13;stroke-miterlimit:10;}
 	.blackThis{fill:#000};
@@ -1027,7 +1027,7 @@
 		doneByImage.setAttribute("xlink:href", "images/doneByForcesofNature.png");
 	};
 	var jBpFoN = function () {
-		jB.setAttribute("fill", "#000");
+		jB.setAttribute("fill", "#322616");
 		pF.setAttribute("fill", "#f06582");
 	};
 	var jBpFoFF = function () {
@@ -1108,7 +1108,7 @@
 	};
 
 	var runDMCJBEnter = function () {
-		jB.setAttribute("fill", "#000");
+		jB.setAttribute("fill", "#322616");
 		runDMC.setAttribute("class", "st7");
 	};
 	var runDMCJBExit = function () {
@@ -1120,6 +1120,7 @@
 		jBpFoN();
 		paidIFJB.setAttribute("class", "st7");
 		paidIFPF.setAttribute("class", "st7PF");
+		paid
 	};
 	var paidIFExit = function () {
 		jBpFoFF();
@@ -1128,7 +1129,7 @@
 	};
 
 	var bdpEnter = function () {
-		jB.setAttribute("fill", "#000");
+		jB.setAttribute("fill", "#322616");
 		bdp.setAttribute("class", "st7");
 	};
 	var bdpExit = function () {
@@ -1137,7 +1138,7 @@
 	};
 
 	var bizEnter = function () {
-		jB.setAttribute("fill", "#000");
+		jB.setAttribute("fill", "#322616");
 		biz.setAttribute("class", "st7");
 	};
 	var bizExit = function () {
@@ -1145,7 +1146,7 @@
 		biz.setAttribute("class", "st5");
 	};
 	var epmdEnter = function () {
-		jB.setAttribute("fill", "#000");
+		jB.setAttribute("fill", "#322616");
 		epmd.setAttribute("class", "st7");
 	};
 	var epmdExit = function () {
@@ -1173,7 +1174,7 @@
 		sRPF.setAttribute("class", "st5");
 	};
 	var bDKEnter = function () {
-		jB.setAttribute("fill", "#000");
+		jB.setAttribute("fill", "#322616");
 		bDK.setAttribute("class", "st7");
 	};
 	var bDKExit = function () {
@@ -1247,7 +1248,7 @@
 		icePF.setAttribute("class", "st5");
 	};
 	var peoplesEnter = function () {
-		jB.setAttribute("fill", "#000");
+		jB.setAttribute("fill", "#322616");
 		peoples.setAttribute("class", "st7PF");
 	};
 	var peoplesExit = function () {
@@ -1263,7 +1264,7 @@
 		eazyE.setAttribute("class", "st5");
 	};
 	var brandNEnter = function () {
-		jB.setAttribute("fill", "#000");
+		jB.setAttribute("fill", "#322616");
 		brandN.setAttribute("class", "st7");
 	};
 	var brandNExit = function () {
@@ -1281,7 +1282,7 @@
 		mainSPF.setAttribute("class", "st5");
 	};
 	var gSEnter = function () {
-		jB.setAttribute("fill", "#000");
+		jB.setAttribute("fill", "#322616");
 		gS.setAttribute("class", "st8");
 	};
 	var gSExit = function () {
@@ -1339,7 +1340,7 @@
 		chronicPF.setAttribute("class", "st5");
 	};
 	var pharEnter = function () {
-		jB.setAttribute("fill", "#000");
+		jB.setAttribute("fill", "#322616");
 		phar.setAttribute("class", "st8");
 	};
 	var pharExit = function () {
@@ -1385,7 +1386,7 @@
 		nas.setAttribute("class", "st5");
 	};
 	var biggieEnter = function () {
-		jB.setAttribute("fill", "#000");
+		jB.setAttribute("fill", "#322616");
 		biggie.setAttribute("class", "st7");
 	};
 	var biggieExit = function () {

@@ -4,6 +4,7 @@
     .module('hipHop')
     .controller('MainController', function ($scope, SampleService){
 
+
       $scope.assignIdsFromClick = function() {
         var sampleId = this.spotifySampleId;
         var songId = this.spotifySongId;
@@ -76,11 +77,6 @@
     $scope.openDetailView = function() {
       $('.detailView').removeClass('hideThis');
     };
-
-    $scope.keyPress = function(keyCode){
-      console.log(keyCode);
-    };
-
  })
  .directive('ngEnter', function () {
     return function (scope, element, attrs) {

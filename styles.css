@@ -19,6 +19,10 @@ header {
 a {
   color: black;
 }
+
+h3 {
+  font-weight: 300;
+}
 .inner {
   position:absolute;
 }
@@ -76,18 +80,25 @@ a {
   background-color: rgba(0, 0, 0, 0.7);
   align-items: center;
   justify-content: center;
-  display: none;
+  display: flex;
   z-index: 2;
   padding-bottom: 10px;
+  opacity: 0;
+  -o-transition:.5s;
+ -ms-transition:.5s;
+ -moz-transition:.5s;
+ -webkit-transition:.5s;
+ transition:all .3s ease;
 }
 
 
 .sampleNode:hover .sampleWindow{
-  display: flex;
+  opacity: 100;
 }
 .pFunkNode:hover .sampleWindow{
-  display: flex;
+  opacity: 100;
 }
+
 
 .detailView{
   width: 100%;
@@ -132,7 +143,6 @@ a {
 
 .songBox {
   height: 380px;
-  width: 300px;
   display: inline-block;
 }
 
