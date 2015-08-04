@@ -3,7 +3,7 @@
   <div class="detailView hideThis" ng-switch on="album">
     <!-- TRIBE CALLED QUEST -->
     <div class="detailContainer" ng-switch-when="lowEnd">
-        <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+        <div class="closeDetail" ng-click="hideThis()"><span class="fa fa-times-circle"></span></div>
         <ul class="songDisplay">
           <li class="songBox">
             <iframe src="https://embed.spotify.com/?uri=spotify:track:2wS1PObRyCywHdmog5eOWW" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
@@ -28,7 +28,7 @@
       <ul class="songDisplay">
         <li class="songBox">
         <iframe src="https://embed.spotify.com/?uri=spotify:track:40rt5qcE4k671lIT3RSH1G" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-        </li>
+      </li>r
         <li class="sampleBox">
           <iframe src="https://embed.spotify.com/?uri=spotify:track:2epsbhjyrsxQFz4NfhTMPx" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
         </li>
@@ -67,6 +67,7 @@
           <iframe src="https://embed.spotify.com/?uri=spotify:track:3a0yUOy37HakWw8cFgzkGt" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
         </li>
       </ul>
+          <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle"></span></div>
     </div>
     <!-- epmd -->
     <div class="detailContainer" ng-switch-when="epmd">
@@ -546,10 +547,9 @@
            bottom:45.5%;" ng-click="showAlbum('paidJB'); showThis();">
            <div class="sampleWindow">
             <ul class=sampleStats>
-              <li><h1>Paid in Full</h1></li>
+              <li><h1>4 James Brown samples</h1></li>
               <li><h3><em>Eric B. & Rakim</em></h3></li>
-              <li><h3>1987</h3></li>
-              <li><h5>4 James Brown sample</h5></li>
+              <li><h3><em>Paid In Full, 1987</em></h3></li>
             </ul>
            </div>
          </div>
@@ -1082,7 +1082,7 @@
 
 
         <!--SVGgraphic--->
-      <object type="image/svg+xml" data="infoGraphic.svg" id=graphic>
+      <object type="image/svg+xml" data="infoGraphic.svg" id='graphic'>
         <img src="images/bizmouth.jpg" alt="…" class="inner"/>
       </object>
     </div>

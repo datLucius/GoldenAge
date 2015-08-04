@@ -17,7 +17,6 @@
         $scope.sendSampleIdToAPI(sampleId);
       },
 
-      $scope.album =  '';
       $scope.showAlbum = function (album) {
         $scope.album = album;
         console.log($scope.album);
@@ -78,6 +77,23 @@
       $('.detailView').removeClass('hideThis');
     };
 
+    $scope.keyPress = function(keyCode){
+      console.log(keyCode);
+    };
+
  })
+ .directive('ngEnter', function () {
+    return function (scope, element, attrs) {
+        element.bind("keydown keypress", function (event) {
+            if(event.which === 38) {
+                scope.$apply(function (){
+                    graphicWidth = graphicWidth + 10;
+                });
+
+                event.preventDefault();
+            }
+        });
+    };
+});
 
 })();
