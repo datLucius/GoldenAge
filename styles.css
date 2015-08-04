@@ -24,7 +24,7 @@ a {
 }
 .graphLayer {
   position: relative;
-  width: 55%;
+  width: 100%;
   top: 0;
 }
 .sampleNode {
@@ -99,10 +99,14 @@ a {
 }
 
 .detailContainer{
-  width: 80%;
   height: 100%;
   z-index: 2;
   overflow: scroll;
+  left: 150;
+  width: 75%;
+  position: fixed;
+  left: 50%;
+  margin: 0 0 0 -37.5%;
 }
 
 .hideThis{
@@ -133,14 +137,13 @@ a {
 }
 
 .closeDetail {
-  display: block;
-  width: 100%;
   display: flex;
+  width: 100%;
+  height: 40px;
   color: white;
   opacity: .5;
   transition: opacity .5s ease;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  margin-top: 10px;
 }
 .right {
   justify-content: flex-end;
@@ -161,6 +164,7 @@ a {
 .sampleStats {
   color: white;
   width: 80%;
+  text-align: right;
 }
 
 .songDisplay {
@@ -168,11 +172,18 @@ a {
   height: 384px;
   overflow-x: scroll;
   overflow-y: hidden;
-  white-space:nowrap
+  white-space:nowrap;
 }
 
-@media only screen and (min-device-width : 320px)
-and (max-device-width : 480px) {
+.statImage {
+  width: 100%;
+  height: 100%;
+}
 
-
+@media all
+  and (min-device-width: 400px)
+  and  (max-device-width: 600px){
+  .sampleWindow {
+    height: 40%;
+  }
 }

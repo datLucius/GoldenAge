@@ -20,6 +20,7 @@
             <iframe src="https://embed.spotify.com/?uri=spotify:track:1bQUyJ4pmlV3zuOh6Ld1O3" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
           </li>
         </ul>
+            <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
     </div>
 
     <!-- RUN DMC -->
@@ -55,6 +56,7 @@
             <iframe src="https://embed.spotify.com/?uri=spotify:track:5RHKBUD7ficCL7W0hRa2Ru" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
         </li>
       </ul>
+          <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
     </div>
     <!-- biz -->
     <div class="detailContainer" ng-switch-when="biz">
@@ -67,7 +69,7 @@
           <iframe src="https://embed.spotify.com/?uri=spotify:track:3a0yUOy37HakWw8cFgzkGt" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
         </li>
       </ul>
-          <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle"></span></div>
+      <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
     </div>
     <!-- epmd -->
     <div class="detailContainer" ng-switch-when="epmd">
@@ -80,9 +82,10 @@
           <iframe src="https://embed.spotify.com/?uri=spotify:track:6Hx0ktfYdQm88V5W1AwwW0" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
         </li>
       </ul>
+          <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
     </div>
-    <!-- epmd -->
-    <div class="detailContainer" ng-switch-when="publicEnemyJB">
+    <!-- publicEnemy -->
+    <div class="detailContainer" ng-switch-when="publicEnemy">
       <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
       <ul class="songDisplay" id="BringtheNoise">
         <li class="songBox">
@@ -172,6 +175,7 @@
           <iframe src="https://embed.spotify.com/?uri=spotify:track:04Vyld54lp8Nj0tOJ52lqC" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
         </li>
       </ul>
+          <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
     </div>
     <!-- ultraMag -->
     <div class="detailContainer" ng-switch-when="ultraMag">
@@ -262,6 +266,7 @@
           <iframe src="https://embed.spotify.com/?uri=spotify:track:3VXRhmrh1PPy513WVGwxkO" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
         </li>
       </ul>
+      <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
     </div>
     <!-- biz -->
     <div class="detailContainer" ng-switch-when="deLa">
@@ -272,8 +277,9 @@
           <iframe src="https://embed.spotify.com/?uri=spotify:track:3VXRhmrh1PPy513WVGwxkO" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
         </li>
       </ul>
+      <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
     </div>
-
+<!-- JUNGLE Bros Done By -->
     <div class="detailContainer" ng-switch-when="doneBy">
       <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
       <ul class="songDisplay">
@@ -292,7 +298,10 @@
           <iframe src="https://embed.spotify.com/?uri=spotify:track:4Q3AToeHk2GzTqfTPlGNU2" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
         </li>
       </ul>
+          <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
     </div>
+
+<!-- Ice Cube -->
     <div class="detailContainer" ng-switch-when="iceCube">
       <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
       <ul class="songDisplay">
@@ -345,6 +354,7 @@
           <iframe src="https://embed.spotify.com/?uri=spotify:track:5nQzA4sMT36NF63C5lEgMS" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
         </li>
       </ul>
+          <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
     </div>
 
 
@@ -385,8 +395,21 @@
               <iframe src="https://embed.spotify.com/?uri=spotify:track:6Ie9yuocD61v7hrh02moc6" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
             </li>
           </ul>
+              <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
         </div>
-
+        <!-- biggie -->
+          <div class="detailContainer" ng-switch-when="big">
+            <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+            <ul class="songDisplay" id="gimmeTheLoot">
+              <li class="songBox">
+              <iframe src="https://embed.spotify.com/?uri=spotify:track:56HYxKJIfClkU3bMCRQ9r5" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+              </li>
+              <li class="sampleBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:0lD1JdJyNuo7IB9v1cgF35" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer">
+              </li>
+            </ul>
+                <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+          </div>
 
   <!-- MAIN SOURCE -->
     <div class="detailContainer" ng-switch-when="mainS">
@@ -408,6 +431,7 @@
           <iframe src="https://embed.spotify.com/?uri=spotify:track:0zNmUITvzTQD1vv81sG1Ij" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
         </li>
       </ul>
+          <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
     </div>
     <!-- PETE ROCK -->
       <div class="detailContainer" ng-switch-when="pete">
@@ -445,6 +469,7 @@
             <iframe src="https://embed.spotify.com/?uri=spotify:track:29WaFLFzkrpmhwZTjccZsb" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
           </li>
         </ul>
+            <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
       </div>
       <!-- drDre -->
         <div class="detailContainer" ng-switch-when="dre">
@@ -487,8 +512,468 @@
               <iframe src="https://embed.spotify.com/?uri=spotify:track:48uYxKfWLVMXvMBQ49kFio" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
             </li>
           </ul>
+              <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
         </div>
-        <!-- dig Planets -->
+        <!-- Eric B and Rakim -->
+          <div class="detailContainer" ng-switch-when="paid">
+            <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+            <ul class="songDisplay" id="asTheRhymeGoesOn">
+              <li class="songBox">
+              <iframe src="https://embed.spotify.com/?uri=spotify:track:0LxskSIEX09s9AVgH0kmhS" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+              </li>
+              <li class="sampleBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:00oKe8yxmLid0nySubRUJm" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+              </li>
+            </ul>
+            <ul class="songDisplay" id="EricBForPresident">
+              <li class="songBox">
+              <iframe src="https://embed.spotify.com/?uri=spotify:track:3a8r3EYOFZB7cT1OkK4zXF" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+              </li>
+              <li class="sampleBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:00oKe8yxmLid0nySubRUJm" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+              </li>
+            </ul>
+            <ul class="songDisplay" id="IAintNoJoke">
+              <li class="songBox">
+              <iframe src="https://embed.spotify.com/?uri=spotify:track:0SwuCcwpFM6x4cu5zOvmi0" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+              </li>
+              <li class="sampleBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:2LWnyXOREsEAhOvpIK4E1F" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+              </li>
+            </ul>
+            <ul class="songDisplay" id="MovetheCrowd">
+              <li class="songBox">
+              <iframe src="https://embed.spotify.com/?uri=spotify:track:7C4yHdqe6x2fF1LxpwzGHD" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+              </li>
+              <li class="sampleBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:20ErYOM28RxmPp4kG8XeOg" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+              </li>
+            </ul>
+            <ul class="songDisplay" id="IKnowYouGotSoul">
+              <li class="songBox">
+              <iframe src="https://embed.spotify.com/?uri=spotify:track:5D2lp16FQ0VIfLGRDn5jcG" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+              </li>
+              <li class="sampleBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:0zNmUITvzTQD1vv81sG1Ij" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+              </li>
+            </ul>
+                <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+          </div>
+          <!-- Slick R -->
+            <div class="detailContainer" ng-switch-when="slick">
+              <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+              <ul class="songDisplay" id="theMomentIFeared">
+                <li class="songBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:7qCZ9bpAhGWz7KaQyOkUzO" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                </li>
+                <li class="sampleBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:5RHKBUD7ficCL7W0hRa2Ru" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                </li>
+              </ul>
+              <ul class="songDisplay" id="lickTheBalls">
+                <li class="songBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:6MG8bMj3tgduvgoICFpkQl" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                </li>
+                <li class="sampleBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:4cgodXjv4TfrooNQxvlO4O" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                </li>
+              </ul>
+              <ul class="songDisplay" id="teacherTeacher">
+                <li class="songBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:5Rb69f2QpCJZltdJJnXJxj" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                </li>
+                <li class="sampleBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:0zNmUITvzTQD1vv81sG1Ij" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                </li>
+              </ul>
+                  <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+            </div>
+            <!-- Kane -->
+              <div class="detailContainer" ng-switch-when="kane">
+                <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+                <ul class="songDisplay" id="longLivetheKane">
+                  <li class="songBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:6FtkjtJGoli1D3tztj8QPV" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                  </li>
+                  <li class="sampleBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:128794sZJ1K6SOfM8kmjvv" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:3yJwjBZGhdXpoWvkJoB0Td" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                  </li>
+                </ul>
+                <ul class="songDisplay" id="setItOff">
+                  <li class="songBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:6L0reMMEHvJsEX7kBo8Dm5" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                  </li>
+                  <li class="sampleBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:5lVuPCtegBtsRltgKZadXx" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                  </li>
+                </ul>
+                <ul class="songDisplay" id="wordToTheMother">
+                  <li class="songBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:3OhzXjxJ9TsZ2lB04HsNFF" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                  </li>
+                  <li class="sampleBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:00oKe8yxmLid0nySubRUJm" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                  </li>
+                </ul>
+                    <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+              </div>
+              <!-- NWA -->
+                <div class="detailContainer" ng-switch-when="nwa">
+                  <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+                  <ul class="songDisplay" id="fuckThaPolice">
+                    <li class="songBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:771lQyKAtqXRpZ7iM4JsbP" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                    </li>
+                    <li class="sampleBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:00oKe8yxmLid0nySubRUJm" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:5RHKBUD7ficCL7W0hRa2Ru" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    </li>
+                  </ul>
+                  <ul class="songDisplay" id="ifItAintRuff">
+                    <li class="songBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:5fAnY454Zr3YetF8IQj1Tm" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                    </li>
+                    <li class="sampleBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:5RHKBUD7ficCL7W0hRa2Ru" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    </li>
+                  </ul>
+                  <ul class="songDisplay" id="quietOnThaSet">
+                    <li class="songBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:22ivtmXTN5qIsT9TeHAIHT" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                    </li>
+                    <li class="sampleBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:5RHKBUD7ficCL7W0hRa2Ru" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:00oKe8yxmLid0nySubRUJm" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    </li>
+                  </ul>
+                  <ul class="songDisplay" id="straightOuttaCompton">
+                    <li class="songBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:4LujRMTMwAfFKjm45tixHY" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                    </li>
+                    <li class="sampleBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:0zNmUITvzTQD1vv81sG1Ij" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    </li>
+                  </ul>
+                      <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+                </div>
+                <!-- Beasties -->
+                  <div class="detailContainer" ng-switch-when="beastie">
+                    <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+                    <ul class="songDisplay" id="shakeYourRump">
+                      <li class="songBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:4RvprQhj7Ov1SFQ3HfO7FH" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                      </li>
+                      <li class="sampleBox">
+                        <iframe src="https://embed.spotify.com/?uri=spotify:track:77q9ChUrXGwp6onoN7ueJP" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+
+                      </li>
+                    </ul>
+                    <ul class="songDisplay" id="theSoundsofScience">
+                      <li class="songBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:7wpMe6Jo1FqVvrectcQBvy" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                      </li>
+                      <li class="sampleBox">
+                        <iframe src="https://embed.spotify.com/?uri=spotify:track:5lVuPCtegBtsRltgKZadXx" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                      </li>
+                    </ul>
+                    <ul class="songDisplay" id="heyLadies">
+                      <li class="songBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:1X3U53BiZuDRTzz3XCQZnR" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                      </li>
+                      <li class="sampleBox">
+                        <iframe src="https://embed.spotify.com/?uri=spotify:track:5pDntFG2pviuYB1d9XB0sj" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                        <iframe src="https://embed.spotify.com/?uri=spotify:track:00oKe8yxmLid0nySubRUJm" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                        <iframe src="https://embed.spotify.com/?uri=spotify:track:6Y3Waj6apqzeih1JftFGSe" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                      </li>
+                    </ul>
+                    <ul class="songDisplay" id="carThief">
+                      <li class="songBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:4sOhSrmkQPJyfPODGISOe8" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                      </li>
+                      <li class="sampleBox">
+                        <iframe src="https://embed.spotify.com/?uri=spotify:track:34BflHQ9Ha04JxyM4pItWn" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                      </li>
+                    </ul>
+                    <ul class="songDisplay" id="JohnnyRyall">
+                      <li class="songBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:1lNBpYlACAoOcjThOe2iol" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                      </li>
+                      <li class="sampleBox">
+                        <iframe src="https://embed.spotify.com/?uri=spotify:track:6DUQH60D6bZ8LnfY3pcNsg" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                      </li>
+                    </ul>
+                        <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+                  </div>
+                  <!-- jungle bro Straight Out the Jungle needs VIDEO -->
+                    <div class="detailContainer" ng-switch-when="jungleStraight">
+                      <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+                      <ul class="songDisplay" id="jimbrowski">
+                        <li class="songBox">
+                        <iframe src="https://embed.spotify.com/?uri=spotify:track:1xeIUjs1kAeTFO00YuZBOY" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        </li>
+                        <li class="sampleBox">
+                          <iframe src="https://embed.spotify.com/?uri=spotify:track:77q9ChUrXGwp6onoN7ueJP" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                        </li>
+                      </ul>
+                          <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+                    </div>
+              <!-- ATCQ Peoples -->
+                <div class="detailContainer" ng-switch-when="peoples">
+                  <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+                  <ul class="songDisplay" id="rhythmdevoted">
+                    <li class="songBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:6wzrmbhYr5wIGZwOGJSXo4" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                    </li>
+                    <li class="sampleBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:6DUQH60D6bZ8LnfY3pcNsg" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    </li>
+                  </ul>
+                  <ul class="songDisplay" id="hamNEggs">
+                    <li class="songBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:10XoVRZXc8ouULWMyi38hi" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                    </li>
+                    <li class="sampleBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:5iTwiUZ0QG9JSq2jMBHUm6" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    </li>
+                  </ul>
+                      <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+                </div>
+                <!-- Eazy E -->
+                  <div class="detailContainer" ng-switch-when="eazy">
+                    <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+                    <ul class="songDisplay" id="eazyDuzIt">
+                      <li class="songBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:1ohwrBQrxIlqMYfkoYERiN" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                      </li>
+                      <li class="sampleBox">
+                        <iframe src="https://embed.spotify.com/?uri=spotify:track:6DUQH60D6bZ8LnfY3pcNsg" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                      </li>
+                    </ul>
+                    <ul class="songDisplay" id="stillTalkin">
+                      <li class="songBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:4wiNvPbYWmCL7gDbmo2SyL" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                      </li>
+                      <li class="sampleBox">
+                        <iframe src="https://embed.spotify.com/?uri=spotify:track:1uxkCohqviJUGQJxXXXSxG" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                      </li>
+                    </ul>
+                        <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+                  </div>
+              <!-- Gang Starr -->
+                <div class="detailContainer" ng-switch-when="gangS">
+                  <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+                  <ul class="songDisplay" id="whatYouWantThisTime">
+                    <li class="songBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:2rLlzHFMSsCzYZ8goTuLxh" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                    </li>
+                    <li class="sampleBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:4luQkTT5raw9Kv0vIxaC5j" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    </li>
+                  </ul>
+                      <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+                </div>
+            <!-- Cypress Hill -->
+              <div class="detailContainer" ng-switch-when="cypress">
+                <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+                <ul class="songDisplay" id="handOnPump">
+                  <li class="songBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:1TeVeYATRojNVCH7q1APiv" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                  </li>
+                  <li class="sampleBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:2JjIeCdqjAlvUqA4FUmjuB" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                  </li>
+                </ul>
+                <ul class="songDisplay" id="phunkcyFeelOne">
+                  <li class="songBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:2NnqzqGQTis8uVPOub1k7k" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                  </li>
+                  <li class="sampleBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:4ByyuYEK1ujkddo8o0Etc8" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:17yulhWjpWwSkXqdCzbvcV" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                  </li>
+                </ul>
+                <ul class="songDisplay" id="funkyCypressShit">
+                  <li class="songBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:5bQMPxaSWr5y4b4y1HnDrQ" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                  </li>
+                  <li class="sampleBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:5lVuPCtegBtsRltgKZadXx" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                  </li>
+                </ul>
+                <ul class="songDisplay" id="psychobetabuckdown">
+                  <li class="songBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:3p4cX7Uxj3Adyqo1Kn5dEs" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                  </li>
+                  <li class="sampleBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:1CF0sciAivQS8U1lDphUJ5" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                  </li>
+                </ul>
+                    <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+              </div>
+          <!-- Red Man -->
+            <div class="detailContainer" ng-switch-when="red">
+              <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+              <ul class="songDisplay" id="timeFo">
+                <li class="songBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:7Afjy65bIVBMpFwCLTiuEe" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                </li>
+                <li class="sampleBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:00oKe8yxmLid0nySubRUJm" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                </li>
+              </ul>
+              <ul class="songDisplay" id="daFunk">
+                <li class="songBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:5wPJgJPIn5MfN2mh2wuTF1" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                </li>
+                <li class="sampleBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:48uYxKfWLVMXvMBQ49kFio" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                </li>
+              </ul>
+              <ul class="songDisplay" id="soRuff">
+                <li class="songBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:0GJJEySUPyCw9bLZkUxlVZ" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                </li>
+                <li class="sampleBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:6Ie9yuocD61v7hrh02moc6" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:4CG67Ib5UZet2OyVYB2LX0" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                </li>
+              </ul>
+              <ul class="songDisplay" id="jam4U">
+                <li class="songBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:7Ej2AofJ6ZdW6UHBFiQFfM" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                </li>
+                <li class="sampleBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:3a0yUOy37HakWw8cFgzkGt" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                </li>
+              </ul>
+              <ul class="songDisplay" id="blowyourMind">
+                <li class="songBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:3AhHGuTJmJuZSDdbpGnjxO" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                </li>
+                <li class="sampleBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:5OcyX5eg7VrJuI833qOCUc" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:44ck7wMLXtBG8dryCqJBrL" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                </li>
+              </ul>
+                  <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+            </div>
+
+        <!-- Pharcyde -->
+          <div class="detailContainer" ng-switch-when="phar">
+            <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+            <ul class="songDisplay" id="imThatType">
+              <li class="songBox">
+              <iframe src="https://embed.spotify.com/?uri=spotify:track:4YbCZSeX3QhpEyQE5KAtio" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+              </li>
+              <li class="sampleBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:532aWYFScgLG8OroF7FVMs" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+              </li>
+            </ul>
+            <ul class="songDisplay" id="Officer">
+              <li class="songBox">
+              <iframe src="https://embed.spotify.com/?uri=spotify:track:2M5GmVLeQ3C1aTuifurrve" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+              </li>
+              <li class="sampleBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:5RHKBUD7ficCL7W0hRa2Ru" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:29WaFLFzkrpmhwZTjccZsb" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+              </li>
+            </ul>
+            <ul class="songDisplay" id="forBetter">
+              <li class="songBox">
+              <iframe src="https://embed.spotify.com/?uri=spotify:track:3LO6tJZJjDM4xWe4D01HUN" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+              </li>
+              <li class="sampleBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:0J5kgW9xPBaT2rrrHgHJ7V" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+              </li>
+            </ul>
+                <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+          </div>
+          <!-- Wu-Tang -->
+            <div class="detailContainer" ng-switch-when="wu">
+              <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+              <ul class="songDisplay" id="methodMan">
+                <li class="songBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:5XLC8xoqyua4U7wJiZAWik" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                </li>
+                <li class="sampleBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:4cgodXjv4TfrooNQxvlO4O" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                </li>
+              </ul>
+              <ul class="songDisplay" id="protectYaNeck">
+                <li class="songBox">
+                <iframe src="https://embed.spotify.com/?uri=spotify:track:1Sgj10byiGzPpI2IrXSFEn" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                </li>
+                <li class="sampleBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:29WaFLFzkrpmhwZTjccZsb" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                </li>
+              </ul>
+                  <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+            </div>
+            <!-- Snoop Dogg -->
+              <div class="detailContainer" ng-switch-when="snoop">
+                <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+                <ul class="songDisplay" id="gFunkIntro">
+                  <li class="songBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:7AMKd7lV3sZLWpph7VjomE" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                  </li>
+                  <li class="sampleBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:1CF0sciAivQS8U1lDphUJ5" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:3VXRhmrh1PPy513WVGwxkO" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                  </li>
+                </ul>
+                <ul class="songDisplay" id="thaShiznit">
+                  <li class="songBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:1BZm0t49YEhM8xbTINoQKp" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                  </li>
+                  <li class="sampleBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:6Ie9yuocD61v7hrh02moc6" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                  </li>
+                </ul>
+                <ul class="songDisplay" id="whoAmI">
+                  <li class="songBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:5XhkV07Vou38wnrzwURUOC" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                  </li>
+                  <li class="sampleBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:4cgodXjv4TfrooNQxvlO4O" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:4Q3AToeHk2GzTqfTPlGNU2" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:3VXRhmrh1PPy513WVGwxkO" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:48uYxKfWLVMXvMBQ49kFio" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                  </li>
+                </ul>
+                <ul class="songDisplay" id="aintNoFun">
+                  <li class="songBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:4rLpAOk5KVNcqEMK3m6Lje" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                  </li>
+                  <li class="sampleBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:7f7gBExWrvBzD6lYjegCHA" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                  </li>
+                </ul>
+                    <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+              </div>
+              <!-- Nas NEEDS VIDEO-->
+                <div class="detailContainer" ng-switch-when="nas">
+                  <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+                  <ul class="songDisplay" id="represent">
+                    <li class="songBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:6DPrhGVJ1WTZvM9fKptnGe" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                    </li>
+                    <li class="sampleBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:1CF0sciAivQS8U1lDphUJ5" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:3VXRhmrh1PPy513WVGwxkO" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    </li>
+                  </ul>
+                  <ul class="songDisplay" id="oneLove">
+                    <li class="songBox">
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:27u3Rh4IWYPdwVST20ALrt" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                    </li>
+                    <li class="sampleBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:6Ie9yuocD61v7hrh02moc6" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                    </li>
+                  </ul>
+                      <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+                </div>
+        <!-- dig Planets something goes WRONG -->
           <div class="detailContainer" ng-switch-when="dig">
             <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
             <ul class="songDisplay" id="whereImFrom">
@@ -515,28 +1000,23 @@
                 <iframe src="https://embed.spotify.com/?uri=spotify:track:6KJYA3m1fgCS8xDqZkUH38" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer">
               </li>
             </ul>
+                <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
           </div>
-          <!-- biggie -->
-            <div class="detailContainer" ng-switch-when="biggie">
-              <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
-              <ul class="songDisplay" id="gimmeTheLoot">
-                <li class="songBox">
-                <iframe src="https://embed.spotify.com/?uri=spotify:track:56HYxKJIfClkU3bMCRQ9r5" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-                </li>
-                <li class="sampleBox">
-                  <iframe src="https://embed.spotify.com/?uri=spotify:track:0lD1JdJyNuo7IB9v1cgF35" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer">
-                </li>
-              </ul>
-            </div>
+
         <!-- common -->
-              <div class="detailContainer" ng-switch-when="common">
+              <div class="detailContainer" ng-switch-when="commonS">
                 <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
                 <ul class="songDisplay" id="IUseToLoveHer">
                   <li class="songBox">
                   <iframe src="https://embed.spotify.com/?uri=spotify:track:4TboAbE2pCUUB0fk6Q9rUU" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
                   </li>
+                  <li class="sampleBox">
+                  <iframe src="https://embed.spotify.com/?uri=spotify:track:4TboAbE2pCUUB0fk6Q9rUU" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                  </li>
                 </ul>
+                    <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
               </div>
+
 
     <div class="detailOverlay" ng-click="hideThis()"></div>
   </div>
@@ -544,7 +1024,7 @@
     <!-- SVG and nodes --->
     <div class="graphLayer">
           <div class="sampleNode" style="right:74%;
-           bottom:45.5%;" ng-click="showAlbum('paidJB'); showThis();">
+           bottom:45.5%;" ng-click="showAlbum('paid'); showThis();">
            <div class="sampleWindow">
             <ul class=sampleStats>
               <li><h1>4 James Brown samples</h1></li>
@@ -557,10 +1037,9 @@
            bottom:48.67%;" ng-click="showAlbum('runDMC'); showThis();">
            <div class="sampleWindow">
             <ul class=sampleStats>
-              <li><h1>Raising Hell</h1></li>
-              <li><h3><em>Run-D.M.C.</em></h3></li>
-              <li><h3>1986</h3></li>
-              <li><h5>1 James Brown sample</h5></li>
+              <li><h1>1 James Brown sample</h1></li>
+              <li><h3><em>RUN-D.M.C.</em></h3></li>
+              <li><h3><em>Raising Hell, 1986</em></h3></li>
             </ul>
            </div>
          </div>
@@ -568,10 +1047,9 @@
           bottom:53%;" ng-click="showAlbum('bdp'); showThis();">
           <div class="sampleWindow">
            <ul class=sampleStats>
-             <li><h1>Criminal Minded</h1></li>
+             <li><h1>4 James Brown samples</h1></li>
              <li><h3><em>Boogie Down Productions</em></h3></li>
-             <li><h3>1987</h3></li>
-             <li><h5>4 James Brown samples</h5></li>
+             <li><h3><em>Criminal Minded, 1986</em></h3></li>
            </ul>
           </div>
         </div>
@@ -579,10 +1057,9 @@
          bottom:58%;" ng-click="showAlbum('biz'); showThis();">
          <div class="sampleWindow">
           <ul class=sampleStats>
-            <li><h1>Goin' Off</h1></li>
+            <li><h1>1 James Brown sample</h1></li>
             <li><h3><em>Biz Markie</em></h3></li>
-            <li><h3>1987</h3></li>
-            <li><h5>1 James Brown sample</h5></li>
+            <li><h3><em>Goin' Off, 1987</em></h3></li>
           </ul>
          </div>
        </div>
@@ -590,21 +1067,19 @@
         bottom:63%;" ng-click="showAlbum('epmd'); showThis();">
         <div class="sampleWindow">
          <ul class=sampleStats>
-           <li><h1>Strictly Business</h1></li>
+           <li><h1>1 James Brown sample</h1></li>
            <li><h3><em>EPMD</em></h3></li>
-           <li><h3>1987</h3></li>
-           <li><h5>1 James Brown sample</h5></li>
+           <li><h3><em>Paid in Full, 1986</em></h3></li>
          </ul>
         </div>
       </div>
       <div class="sampleNode" style="right:74.2%;
-       bottom:69%;" ng-click="showAlbum('publicEnemyJB'); showThis();">
+       bottom:69%;" ng-click="showAlbum('publicEnemy'); showThis();">
        <div class="sampleWindow">
         <ul class=sampleStats>
-          <li><h1>It Takes a Nation of Millions to Hold Us Back</h1></li>
+          <li><h1>16 James Brown samples</h1></li>
           <li><h3><em>Public Enemy</em></h3></li>
-          <li><h3>1988</h3></li>
-          <li><h5>16 James Brown samples</h5></li>
+          <li><h3><em>It Takes a Nation of Millions to Hold Us Back, 1988</em></h3></li>
         </ul>
        </div>
      </div>
@@ -612,10 +1087,9 @@
       bottom:73.8%;" ng-click="showAlbum('ultraMag'); showThis();">
       <div class="sampleWindow">
        <ul class=sampleStats>
-         <li><h1>Critical Breakdown</h1></li>
+         <li><h1>15 James Brown sample</h1></li>
          <li><h3><em>Ultramagnetic MCs</em></h3></li>
-         <li><h3>1988</h3></li>
-         <li><h5>15 James Brown samples</h5></li>
+         <li><h3><em>Critical Breakdown, 1988</em></h3></li>
        </ul>
       </div>
     </div>
@@ -708,7 +1182,7 @@
             </div>
           </div>
           <div class="sampleNode" style="right:20.9%;
-           bottom:56.9%;" ng-click="showAlbum('biggie'); showThis();">
+           bottom:56.9%;" ng-click="showAlbum('big'); showThis();">
              <div class="sampleWindow">
               <ul class=sampleStats>
                 <li><h1>Ready to Die</h1></li>
@@ -719,7 +1193,7 @@
              </div>
            </div>
            <div class="sampleNode" style="right:28.5%;
-            bottom:34.5%;" ng-click="showAlbum('snoopJB'); showThis();">
+            bottom:34.5%;" ng-click="showAlbum('snoop'); showThis();">
               <div class="sampleWindow">
                <ul class=sampleStats>
                  <li><h1>Doggystyle</h1></li>
@@ -730,7 +1204,7 @@
               </div>
             </div>
             <div class="sampleNode" style="right:30.5%;
-             bottom:29.7%;" ng-click="showAlbum('wuJB'); showThis();">
+             bottom:29.7%;" ng-click="showAlbum('wu'); showThis();">
                <div class="sampleWindow">
                 <ul class=sampleStats>
                   <li><h1>Enter the Wu-Tang: 36 Chambers</h1></li>
@@ -752,7 +1226,7 @@
                 </div>
               </div>
             <div class="sampleNode" style="right:38.8%;
-             bottom:23%;" ng-click="showAlbum('redJB'); showThis();">
+             bottom:23%;" ng-click="showAlbum('red'); showThis();">
                <div class="sampleWindow">
                 <ul class=sampleStats>
                   <li><h1>Whut? Thee Album</h1></li>
@@ -774,7 +1248,7 @@
               </div>
             </div>
           <div class="sampleNode" style="right:49.38%;
-           bottom:20%;" ng-click="showAlbum('gS'); showThis();">
+           bottom:20%;" ng-click="showAlbum('gangS'); showThis();">
              <div class="sampleWindow">
               <ul class=sampleStats>
                 <li><h1>Step in the Arena</h1></li>
@@ -785,7 +1259,7 @@
              </div>
            </div>
           <div class="sampleNode" style="right:63.8%;
-           bottom:33.6%;" ng-click="showAlbum('beastieJB'); showThis();">
+           bottom:33.6%;" ng-click="showAlbum('beastie'); showThis();">
              <div class="sampleWindow">
               <ul class=sampleStats>
                 <li><h1>Paul's Boutique</h1></li>
@@ -796,7 +1270,7 @@
              </div>
            </div>
          <div class="sampleNode" style="right:71.5%;
-          bottom:32%;" ng-click="showAlbum('nwaJB'); showThis();">
+          bottom:32%;" ng-click="showAlbum('nwa'); showThis();">
             <div class="sampleWindow">
              <ul class=sampleStats>
                <li><h1>Straight Outta Compton</h1></li>
@@ -818,7 +1292,7 @@
            </div>
          </div>
          <div class="sampleNode" style="right:83.5%;
-          bottom:36%;" ng-click="showAlbum('slickJB'); showThis();">
+          bottom:36%;" ng-click="showAlbum('slick'); showThis();">
             <div class="sampleWindow">
              <ul class=sampleStats>
                <li><h1>The Great Adventures of Slick Rick</h1></li>
@@ -829,7 +1303,7 @@
             </div>
           </div>
           <div class="pFunkNode" style="right:59.5%;
-           bottom:65%;" ng-click="showAlbum('publicEnemyPF'); showThis();">
+           bottom:65%;" ng-click="showAlbum('publicEnemy'); showThis();">
              <div class="sampleWindow">
               <ul class=sampleStats>
                 <li><h1>It Takes a Nation of Millions to Hold Us Back</h1></li>
@@ -949,7 +1423,7 @@
                  </div>
 
            <div class="pFunkNode" style="right:17%;
-              bottom:50.5%;" ng-click="showAlbum('common'); showThis();">
+              bottom:50.5%;" ng-click="showAlbum('commonS'); showThis();">
                 <div class="sampleWindow">
                  <ul class=sampleStats>
                    <li><h1>Resurecction</h1></li>
@@ -958,16 +1432,6 @@
                    <li><h5>1 P-Funk reference</h5></li>
                 </div>
               </div>
-              <div class="pFunkNode" style="right:17%;
-                 bottom:50.5%;" ng-click="showAlbum('common'); showThis();">
-                   <div class="sampleWindow">
-                    <ul class=sampleStats>
-                      <li><h1>Resurecction</h1></li>
-                      <li><h3><em>Common</em></h3></li>
-                      <li><h3>1994</h3></li>
-                      <li><h5>1 P-Funk reference</h5></li>
-                   </div>
-                 </div>
                <div class="pFunkNode" style="right:17.3%;
                   bottom:39%;" ng-click="showAlbum('nas'); showThis();">
                     <div class="sampleWindow">
@@ -999,7 +1463,7 @@
                   </div>
                 </div>
               <div class="pFunkNode" style="right:30.5%;
-                 bottom:20%;" ng-click="showAlbum('redMan'); showThis();">
+                 bottom:20%;" ng-click="showAlbum('red'); showThis();">
                    <div class="sampleWindow">
                     <ul class=sampleStats>
                       <li><h1>Whut? Thee Album, 1993</h1></li>
@@ -1044,7 +1508,7 @@
                    </div>
                  </div>
              <div class="pFunkNode" style="right:61.7%;
-                bottom:25%;" ng-click="showAlbum('straightJungle'); showThis();">
+                bottom:25%;" ng-click="showAlbum('jungleStraight'); showThis();">
                   <div class="sampleWindow">
                    <ul class=sampleStats>
                      <li><h1>Straight out the Jungle</h1></li>
