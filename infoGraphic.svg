@@ -7,7 +7,7 @@
 <![CDATA[
 	.st0{fill:#EFEFEF;}
 	.st1{fill:none;stroke:#EFEFEF;stroke-width:3;stroke-miterlimit:10;}
-	.st2{fill:#FFFFFF;}
+	.st2{fill:#FFFFFF; stroke:#EFEFEF;stroke-width:3;stroke-miterlimit:10;}
 	.st2:hover{
 	animation-name: fadefill;
 	animation-duration: 2s;

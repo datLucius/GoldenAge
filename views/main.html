@@ -1028,6 +1028,19 @@
                   </ul>
                       <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
                 </div>
+                <!-- outkast-->
+                  <div class="detailContainer" ng-switch-when="outkast">
+                    <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
+                    <ul class="songDisplay" id="represent">
+                      <li class="songBox">
+                      <iframe src="https://embed.spotify.com/?uri=spotify:track:1RXEb6UTxJ05RffnAWfUOE" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                      </li>
+                      <li class="sampleBox">
+                        <iframe src="https://embed.spotify.com/?uri=spotify:track:48uYxKfWLVMXvMBQ49kFio" width="300" height="380" frameborder="0" allowtransparency="true" class="samplePlayer"></iframe>
+                      </li>
+                    </ul>
+                        <div class="closeDetail right" ng-click="hideThis()"><span class="fa fa-times-circle right"></span></div>
+                  </div>
         <!-- dig Planets something goes WRONG -->
           <div class="detailContainer" ng-switch-when="dig">
             <div class="closeDetail fa fa-times-circle" ng-click="hideThis()"></div>
@@ -1138,7 +1151,7 @@
         </ul>
        </div>
      </div>
-     <div class="sampleNode" style="right:70.3%;
+     <div class="sampleNode" style="right:70.4%;
       bottom:73.8%;" ng-click="showAlbum('ultraMag'); showThis();">
       <div class="sampleWindow">
        <ul class=sampleStats>
@@ -1148,7 +1161,7 @@
        </ul>
       </div>
     </div>
-    <div class="sampleNode" style="right:65.17%;
+    <div class="sampleNode" style="right:65.35%;
      bottom:78%;" ng-click="showAlbum('deLa'); showThis();">
      <div class="sampleWindow">
       <ul class=sampleStats>
@@ -1268,12 +1281,12 @@
                  </ul>
                 </div>
               </div>
-            <div class="sampleNode" style="right:38.8%;
+            <div class="sampleNode" style="right:39%;
              bottom:23%;" ng-click="showAlbum('red'); showThis();">
                <div class="sampleWindow">
                 <ul class=sampleStats>
                   <li><h1>7 James Brown samples</h1></li>
-                  <li><h3>Whut? thee Album, 1992</h3></li>
+                  <li><h3>Whut? Thee Album, 1992</h3></li>
                   <li><h3>Redman</h3></li>
                 </ul>
                </div>
@@ -1437,7 +1450,7 @@
                          <li><h3>Digable Planets</h3></li>                      </div>
                     </div>
                 <div class="pFunkNode" style="right:20%;
-                 bottom:46%;" ng-click="showAlbum('outKast'); showThis();">
+                 bottom:46%;" ng-click="showAlbum('outkast'); showThis();">
                    <div class="sampleWindow">
                     <ul class=sampleStats>
                       <li><h1>1 P-Funk sample</h1></li>
