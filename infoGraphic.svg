@@ -8,6 +8,13 @@
 	.st0{fill:#EFEFEF;}
 	.st1{fill:none;stroke:#EFEFEF;stroke-width:3;stroke-miterlimit:10;}
 	.st2{fill:#FFFFFF;}
+	.st2:hover{
+	animation-name: fadefill;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease;
+	}
 	.st3{fill:none;stroke:#FFFFFF;stroke-width:13;stroke-miterlimit:10;}
 	.st4{fill:none;stroke:#322616;stroke-width:3;stroke-miterlimit:10;}
 	.st5{fill:none;stroke:#EFEFEF;stroke-width:3;stroke-miterlimit:10;}
@@ -99,79 +106,68 @@
 	    stroke-dashoffset: 0px;
 	  }
 	}
-	.smallbubble{
-	animation-name: bubbledown;
-	animation-duration: 2s;
-	width: 240;
-	animation-iteration-count: 1;
-	animation-timing-function: linear;}
-	@keyframes drawback {
-	  to {
-	    stroke-dashoffset: 700px;
-	  }
-	}
 	.pFLine {
 	fill:none;
 	stroke:#FFFFFF;
 	stroke-width:13;
 	stroke-miterlimit:10;
 	}
-	.pFLine:hover {
-	animation-name: fadeColor;
-	animation-duration: 2s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
-	animation-timing-function: linear;
-	}
 	@keyframes fadeColor {
 		to {
 			stroke: #f06582;
+			stroke-width:30;
 		}
+	@keyframes fadefill {
+			to {
+				fill: #f06582;
+				stroke: #f06582;
+				stroke-width:10;
+			}
 ]]>
 
 </style>
-<g id="backGround">
+<g id="backGround" >
 	<rect x="3.5" class="st0" width="1433.1" height="1440"/>
 </g>
-<g id="outkastPF_btmPath">
+<g id="outkastPF_btmPath" onmouseenter="outKastEnter()" onmouseleave="outKastExit()">
 	<line class="pFLine" x1="1311.2" y1="818.5" x2="912.6" y2="704.7"/>
 </g>
-<g id="outkastPF_midPath">
+<g id="outkastPF_midPath" onmouseenter="outKastEnter()" onmouseleave="outKastExit()">
 	<line class="st5" x1="1311.2" y1="818.5" x2="912.6" y2="704.7" id="outKast"/>
 </g>
 <image style="overflow:visible;" width="492" height="492" id="outKastImage" xlink:href="images/outKast.png"  transform="matrix(0.2098 0 0 0.2098 1259.6348 766.9121)" onmouseenter="outKastEnter()" onmouseleave="outKastExit()">
 </image>
-<g id="commonPF_btmPath">
+<g id="commonPF_btmPath" onmouseenter="commonEnter()" onmouseleave="commonExit()">
 	<line class="pFLine" x1="1312.5" y1="703.6" x2="912.6" y2="704.7"/>
 </g>
-<g id="commonPF_midPath">
+<g id="commonPF_midPath" onmouseenter="commonEnter()" onmouseleave="commonExit()">
 	<line class="st1" x1="1312.5" y1="703.6" x2="912.6" y2="704.7" id="common"/>
 </g>
 <image style="overflow:visible;" width="615" height="615" id="commonImage" xlink:href="images/common.png"  transform="matrix(0.1678 0 0 0.1678 1264.2461 655.5122)" onmouseenter="commonEnter()" onmouseleave="commonExit()">
 </image>
-<g id="nasPF_btmPath">
+<g id="nasPF_btmPath" onmouseenter="nasEnter()" onmouseleave="nasExit()">
 	<line class="pFLine" x1="1286.6" y1="940.2" x2="912.6" y2="704.7"/>
 </g>
-<g id="nasPF_midPath">
+<g id="nasPF_midPath" onmouseenter="nasEnter()" onmouseleave="nasExit()">
 	<line class="st1" x1="1286.6" y1="940.2" x2="912.6" y2="704.7" id="nas"/>
 </g>
 <image style="overflow:visible;" width="500" height="500" id="nasImage" xlink:href="images/nas.png"  transform="matrix(0.2046 0 0 0.2046 1235.4004 874.8457)" onmouseenter="nasEnter()" onmouseleave="nasExit()">
 </image>
-<g id="snoopPF_btmPath">
+<g id="snoopPF_btmPath" onmouseenter="snoopEnter()" onmouseleave="snoopExit()">
 	<line class="pFLine" x1="1232.3" y1="1006.6" x2="907.7" y2="701.9"/>
 </g>
-<g id="snoopPF_midPath">
+<g id="snoopPF_midPath" onmouseenter="snoopEnter()" onmouseleave="snoopExit()">
 	<line class="st1" x1="1232.3" y1="1006.6" x2="907.7" y2="701.9" id="snoopPF"/>
 </g>
-<g id="snoopJB_btmPath">
+<g id="snoopJB_btmPath" onmouseenter="snoopEnter()" onmouseleave="snoopExit()">
 	<path class="st3" d="M1210.6,1028.6c0,0-271.8-210.1-479.3-48.6c-168,130.8-176.2-130.5-176.2-130.5"/>
 </g>
-<g id="snoopJB_midPath">
+<g id="snoopJB_midPath" onmouseenter="snoopEnter()" onmouseleave="snoopExit()">
 	<path class="st1" d="M1210.6,1028.6c0,0-271.8-210.1-479.3-48.6c-168,130.8-176.2-130.5-176.2-130.5" id="snoopJB"/>
 </g>
 <image style="overflow:visible;" width="600" height="599" id="snoop" xlink:href="images/doggyStyle.png"  transform="matrix(0.1691 0 0 0.1691 1192.4082 974.9316)" onmouseenter="snoopEnter()" onmouseleave="snoopExit()">
 </image>
-<g id="biggieJB_btmPath">
+<g id="biggieJB_btmPath" onmouseenter="biggieEnter()" onmouseleave="biggieExit()">
 	<g>
 		<g>
 			<path class="st2" d="M904.6,885.9c-21.4,0-45-2.7-70-8c-35.6-7.6-124.1-61.5-166.7-87.4l-0.1-0.1c-8.2-5-15.8-9.7-17.3-10.4
@@ -196,11 +192,11 @@
 </g>
 <g id="biggieJB_midPath">
 	<path class="st5" d="M1293.8,586.1c-50.8,17.3-180.5-21.8-214.8,89.5c-10.3,33.5-2.7,245.3-242.7,194.5
-		c-42.8-9.1-173.3-92.8-182.2-97.2" id="biggie"/>
+		c-42.8-9.1-173.3-92.8-182.2-97.2" id="biggie" onmouseenter="biggieEnter()" onmouseleave="biggieExit()"/>
 </g>
 <image style="overflow:visible;" width="1000" height="1000" id="biggieImage" xlink:href="images/readyToDie.png"  transform="matrix(0.1014 0 0 0.1014 1248.6201 542.9854)" onmouseenter="biggieEnter()" onmouseleave="biggieExit()">
 </image>
-<g id="wuPF_btmPath">
+<g id="wuPF_btmPath" onmouseenter="wuEnter()" onmouseleave="wuExit()">
 	<g>
 		<g>
 
@@ -211,15 +207,13 @@
 	</g>
 </g>
 <g id="wuPF_midPath">
-	<line class="st5" x1="612.1" y1="772.9" x2="1180.7" y2="1125.1" id="wuJB"/>
+	<line class="st5" x1="612.1" y1="772.9" x2="1180.7" y2="1125.1" id="wuJB" onmouseenter="wuEnter()" onmouseleave="wuExit()"/>
 </g>
 <g id="wuJB_btmPath">
 	<g>
 		<g>
 
-				<rect x="1032.9" y="660" transform="matrix(-0.8333 0.5528 -0.5528 -0.8333 2413.677 1100.8486)" class="st2" width="16" height="508.7"/>
-			<path class="st0" d="M906.5,700.1l279.6,421.4l-10.8,7.2L895.6,707.2L906.5,700.1 M907.3,695.9l-2.5,1.7l-10.8,7.2l-2.5,1.7
-				l1.7,2.5l279.6,421.4l1.7,2.5l2.5-1.7l10.8-7.2l2.5-1.7l-1.7-2.5L909,698.4L907.3,695.9L907.3,695.9z"/>
+				<rect x="1032.9" y="660" transform="matrix(-0.8333 0.5528 -0.5528 -0.8333 2413.677 1100.8486)" class="st2" width="16" height="508.7" onmouseenter="wuEnter()" onmouseleave="wuExit()"/>
 		</g>
 	</g>
 </g>
@@ -228,7 +222,7 @@
 </g>
 <image style="overflow:visible;" width="489" height="489" id="wu" xlink:href="images/36Chambers.png"  transform="matrix(0.2111 0 0 0.2111 1129.0449 1065.9502)" onmouseenter="wuEnter()" onmouseleave="wuExit()">
 </image>
-<g id="digPF_btmPath">
+<g id="digPF_btmPath" onmouseenter="digEnter()" onmouseleave="digExit()">
 	<g>
 		<g>
 
@@ -238,10 +232,10 @@
 		</g>
 	</g>
 </g>
-<g id="digPF_midPath">
+<g id="digPF_midPath" onmouseenter="digEnter()" onmouseleave="digExit()">
 	<line class="st5" x1="930.7" y1="684.5" x2="1259.6" y2="487.8" id="digPF"/>
 </g>
-<g id="digJB_btmPath">
+<g id="digJB_btmPath" onmouseenter="digEnter()" onmouseleave="digExit()">
 	<g>
 		<path class="st1" d="M1101.4,1199.6"/>
 	</g>
@@ -268,12 +262,12 @@
 		</g>
 	</g>
 </g>
-<g id="digJB_midPath">
+<g id="digJB_midPath" onmouseenter="digEnter()" onmouseleave="digExit()">
 	<path class="st5" d="M1259.6,470.2c0,0-98.5,55.1-199.6,105.8c-87.9,44.1-139.2-73.5-283.5,48c-47.2,39.7-86.4,67.5-147,62.3" id="digJB"/>
 </g>
 <image style="overflow:visible;" width="497" height="495" id="dig" xlink:href="images/reachin.png"  transform="matrix(0.2049 0 0 0.2049 1210.625 437.0752)" onmouseenter="digEnter()" onmouseleave="digExit()">
 </image>
-<g id="pharB_btmPath">
+<g id="pharB_btmPath" onmouseenter="pharEnter()" onmouseleave="pharExit()">
 	<g>
 		<g>
 
@@ -283,12 +277,12 @@
 		</g>
 	</g>
 </g>
-<g id="pharB_midPath">
+<g id="pharB_midPath" onmouseenter="pharEnter()" onmouseleave="pharExit()">
 	<line class="st1" x1="538.7" y1="728" x2="1101.4" y2="1199.6" id="phar"/>
 </g>
 <image style="overflow:visible;" width="606" height="606" id="pharImage" xlink:href="images/Pharcyde.png"  transform="matrix(0.1732 0 0 0.1732 1048.8994 1144.9248)" onmouseenter="pharEnter()" onmouseleave="pharExit()">
 </image>
-<g id="chronicPF_btmPath">
+<g id="chronicPF_btmPath" onmouseenter="chronicEnter()" onmouseleave="chronicExit()">
 	<g>
 		<g>
 
@@ -298,18 +292,18 @@
 		</g>
 	</g>
 </g>
-<g id="chronicPF_midPath">
+<g id="chronicPF_midPath" onmouseenter="chronicEnter()" onmouseleave="chronicExit()">
 	<line class="st1" x1="919" y1="703.6" x2="1192.4" y2="387.4" id="chronicPF"/>
 </g>
-<g id="chronicJB_btmPath">
+<g id="chronicJB_btmPath" onmouseenter="chronicEnter()" onmouseleave="chronicExit()">
 	<path class="st3" d="M1202.9,383.1c0,0-312.6,94.2-590.8,324"/>
 </g>
-<g id="chronicJB_midPath_1_">
+<g id="chronicJB_midPath_1_" onmouseenter="chronicEnter()" onmouseleave="chronicExit()">
 	<path class="st1" d="M1202.9,383.1c0,0-312.6,94.2-590.8,324" id="chronicJB"/>
 </g>
 <image style="overflow:visible;" width="768" height="768" id="chronic" xlink:href="images/drDre.png"  transform="matrix(0.1322 0 0 0.1322 1152.1504 336.6157)" onmouseenter="chronicEnter()" onmouseleave="chronicExit()">
 </image>
-<g id="wutJB_btmPath">
+<g id="wutJB_btmPath" onmouseenter="wutEnter()" onmouseleave="wutExit()">
 	<g>
 		<g>
 
@@ -319,10 +313,10 @@
 		</g>
 	</g>
 </g>
-<g id="wutJB_midPath">
+<g id="wutJB_midPath" onmouseenter="wutEnter()" onmouseleave="wutExit()">
 	<line class="st1" x1="558" y1="746.8" x2="1009.5" y2="1266.4" id="wutJB"/>
 </g>
-<g id="wutPF_btmPath">
+<g id="wutPF_btmPath" onmouseenter="wutEnter()" onmouseleave="wutExit()">
 	<g>
 		<g>
 
@@ -332,12 +326,12 @@
 		</g>
 	</g>
 </g>
-<g id="wutPF_midPath">
+<g id="wutPF_midPath" onmouseenter="wutEnter()" onmouseleave="wutExit()">
 	<line class="st1" x1="912.6" y1="704.7" x2="1009.5" y2="1266.4" id="wutPF"/>
 </g>
 <image style="overflow:visible;" width="496" height="497" id="wut" xlink:href="images/whut.png"  transform="matrix(0.2045 0 0 0.2045 958.7451 1208.6221)" onmouseenter="wutEnter()" onmouseleave="wutExit()">
 </image>
-<g id="peteRockPF_btmPath">
+<g id="peteRockPF_btmPath" onmouseenter="peteEnter()" onmouseleave="peteExit()">
 	<g>
 		<g>
 
@@ -347,10 +341,10 @@
 		</g>
 	</g>
 </g>
-<g id="peteRockPF_midPath">
+<g id="peteRockPF_midPath" onmouseenter="peteEnter()" onmouseleave="peteExit()">
 	<line class="st1" x1="929.5" y1="701.9" x2="1122.1" y2="303.1" id="petePF"/>
 </g>
-<g id="peteRockJB_btmPath">
+<g id="peteRockJB_btmPath" onmouseenter="peteEnter()" onmouseleave="peteExit()">
 	<g>
 		<g>
 
@@ -360,12 +354,12 @@
 		</g>
 	</g>
 </g>
-<g id="peteRockJB_midPath">
+<g id="peteRockJB_midPath" onmouseenter="peteEnter()" onmouseleave="peteExit()">
 	<line class="st1" x1="537.8" y1="725.4" x2="1122.1" y2="303.1" id="peteJB"/>
 </g>
 <image style="overflow:visible;" width="599" height="599" id="peteRock" xlink:href="images/peteRock.png"  transform="matrix(0.1723 0 0 0.1723 1074.1348 248.5527)" onmouseenter="peteEnter()" onmouseleave="peteExit()">
 </image>
-<g id="cypressJB_btmPath">
+<g id="cypressJB_btmPath" onmouseenter="cypressEnter()" onmouseleave="cypressExit()">
 	<g>
 		<g>
 
@@ -375,10 +369,10 @@
 		</g>
 	</g>
 </g>
-<g id="cypressJB_midPath">
+<g id="cypressJB_midPath" onmouseenter="cypressEnter()" onmouseleave="cypressExit()">
 	<line class="st1" x1="537.8" y1="725.4" x2="903.8" y2="1310.3" id="cypressJB"/>
 </g>
-<g id="cypressPF_btmPath">
+<g id="cypressPF_btmPath" onmouseenter="cypressEnter()" onmouseleave="cypressExit()">
 	<g>
 		<g>
 
@@ -388,12 +382,12 @@
 		</g>
 	</g>
 </g>
-<g id="cypressPF_midPath">
+<g id="cypressPF_midPath" onmouseenter="cypressEnter()" onmouseleave="cypressExit()">
 	<line class="st1" x1="905.5" y1="699.8" x2="903.8" y2="1310.3" id="cypressPF"/>
 </g>
 <image style="overflow:visible;" width="499" height="499" id="cypressHill" xlink:href="images/cypresshill.png"  transform="matrix(0.2068 0 0 0.2068 851.7158 1254.9541)" onmouseenter="cypressEnter()" onmouseleave="cypressExit()">
 </image>
-<g id="lowEndPF_btmPath">
+<g id="lowEndPF_btmPath" onmouseenter="lEEnter()" onmouseleave="lEExit()">
 	<g>
 		<g>
 
@@ -403,10 +397,10 @@
 		</g>
 	</g>
 </g>
-<g id="lowEndPF_midPath">
+<g id="lowEndPF_midPath" onmouseenter="lEEnter()" onmouseleave="lEExit()">
 	<line class="st5" x1="905.5" y1="699.8" x2="1030.9" y2="223.6" fill="none" id="lEpF"/>
 </g>
-<g id="lowEndJB_btmPath">
+<g id="lowEndJB_btmPath" onmouseenter="lEEnter()" onmouseleave="lEExit()">
 	<g>
 		<g>
 
@@ -416,12 +410,12 @@
 		</g>
 	</g>
 </g>
-<g id="lowEndJB_midPath">
+<g id="lowEndJB_midPath" onmouseenter="lEEnter()" onmouseleave="lEExit()">
 	<line class="st5" x1="538.5" y1="716.8" x2="1030.9" y2="223.6" id="lEjB"/>
 </g>
 <image style="overflow:visible;enable-background:new    ;" width="1491" height="1491" id="lowEnd" xlink:href="images/lowEndTheory.png"  transform="matrix(6.831346e-02 0 0 6.831346e-02 982.1328 177.1694)" onmouseenter="lEEnter()" onmouseleave="lEExit()">
 </image>
-<g id="gangStarrJB_btmPath">
+<g id="gangStarrJB_btmPath" onmouseenter="gSEnter()" onmouseleave="gSExit()">
 	<g>
 		<g>
 
@@ -431,12 +425,12 @@
 		</g>
 	</g>
 </g>
-<g id="gangStarrJB_midPath">
+<g id="gangStarrJB_midPath" onmouseenter="gSEnter()" onmouseleave="gSExit()">
 	<line class="st5" x1="538.5" y1="716.8" x2="795" y2="1335.1" id="gS"/>
 </g>
 <image style="overflow:visible;" width="500" height="500" id="gSImage" xlink:href="images/gangStarr.png"  transform="matrix(0.2046 0 0 0.2046 743.1904 1280.1377)" onmouseenter="gSEnter()" onmouseleave="gSExit()">
 </image>
-<g id="mainSourceJB_btmPath">
+<g id="mainSourceJB_btmPath" onmouseenter="mainSEnter()" onmouseleave="mainSExit()">
 	<g>
 		<g>
 
@@ -446,10 +440,10 @@
 		</g>
 	</g>
 </g>
-<g id="mainSourceJB_midPath">
+<g id="mainSourceJB_midPath" onmouseenter="mainSEnter()" onmouseleave="mainSExit()">
 	<line class="st1" x1="538.5" y1="716.8" x2="924.2" y2="177.2" id="mainSJB"/>
 </g>
-<g id="mainSourcePF_btmPath">
+<g id="mainSourcePF_btmPath" onmouseenter="mainSEnter()" onmouseleave="mainSExit()">
 	<g>
 		<g>
 
@@ -459,12 +453,12 @@
 		</g>
 	</g>
 </g>
-<g id="mainSourcePF_midPath">
+<g id="mainSourcePF_midPath" onmouseenter="mainSEnter()" onmouseleave="mainSExit()">
 	<line class="st1" x1="915.1" y1="711.5" x2="924.2" y2="177.2" id="mainSPF"/>
 </g>
 <image style="overflow:visible;" width="582" height="582" id="mainSource" xlink:href="images/breakingAtoms.png"  transform="matrix(0.1677 0 0 0.1677 881.2041 130.5288)" onmouseenter="mainSEnter()" onmouseleave="mainSExit()">
 </image>
-<g id="eazyPF_btmPath">
+<g id="eazyPF_btmPath" onmouseenter="eazyEEnter()" onmouseleave="eazyEExit()">
 	<g>
 		<g>
 
@@ -474,12 +468,12 @@
 		</g>
 	</g>
 </g>
-<g id="eazyPF_midPath">
+<g id="eazyPF_midPath" onmouseenter="eazyEEnter()" onmouseleave="eazyEExit()">
 	<line class="st5" x1="674.8" y1="1345.7" x2="915.1" y2="711.5" id="eazyE"/>
 </g>
 <image style="overflow:visible;" width="598" height="598" id="eazy" xlink:href="images/eazy.png"  transform="matrix(0.1754 0 0 0.1754 630.5615 1282.9531)" onmouseenter="eazyEEnter()" onmouseleave="eazyEExit()">
 </image>
-<g id="brandNJB_midPath_copy">
+<g id="brandNJB_midPath_copy" onmouseenter="brandNEnter()" onmouseleave="brandNExit()">
 	<g>
 		<g>
 
@@ -489,12 +483,12 @@
 		</g>
 	</g>
 </g>
-<g id="brandNJB_midPath">
+<g id="brandNJB_midPath" onmouseenter="brandNEnter()" onmouseleave="brandNExit()">
 	<line class="st1" x1="820.6" y1="140.4" x2="539.8" y2="717.7" id="brandN"/>
 </g>
 <image style="overflow:visible;" width="493" height="493" id="bNImage" xlink:href="images/oneForAll.png"  transform="matrix(0.2106 0 0 0.2106 767.9375 95.9722)" onmouseenter="brandNEnter()" onmouseleave="brandNExit()">
 </image>
-<g id="peoplesPF_btmPath">
+<g id="peoplesPF_btmPath" onmouseenter="peoplesEnter()" onmouseleave="peoplesExit()">
 	<g>
 		<g>
 
@@ -504,12 +498,12 @@
 		</g>
 	</g>
 </g>
-<g id="peoplesPF_midPath">
+<g id="peoplesPF_midPath" onmouseenter="peoplesEnter()" onmouseleave="peoplesExit()">
 	<line class="st5" x1="575.1" y1="1315.6" x2="915.1" y2="711.5" id="peoples"/>
 </g>
 <image style="overflow:visible;" width="964" height="964" id="peoplesIMG" xlink:href="images/peoplesInst.png"  transform="matrix(0.1055 0 0 0.1055 522.1128 1266.3584)" onmouseenter="peoplesEnter()" onmouseleave="peoplesExit()">
 </image>
-<g id="iceCubePF_btmPath">
+<g id="iceCubePF_btmPath" onmouseenter="iceEnter()" onmouseleave="iceExit()">
 	<g>
 		<g>
 
@@ -519,10 +513,10 @@
 		</g>
 	</g>
 </g>
-<g id="iceCubePF_midPath">
+<g id="iceCubePF_midPath" onmouseenter="iceEnter()" onmouseleave="iceExit()">
 	<line class="st5" x1="698.6" y1="140.4" x2="915.1" y2="711.5" id="icePF"/>
 </g>
-<g id="iceCubJB_btmPath">
+<g id="iceCubJB_btmPath" onmouseenter="iceEnter()" onmouseleave="iceExit()">
 	<g>
 		<g>
 
@@ -532,12 +526,12 @@
 		</g>
 	</g>
 </g>
-<g id="iceCubeJB_midPath">
+<g id="iceCubeJB_midPath" onmouseenter="iceEnter()" onmouseleave="iceExit()">
 	<line class="st1" x1="698.6" y1="140.4" x2="537.8" y2="725.4" id="iceJB"/>
 </g>
 <image style="overflow:visible;" width="621" height="621" id="iceCube" xlink:href="images/iceCube.png"  transform="matrix(0.1691 0 0 0.1691 646.0771 87.9258)" onmouseenter="iceEnter()" onmouseleave="iceExit()">
 </image>
-<g id="BeastieJB_btmPath">
+<g id="BeastieJB_btmPath" onmouseenter="bBEnter()" onmouseleave="bBExit()">
 	<g>
 		<g>
 
@@ -547,10 +541,10 @@
 		</g>
 	</g>
 </g>
-<g id="BeastieJB_midPath">
+<g id="BeastieJB_midPath" onmouseenter="bBEnter()" onmouseleave="bBExit()">
 	<line class="st1" x1="466.7" y1="1280.1" x2="537.8" y2="725.4" id="bBJB"/>
 </g>
-<g id="BeastiePF_btmPath">
+<g id="BeastiePF_btmPath" onmouseenter="bBEnter()" onmouseleave="bBExit()">
 	<g>
 		<g>
 
@@ -560,12 +554,12 @@
 		</g>
 	</g>
 </g>
-<g id="BeastiePF_midPath">
+<g id="BeastiePF_midPath" onmouseenter="bBEnter()" onmouseleave="bBExit()">
 	<line class="st1" x1="466.7" y1="1280.1" x2="883.8" y2="758.7" id="bBPF"/>
 </g>
 <image style="overflow:visible;" width="597" height="597" id="Beastie" xlink:href="images/pBoutique.png"  transform="matrix(0.1744 0 0 0.1744 414.6328 1227.1973)" onmouseenter="bBEnter()" onmouseleave="bBExit()">
 </image>
-<g id="doneByPF_btmPath">
+<g id="doneByPF_btmPath" onmouseenter="jbFNEnter()" onmouseleave="jbFNExit()">
 	<g>
 		<g>
 
@@ -575,21 +569,21 @@
 		</g>
 	</g>
 </g>
-<g id="doneByPF_midPath">
+<g id="doneByPF_midPath" onmouseenter="jbFNEnter()" onmouseleave="jbFNExit()">
 	<line class="st5" x1="580.6" y1="163.6" x2="911" y2="696.3" id="jbFNPF"/>
 </g>
-<g id="doneByJB_btmPath">
+<g id="doneByJB_btmPath" onmouseenter="jbFNEnter()" onmouseleave="jbFNExit()">
 	<g>
 		<g>
 		</g>
 	</g>
 </g>
-<g id="doneByJB_midPath">
+<g id="doneByJB_midPath" onmouseenter="jbFNEnter()" onmouseleave="jbFNExit()">
 	<line class="hide" x1="580.6" y1="163.6" x2="544.3" y2="725.8" id="jbFNJB"/>
 </g>
 <image style="overflow:visible;" width="696" height="696" id="doneBy" xlink:href="images/doneByForcesofNature.png"  transform="matrix(0.146 0 0 0.146 529.8086 106.2012)" onmouseenter="jbFNEnter()" onmouseleave="jbFNExit()">
 </image>
-<g id="deLaJB_btmPath">
+<g id="deLaJB_btmPath" onmouseenter="deLaEnter()" onmouseleave="deLaExit()">
 	<g>
 		<g>
 
@@ -599,10 +593,10 @@
 		</g>
 	</g>
 </g>
-<g id="deLaJB_midPath">
+<g id="deLaJB_midPath" onmouseenter="deLaEnter()" onmouseleave="deLaExit()">
 	<line class="st5" x1="470.8" y1="186.1" x2="544.3" y2="725.8" id="deLaJB"/>
 </g>
-<g id="deLaPF_btmPath">
+<g id="deLaPF_btmPath" onmouseenter="deLaEnter()" onmouseleave="deLaExit()">
 	<g>
 		<g>
 
@@ -612,12 +606,12 @@
 		</g>
 	</g>
 </g>
-<g id="deLaPF_midPath">
+<g id="deLaPF_midPath" onmouseenter="deLaEnter()" onmouseleave="deLaExit()">
 	<line class="st1" x1="470.8" y1="186.1" x2="919.6" y2="716.2" id="deLaPF"/>
 </g>
 <image style="overflow:visible;" width="499" height="499" id="deLa" xlink:href="images/threeFeetHigh.png"  transform="matrix(0.2033 0 0 0.2033 421.3809 143.3164)" onmouseenter="deLaEnter()" onmouseleave="deLaExit()">
 </image>
-<g id="jungleSt_btmPath">
+<g id="jungleSt_btmPath" onmouseenter="sOJEnter()" onmouseleave="sOJExit()">
 	<g>
 		<g>
 
@@ -627,18 +621,18 @@
 		</g>
 	</g>
 </g>
-<g id="jungleSt_midPath">
+<g id="jungleSt_midPath" onmouseenter="sOJEnter()" onmouseleave="sOJExit()">
 	<line class="st1" x1="374.8" y1="1227.2" x2="919.6" y2="716.2" id="sOJ"/>
 </g>
 <image style="overflow:visible;" width="872" height="871" id="jungleStraightImage" xlink:href="images/straightOuttheJungle.png"  transform="matrix(0.1167 0 0 0.1167 318.1572 1170.5479)" onmouseenter="sOJEnter()" onmouseleave="sOJExit()">
 </image>
-<g id="ultraMagJBbtmPath">
+<g id="ultraMagJBbtmPath" onmouseenter="uMEnter()" onmouseleave="uMExit()">
 	<line class="st3" x1="369.1" y1="248.6" x2="546.1" y2="716.9"/>
 </g>
-<g id="ultraMagJB_midPath">
+<g id="ultraMagJB_midPath" onmouseenter="uMEnter()" onmouseleave="uMExit()">
 	<line class="st1" x1="369.1" y1="248.6" x2="546.1" y2="716.9" id="uMJB"/>
 </g>
-<g id="ultraMagPF_btmPath">
+<g id="ultraMagPF_btmPath" onmouseenter="uMEnter()" onmouseleave="uMExit()">
 	<g>
 		<g>
 
@@ -648,12 +642,12 @@
 		</g>
 	</g>
 </g>
-<g id="ultraMagPF_midPath">
+<g id="ultraMagPF_midPath" onmouseenter="uMEnter()" onmouseleave="uMExit()">
 	<line class="st5" x1="369.1" y1="248.6" x2="919.6" y2="716.2" id="uMPF"/>
 </g>
 <image style="overflow:visible;" width="483" height="485" id="ultraMag" xlink:href="images/ultraMag.png"  transform="matrix(0.2144 0 0 0.2144 314.0029 187.6099)" onmouseenter="uMEnter()" onmouseleave="uMExit()">
 </image>
-<g id="NWAPF_btmPath">
+<g id="NWAPF_btmPath" onmouseenter="nWAEnter()" onmouseleave="nWAExit()">
 	<g>
 		<g>
 
@@ -663,18 +657,18 @@
 		</g>
 	</g>
 </g>
-<g id="NWAPF_midPath">
+<g id="NWAPF_midPath" onmouseenter="nWAEnter()" onmouseleave="nWAExit()">
 	<line class="st5" x1="284.5" y1="1158.1" x2="911" y2="727.1" id="nWAPF"/>
 </g>
-<g id="NWAJB_btmPath">
+<g id="NWAJB_btmPath" onmouseenter="nWAEnter()" onmouseleave="nWAExit()">
 	<line class="st3" x1="284.5" y1="1158.1" x2="549.7" y2="722.2"/>
 </g>
-<g id="NWAJB_midPath">
+<g id="NWAJB_midPath" onmouseenter="nWAEnter()" onmouseleave="nWAExit()">
 	<line class="st5" x1="284.5" y1="1158.1" x2="549.7" y2="722.2" id="nWAJB"/>
 </g>
 <image style="overflow:visible;" width="679" height="679" id="NWAimage" xlink:href="images/NWA.png"  transform="matrix(0.152 0 0 0.152 231.7622 1096.4316)" onmouseenter="nWAEnter()" onmouseleave="nWAExit()">
 </image>
-<g id="PublicEnemyPF_btmPth">
+<g id="PublicEnemyPF_btmPth" onmouseenter="pEEnter()" onmouseleave="pEExit()">
 	<g>
 		<g>
 
@@ -684,10 +678,10 @@
 		</g>
 	</g>
 </g>
-<g id="PublicEnemyPF_midPath">
+<g id="PublicEnemyPF_midPath" onmouseenter="pEEnter()" onmouseleave="pEExit()">
 	<line class="st5" x1="283" y1="323" x2="911" y2="696.3" id="pEPF"/>
 </g>
-<g id="PublicEnemyJB_btmPath">
+<g id="PublicEnemyJB_btmPath" onmouseenter="pEEnter()" onmouseleave="pEExit()">
 	<g>
 		<g>
 
@@ -697,20 +691,20 @@
 		</g>
 	</g>
 </g>
-<g id="PublicEnemyJB_midPath">
+<g id="PublicEnemyJB_midPath" onmouseenter="pEEnter()" onmouseleave="pEExit()">
 	<line class="st5" x1="283" y1="323" x2="549.7" y2="722.2" id="pEJB"/>
 </g>
 <image style="overflow:visible;" width="596" height="597" id="Public_Enemy" xlink:href="images/publicEnemy.png"  transform="matrix(0.1759 0 0 0.1759 232.1152 273.9771)" onmouseenter="pEEnter()" onmouseleave="pEExit()">
 </image>
-<g id="bigDaddy_btmPath">
+<g id="bigDaddy_btmPath" onmouseenter="bDKEnter()" onmouseleave="bDKExit()">
 	<line class="st3" x1="214.4" y1="1063.7" x2="549.7" y2="722.2"/>
 </g>
-<g id="bigDaddy_midPath">
+<g id="bigDaddy_midPath" onmouseenter="bDKEnter()" onmouseleave="bDKExit()">
 	<line class="st1" x1="214.4" y1="1063.7" x2="549.7" y2="722.2" id="bDK"/>
 </g>
 <image style="overflow:visible;" width="995" height="995" id="kaneImage" xlink:href="images/bigDaddyKane.png"  transform="matrix(0.1019 0 0 0.1019 163.5669 1005.9316)" onmouseenter="bDKEnter()" onmouseleave="bDKExit()">
 </image>
-<g id="EPMDJBbtmPath">
+<g id="EPMDJBbtmPath" onmouseenter="epmdEnter()" onmouseleave="epmdExit()">
 	<g>
 		<g>
 
@@ -720,12 +714,12 @@
 		</g>
 	</g>
 </g>
-<g id="EPMDJBmidPath">
+<g id="EPMDJBmidPath" onmouseenter="epmdEnter()" onmouseleave="epmdExit()">
 	<line class="st5" x1="214.3" y1="415.7" x2="535.3" y2="722.4" id="epmd"/>
 </g>
 <image style="overflow:visible;" width="1491" height="1488" id="epmdImage" xlink:href="images/EPMD.png"  transform="matrix(6.803149e-02 0 0 6.803149e-02 163.5674 365.3267)" onmouseenter="epmdEnter()" onmouseleave="epmdExit()">
 </image>
-<g id="slickRickPFbtmPath">
+<g id="slickRickPFbtmPath" onmouseenter="sREnter()" onmouseleave="sRExit()">
 	<path class="pFLine" d="M535.3,722.4"/>
 	<path class="st3" d="M160.4,956.7"/>
 	<g>
@@ -754,13 +748,13 @@
 		</g>
 	</g>
 </g>
-<g id="slickRickPFmidPath">
+<g id="slickRickPFmidPath" onmouseenter="sREnter()" onmouseleave="sRExit()">
 	<path class="st3" d="M535.3,722.4"/>
 	<path class="st3" d="M160.4,956.7"/>
 	<path class="st5" d="M163.8,974.3C185,962.9,358,851,381,849.2c30.8-2.4,58,77.2,173.5,67.3c59.8-5.1,96.7-38.5,129.5-86.5
 		c13.2-19.3,24.2-39.8,35.4-60.3c13.2-24.1,36.7-24,60.9-22" id="sRPF"/>
 </g>
-<g id="slickRickJBbtmPath">
+<g id="slickRickJBbtmPath" onmouseenter="sREnter()" onmouseleave="sRExit()">
 	<g>
 		<g>
 
@@ -770,12 +764,12 @@
 		</g>
 	</g>
 </g>
-<g id="slickRickJBmidPath">
+<g id="slickRickJBmidPath" onmouseenter="sREnter()" onmouseleave="sRExit()">
 	<line class="st1" x1="160.4" y1="956.7" x2="535.3" y2="722.4" id="sRJB"/>
 </g>
 <image style="overflow:visible;" width="633" height="632" id="slickRick" xlink:href="images/hh_slickRick.png"  transform="matrix(0.163 0 0 0.163 111.1211 905.168)" onmouseenter="sREnter()" onmouseleave="sRExit()">
 </image>
-<g id="bizJBbtmPath">
+<g id="bizJBbtmPath" onmouseenter="bizEnter()" onmouseleave="bizExit()">
 	<g>
 		<g>
 
@@ -785,12 +779,12 @@
 		</g>
 	</g>
 </g>
-<g id="bizJBmidPath">
+<g id="bizJBmidPath" onmouseenter="bizEnter()" onmouseleave="bizExit()">
 	<line class="st5" x1="163.6" y1="513" x2="535.3" y2="722.4" id="biz"/>
 </g>
 <image style="overflow:visible;" width="1260" height="1263" id="bizImage" xlink:href="images/goinOff.png"  transform="matrix(8.050393e-02 0 0 8.050393e-02 112.8516 465.2671)" onmouseenter="bizEnter()" onmouseleave="bizExit()">
 </image>
-<g id="ericbPFbtmPath">
+<g id="ericbPFbtmPath" onmouseenter="paidIFEnter()" onmouseleave="paidIFExit()">
 	<path class="st3" d="M345.7,809"/>
 	<path class="st3" d="M130,864.3"/>
 	<g>
@@ -825,12 +819,12 @@
 		</g>
 	</g>
 </g>
-<g id="ericbPFmidPath_1_">
+<g id="ericbPFmidPath_1_" onmouseenter="paidIFEnter()" onmouseleave="paidIFExit()">
 	<path class="st5" d="M130,864.3c59.3-13.4,117.9-36.7,177.3-49.7c23.8-5.2,48.6-10.8,71.4,0.9c18.6,9.6,32.7,25.3,48.5,38.6
 		c8.8,7.4,18.8,15.2,29.2,20.3c58,28.3,136,24.6,184.6-20.6c21.5-20,41.7-45.7,53.5-72.2c9.4-21.2,15.2-41.7,39.2-48
 		c18.8-5,38.9-2.4,58.1-3.5" id="paidIFPF"/>
 </g>
-<g id="ericbJBbtmPath">
+<g id="ericbJBbtmPath" onmouseenter="paidIFEnter()" onmouseleave="paidIFExit()">
 	<g>
 		<g>
 
@@ -840,23 +834,23 @@
 		</g>
 	</g>
 </g>
-<g id="ericbJBmidPath">
+<g id="ericbJBmidPath" onmouseenter="paidIFEnter()" onmouseleave="paidIFExit()">
 	<line class="st5" x1="132" y1="849.9" x2="535.3" y2="722.4" id="paidIFJB"/>
 </g>
 <image style="overflow:visible;" width="500" height="499" id="ericB" xlink:href="images/paidInFull.png"  transform="matrix(0.2064 0 0 0.2064 81.5732 797.6826)" onmouseenter="paidIFEnter()" onmouseleave="paidIFExit()">
 </image>
-<g id="bdpbtmPath">
+<g id="bdpbtmPath" onmouseenter="bdpEnter()" onmouseleave="bdpExit()">
 	<line class="st3" x1="128.3" y1="624" x2="535.3" y2="722.4"/>
 </g>
-<g id="bdpmidPath">
+<g id="bdpmidPath" onmouseenter="bdpEnter()" onmouseleave="bdpExit()">
 	<line class="st5" x1="128.3" y1="624" x2="535.3" y2="722.4" id="bdp"/>
 </g>
 <image style="overflow:visible;" width="497" height="497" id="bdpImage" xlink:href="images/BDP.png"  transform="matrix(0.2086 0 0 0.2086 80.1235 572.1128)" onmouseenter="bdpEnter()" onmouseleave="bdpExit()">
 </image>
-<g id="runDmcJbBtmPath">
+<g id="runDmcJbBtmPath" onmouseenter="runDMCJBEnter()" onmouseleave="runDMCJBExit()">
 	<line class="st6" x1="122" y1="737.9" x2="534.3" y2="722.4" id="runDMCLine" stroke="#FFFFFF"/>
 </g>
-<g id="runDmcJbMidPath">
+<g id="runDmcJbMidPath" onmouseenter="runDMCJBEnter()" onmouseleave="runDMCJBExit()">
 	<line class="st5" x1="122" y1="737.9" x2="534.3" y2="722.4" stroke="#EFEFEF" id="runDMCMid"/>
 </g>
 <image style="overflow:visible;" width="945" height="945" id="runDMCImage" xlink:href="images/raisingHell.png"  transform="matrix(0.1076 0 0 0.1076 71.1709 687.0879)" onmouseenter="runDMCJBEnter()" onmouseleave="runDMCJBExit()">
